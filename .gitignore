@@ -31,3 +31,10 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# From intellij default
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
