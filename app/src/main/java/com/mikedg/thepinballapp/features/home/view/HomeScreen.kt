@@ -4,17 +4,23 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.viewmodel.MutableCreationExtras
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.toRoute
 import com.mikedg.thepinballapp.features.changelog.ChangeLogViewModel
 import com.mikedg.thepinballapp.features.changelog.view.ChangeLogScreen
 import com.mikedg.thepinballapp.features.home.Route
+import com.mikedg.thepinballapp.features.machinedetail.MachineDetailViewModel
+import com.mikedg.thepinballapp.features.machinedetail.view.MachineDetailScreen
 import com.mikedg.thepinballapp.ui.theme.ThePinballAppTheme
 
 @Composable
@@ -51,7 +57,21 @@ fun HomeScreen() {
                     ChangeLogScreen(changeLogViewModel, navController)
                 }
                 composable<Route.MachineInfo> {
-                    Text("Machine Info: ${it.id}")
+                    val machineDetails: Route.MachineInfo = it.toRoute()
+
+                    val extras = MutableCreationExtras().apply {
+                        set(MachineDetailViewModel.OPDB_MACHINE_ID_KEY, machineDetails.id)
+                    }
+                    val machineDetailsViewModel: MachineDetailViewModel = viewModel(
+                        factory = MachineDetailViewModel.Factory,
+                        extras = extras,
+                    )
+
+                    // TODO: implement progress LCE status
+                    val machineInfo by machineDetailsViewModel.machine.collectAsState()
+                    machineInfo?.let { machineInfo ->
+                        MachineDetailScreen(machineInfo)
+                    } ?: Text("Machine Details ${machineDetails.id}")
                 }
                 composable<Route.About> {
                     Text("About")

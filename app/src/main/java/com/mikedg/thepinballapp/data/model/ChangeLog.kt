@@ -7,12 +7,12 @@ data class ChangeLog(
     val changelogId: Int,
 
     @SerializedName("opdb_id_deleted")
-    val opdbIdDeleted: String,
+    val opdbIdDeleted: String?,
 
     val action: String,
 
     @SerializedName("opdb_id_replacement")
-    val opdbIdReplacement: String,
+    val opdbIdReplacement: String?,
 
     @SerializedName("created_at")
     val createdAt: String,

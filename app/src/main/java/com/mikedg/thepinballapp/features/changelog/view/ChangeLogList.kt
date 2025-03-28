@@ -29,7 +29,7 @@ fun ChangeLogList(
     ) {
         items(changeLogs) { entry ->
             ChangeLogCard(changeLog = entry, modifier = Modifier.clickable {
-                navController.navigate(Route.MachineInfo(entry.opdbIdReplacement))
+                entry.opdbIdReplacement?.let { navController.navigate(Route.MachineInfo(it)) }
             })
         }
     }

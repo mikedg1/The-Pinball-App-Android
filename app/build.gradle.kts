@@ -1,3 +1,6 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -19,6 +22,13 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        // Read from local.properties
+        val localProperties = Properties()
+        if (rootProject.file("local.properties").exists()) {
+            localProperties.load(FileInputStream(rootProject.file("local.properties")))
+        }
+        buildConfigField("String", "OPDB_API_TOKEN", "\"${localProperties.getProperty("opdb.api.token", "")}\"")
     }
 
     buildTypes {
@@ -74,5 +84,4 @@ dependencies {
     kapt(libs.hilt.compiler)
 
     implementation(libs.androidx.hilt.navigation.compose)
-
 }
