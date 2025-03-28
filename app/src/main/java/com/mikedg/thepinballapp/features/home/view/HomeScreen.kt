@@ -6,11 +6,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.mikedg.thepinballapp.features.changelog.ChangeLogViewModel
+import com.mikedg.thepinballapp.features.changelog.view.ChangeLogScreen
 import com.mikedg.thepinballapp.features.home.Route
 import com.mikedg.thepinballapp.ui.theme.ThePinballAppTheme
 
@@ -44,7 +47,8 @@ fun HomeScreen() {
                     Text("Search")
                 }
                 composable<Route.ChangeLog> {
-                    Text("Change Log")
+                    val changeLogViewModel: ChangeLogViewModel = hiltViewModel()
+                    ChangeLogScreen(changeLogViewModel, navController)
                 }
                 composable<Route.MachineInfo> {
                     Text("Machine Info: ${it.id}")
