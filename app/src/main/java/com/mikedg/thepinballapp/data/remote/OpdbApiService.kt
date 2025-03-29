@@ -2,6 +2,7 @@ package com.mikedg.thepinballapp.data.remote
 
 import com.mikedg.thepinballapp.data.model.ChangeLog
 import com.mikedg.thepinballapp.data.model.Machine
+import com.mikedg.thepinballapp.data.model.TypeAheadSearchResult
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
@@ -18,6 +19,13 @@ class OpdbApiService() {
             @Path("opdb_id") opdbId: String,
             @Query("api_token") apiToken: String
         ): Machine
+
+        @GET("/api/search/typeahead")
+        suspend fun searchTypeahead(
+            @Query("q") query: String,
+            @Query("include_groups") includeGroups: Int? = 0,
+            @Query("include_aliases") includeAliases: Int? = 1
+        ): List<TypeAheadSearchResult>
     }
 
     private val retrofit = Retrofit.Builder()
@@ -33,5 +41,17 @@ class OpdbApiService() {
 
     suspend fun fetchMachine(opdbId: String, apiToken: String): Machine {
         return api.getMachineInfo(opdbId, apiToken)
+    }
+
+    suspend fun searchTypeahead(
+        query: String,
+        includeGroups: Boolean = false,
+        includeAliases: Boolean = true
+    ): List<TypeAheadSearchResult> {
+        return api.searchTypeahead(
+            query = query,
+            includeGroups = if (includeGroups) 1 else 0,
+            includeAliases = if (includeAliases) 1 else 0
+        )
     }
 }
