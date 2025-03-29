@@ -9,7 +9,7 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-class OpdbApiService() {
+class OpdbApiService {
     interface OpdbApi {
         @GET("/api/changelog")
         suspend fun getChangelog(@Query("from") from: String?): List<ChangeLog>
