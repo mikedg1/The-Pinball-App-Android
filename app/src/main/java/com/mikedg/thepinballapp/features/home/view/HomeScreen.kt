@@ -21,6 +21,7 @@ import com.mikedg.thepinballapp.features.changelog.view.ChangeLogScreen
 import com.mikedg.thepinballapp.features.home.Route
 import com.mikedg.thepinballapp.features.machinedetail.MachineDetailViewModel
 import com.mikedg.thepinballapp.features.machinedetail.view.MachineDetailScreen
+import com.mikedg.thepinballapp.features.search.view.SearchScreen
 import com.mikedg.thepinballapp.ui.theme.ThePinballAppTheme
 
 @Composable
@@ -50,7 +51,7 @@ fun HomeScreen() {
             }) { innerPadding ->
             NavHost(navController = navController, startDestination = Route.ChangeLog) {
                 composable<Route.Search> {
-                    Text("Search")
+                    SearchScreen(navController)
                 }
                 composable<Route.ChangeLog> {
                     val changeLogViewModel: ChangeLogViewModel = hiltViewModel()

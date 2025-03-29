@@ -1,0 +1,100 @@
+package com.mikedg.thepinballapp.features.search.view
+
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.navigation.NavHostController
+import com.mikedg.thepinballapp.features.home.Route
+import com.mikedg.thepinballapp.features.search.TypeAheadSearchViewModel
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+@Composable
+fun SearchScreen(navController: NavHostController) {
+    val typeAheadSearchViewModel = hiltViewModel<TypeAheadSearchViewModel>()
+    val suggestions by typeAheadSearchViewModel.typeAheadSearchResults.collectAsState()
+    val query by typeAheadSearchViewModel.searchQuery.collectAsState()
+
+    var searchResults by remember { mutableStateOf(listOf<String>()) }
+    val coroutineScope = rememberCoroutineScope()
+
+    Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
+        OutlinedTextField(
+            value = query,
+            onValueChange = { newQuery ->
+                typeAheadSearchViewModel.onSearchQueryChange(newQuery)
+            },
+            placeholder = { Text("Search...") },
+            keyboardOptions = KeyboardOptions.Default.copy(imeAction = ImeAction.Search),
+            keyboardActions = KeyboardActions(onSearch = {
+                coroutineScope.launch(Dispatchers.IO) {
+                    if (query.isNotEmpty()) {
+                        searchResults = performSearch(query)
+                    }
+                }
+            }),
+            modifier = Modifier.fillMaxWidth()
+        )
+        Spacer(modifier = Modifier.height(16.dp))
+
+        if (suggestions.isNotEmpty()) {
+            Text("Suggestions", style = MaterialTheme.typography.titleMedium)
+            suggestions.forEach { suggestion ->
+                Text(
+                    text = suggestion.text,
+                    modifier = Modifier.padding(vertical = 4.dp).clickable {
+                        navController.navigate(Route.MachineInfo(suggestion.id))
+                    },
+                    style = MaterialTheme.typography.bodyMedium
+                )
+            }
+            Spacer(modifier = Modifier.height(16.dp))
+        }
+
+        if (searchResults.isNotEmpty()) {
+            Text("Search Results", style = MaterialTheme.typography.titleMedium)
+            searchResults.forEach { result ->
+                Card(
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp).clickable {
+                        // TODO: implement result click
+                    },
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                ) {
+                    Text(
+                        text = result,
+                        modifier = Modifier.padding(16.dp),
+                        style = MaterialTheme.typography.bodyLarge
+                    )
+                }
+            }
+        }
+    }
+}
+
+private fun performSearch(query: String): List<String> {
+    // Mocked search results, replace with real logic
+    return listOf("Result 1 for $query", "Result 2 for $query")
+}
+
