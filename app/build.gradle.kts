@@ -28,7 +28,11 @@ android {
         if (rootProject.file("local.properties").exists()) {
             localProperties.load(FileInputStream(rootProject.file("local.properties")))
         }
-        buildConfigField("String", "OPDB_API_TOKEN", "\"${localProperties.getProperty("opdb.api.token", "")}\"")
+        val opdbApiToken = localProperties.getProperty("opdb.api.token")
+        if (opdbApiToken.isNullOrEmpty()) {
+            throw GradleException("The 'opdb.api.token' property must be defined in local.properties")
+        }
+        buildConfigField("String", "OPDB_API_TOKEN", "\"$opdbApiToken\"")
     }
 
     buildTypes {
