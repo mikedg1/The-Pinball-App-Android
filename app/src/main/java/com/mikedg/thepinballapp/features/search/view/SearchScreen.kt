@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Card
@@ -33,7 +35,6 @@ fun SearchScreen(navController: NavHostController) {
     val typeAheadSearchViewModel = hiltViewModel<TypeAheadSearchViewModel>()
     val suggestions by typeAheadSearchViewModel.typeAheadSearchResults.collectAsState()
     val query by typeAheadSearchViewModel.searchQuery.collectAsState()
-
     val searchResults by typeAheadSearchViewModel.searchResults.collectAsState()
     val coroutineScope = rememberCoroutineScope()
 
@@ -57,30 +58,44 @@ fun SearchScreen(navController: NavHostController) {
         )
         Spacer(modifier = Modifier.height(16.dp))
 
-        if (suggestions.isNotEmpty()) {
-            Text("Suggestions", style = MaterialTheme.typography.titleMedium)
-            suggestions.forEach { suggestion ->
-                Text(
-                    text = suggestion.text,
-                    modifier = Modifier.padding(vertical = 4.dp).clickable {
-                        navController.navigate(Route.MachineInfo(suggestion.id))
-                    },
-                    style = MaterialTheme.typography.bodyMedium
-                )
+        LazyColumn {
+            if (suggestions.isNotEmpty()) {
+                item {
+                    Text("Suggestions", style = MaterialTheme.typography.titleMedium)
+                }
+                items(suggestions) { suggestion ->
+                    Text(
+                        text = suggestion.name,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable {
+                                navController.navigate(Route.MachineInfo(suggestion.id))
+                            }
+                            .padding(vertical = 4.dp),
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
+                item {
+                    Spacer(modifier = Modifier.height(16.dp))
+                }
             }
-            Spacer(modifier = Modifier.height(16.dp))
-        }
 
-        if (searchResults.isNotEmpty()) {
-            Text("Search Results", style = MaterialTheme.typography.titleMedium)
-            searchResults.forEach { result ->
-                Card(
-                    modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp).clickable {
-                        navController.navigate(Route.MachineInfo(id = result.opdbId))
-                    },
-                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
-                ) {
-                    MachineCard(machine = result)
+            if (searchResults.isNotEmpty()) {
+                item {
+                    Text("Search Results", style = MaterialTheme.typography.titleMedium)
+                }
+                items(searchResults) { result ->
+                    Card(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(vertical = 4.dp)
+                            .clickable {
+                                navController.navigate(Route.MachineInfo(id = result.opdbId))
+                            },
+                        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                    ) {
+                        MachineCard(machine = result)
+                    }
                 }
             }
         }
