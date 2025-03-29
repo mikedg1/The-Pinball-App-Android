@@ -27,6 +27,12 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
     private var typeAheadSearchJob: Job? = null
     private var searchJob: Job? = null
 
+    init {
+        // Initialize by performing a search for a random single letter
+        // Provides a fun "randomized" default
+        performSearch(('a'..'z').random().toString())
+    }
+
     fun onSearchQueryChange(query: String) {
         _searchQuery.value = query
 
@@ -40,11 +46,11 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
         }
     }
 
-    fun performSearch() {
+    fun performSearch(query: String = this.searchQuery.value) {
         searchJob?.cancel()
 
         searchJob = viewModelScope.launch {
-            _searchResults.value = opdbApiService.search(searchQuery.value)
+            _searchResults.value = opdbApiService.search(query)
         }
     }
 }
