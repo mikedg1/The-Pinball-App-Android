@@ -1,5 +1,6 @@
 package com.mikedg.thepinballapp.data.remote
 
+import com.mikedg.thepinballapp.BuildConfig
 import com.mikedg.thepinballapp.data.model.ChangeLog
 import com.mikedg.thepinballapp.data.model.Machine
 import com.mikedg.thepinballapp.data.model.TypeAheadSearchResult
@@ -9,7 +10,9 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-class OpdbApiService {
+class OpdbApiService(
+    private val apiToken: String = BuildConfig.OPDB_API_TOKEN
+) {
     interface OpdbApi {
         @GET("/api/changelog")
         suspend fun getChangelog(@Query("from") from: String?): List<ChangeLog>
@@ -26,6 +29,16 @@ class OpdbApiService {
             @Query("include_groups") includeGroups: Int? = 0,
             @Query("include_aliases") includeAliases: Int? = 1
         ): List<TypeAheadSearchResult>
+
+        @GET("/api/search")
+        suspend fun searchMachines(
+            @Query("api_token") apiToken: String,
+            @Query("q") query: String,
+            @Query("require_opdb") requireOpdb: Int? = 1,
+            @Query("include_groups") includeGroups: Int? = 0,
+            @Query("include_aliases") includeAliases: Int? = 1,
+            @Query("include_grouping_entries") includeGroupingEntries: Int? = 0
+        ): List<Machine>
     }
 
     private val retrofit = Retrofit.Builder()
@@ -39,7 +52,7 @@ class OpdbApiService {
         return api.getChangelog(from)
     }
 
-    suspend fun fetchMachine(opdbId: String, apiToken: String): Machine {
+    suspend fun fetchMachine(opdbId: String, apiToken: String = this.apiToken): Machine {
         return api.getMachineInfo(opdbId, apiToken)
     }
 
@@ -52,6 +65,24 @@ class OpdbApiService {
             query = query,
             includeGroups = if (includeGroups) 1 else 0,
             includeAliases = if (includeAliases) 1 else 0
+        )
+    }
+
+    suspend fun search(
+        query: String,
+        apiToken: String = this.apiToken,
+        requireOpdb: Boolean = true,
+        includeGroups: Boolean = false,
+        includeAliases: Boolean = true,
+        includeGroupingEntries: Boolean = false
+    ): List<Machine> {
+        return api.searchMachines(
+            apiToken = apiToken,
+            query = query,
+            requireOpdb = if (requireOpdb) 1 else 0,
+            includeGroups = if (includeGroups) 1 else 0,
+            includeAliases = if (includeAliases) 1 else 0,
+            includeGroupingEntries = if (includeGroupingEntries) 1 else 0
         )
     }
 }

@@ -17,10 +17,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
@@ -37,7 +34,7 @@ fun SearchScreen(navController: NavHostController) {
     val suggestions by typeAheadSearchViewModel.typeAheadSearchResults.collectAsState()
     val query by typeAheadSearchViewModel.searchQuery.collectAsState()
 
-    var searchResults by remember { mutableStateOf(listOf<String>()) }
+    val searchResults by typeAheadSearchViewModel.searchResults.collectAsState()
     val coroutineScope = rememberCoroutineScope()
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
@@ -51,10 +48,11 @@ fun SearchScreen(navController: NavHostController) {
             keyboardActions = KeyboardActions(onSearch = {
                 coroutineScope.launch(Dispatchers.IO) {
                     if (query.isNotEmpty()) {
-                        searchResults = performSearch(query)
+                        typeAheadSearchViewModel.performSearch()
                     }
                 }
             }),
+            maxLines = 1,
             modifier = Modifier.fillMaxWidth()
         )
         Spacer(modifier = Modifier.height(16.dp))
@@ -78,23 +76,13 @@ fun SearchScreen(navController: NavHostController) {
             searchResults.forEach { result ->
                 Card(
                     modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp).clickable {
-                        // TODO: implement result click
+                        navController.navigate(Route.MachineInfo(id = result.opdbId))
                     },
                     elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
                 ) {
-                    Text(
-                        text = result,
-                        modifier = Modifier.padding(16.dp),
-                        style = MaterialTheme.typography.bodyLarge
-                    )
+                    MachineCard(machine = result)
                 }
             }
         }
     }
 }
-
-private fun performSearch(query: String): List<String> {
-    // Mocked search results, replace with real logic
-    return listOf("Result 1 for $query", "Result 2 for $query")
-}
-

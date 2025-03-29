@@ -6,7 +6,6 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.mikedg.thepinballapp.BuildConfig
 import com.mikedg.thepinballapp.data.model.Machine
 import com.mikedg.thepinballapp.data.remote.OpdbApiService
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -24,7 +23,7 @@ class MachineDetailViewModel(
     init {
         viewModelScope.launch {
             // TODO: this crashes if 404 or 429
-            _machine.value = opdbService.fetchMachine(opdbId, BuildConfig.OPDB_API_TOKEN)
+            _machine.value = opdbService.fetchMachine(opdbId)
         }
     }
 
