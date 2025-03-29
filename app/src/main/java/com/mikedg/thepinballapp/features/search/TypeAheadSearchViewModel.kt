@@ -47,7 +47,7 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
             if (query.isNotBlank()) {
                 // Start new search with debounce
                 delay(300) // Debounce timeout
-                _typeAheadSearchResults.value = scoreSearchSuggestions(opdbApiService.searchTypeAhead(query), query)
+                _typeAheadSearchResults.value = sortSearchSuggestionsByRelevance(opdbApiService.searchTypeAhead(query), query).take(7)
                 _scrollToTop.emit(Unit)
             } else {
                 _typeAheadSearchResults.value = emptyList()
@@ -64,7 +64,7 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
         }
     }
 
-    private fun scoreSearchSuggestions(
+    private fun sortSearchSuggestionsByRelevance(
         suggestions: List<TypeAheadSearchResult>,
         query: String
     ): List<TypeAheadSearchResult> {
