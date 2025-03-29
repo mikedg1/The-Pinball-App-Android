@@ -1,7 +1,7 @@
 package com.mikedg.thepinballapp.features.home.view
 
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Icon
@@ -17,7 +17,7 @@ data class BottomNavItem(val title: String, val route: Route, val icon: ImageVec
 
 private object Screen {
     val About = BottomNavItem("About", Route.About, Icons.Default.Info)
-    val ChangeLog = BottomNavItem("Changelog", Route.ChangeLog, Icons.Default.Home)
+    val ChangeLog = BottomNavItem("Changelog", Route.ChangeLog, Icons.AutoMirrored.Filled.List)
     val Search = BottomNavItem("Search", Route.Search, Icons.Default.Search)
 }
 
@@ -25,8 +25,8 @@ private object Screen {
 fun BottomNavBar(navController: NavHostController) {
     val items = listOf(
         Screen.Search,
-        Screen.About,
         Screen.ChangeLog,
+        Screen.About,
     )
 
     NavigationBar {

@@ -45,7 +45,6 @@ fun HomeScreen() {
     ThePinballAppTheme {
         Scaffold(
             modifier = Modifier.fillMaxSize(),
-
             bottomBar = {
                 BottomNavBar(navController = navController)
             }) { innerPadding ->
