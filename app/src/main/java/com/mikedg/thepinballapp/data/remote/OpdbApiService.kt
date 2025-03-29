@@ -56,7 +56,7 @@ class OpdbApiService(
         return api.getMachineInfo(opdbId, apiToken)
     }
 
-    suspend fun searchTypeahead(
+    suspend fun searchTypeAhead(
         query: String,
         includeGroups: Boolean = false,
         includeAliases: Boolean = true

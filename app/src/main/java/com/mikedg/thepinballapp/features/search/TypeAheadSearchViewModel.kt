@@ -39,10 +39,14 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
         // Cancel previous search job if it exists
         typeAheadSearchJob?.cancel()
 
-        // Start new search with debounce
-        typeAheadSearchJob = viewModelScope.launch {
-            delay(300) // Debounce timeout
-            _typeAheadSearchResults.value = opdbApiService.searchTypeahead(query)
+        if (query.isNotBlank()) {
+            // Start new search with debounce
+            typeAheadSearchJob = viewModelScope.launch {
+                delay(300) // Debounce timeout
+                _typeAheadSearchResults.value = scoreSearchSuggestions(opdbApiService.searchTypeAhead(query), query)
+            }
+        } else {
+            _typeAheadSearchResults.value = emptyList()
         }
     }
 
@@ -52,5 +56,27 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
         searchJob = viewModelScope.launch {
             _searchResults.value = opdbApiService.search(query)
         }
+    }
+
+    private fun scoreSearchSuggestions(suggestions: List<TypeAheadSearchResult>, query: String): List<TypeAheadSearchResult> {
+        if (query.isBlank()) return suggestions
+
+        val lowercaseQuery = query.lowercase()
+
+        return suggestions.sortedWith(compareBy<TypeAheadSearchResult> { suggestion ->
+            // First priority: exact matches (lowest number gets first priority)
+            if (suggestion.name.lowercase() == lowercaseQuery) 0
+            else if (suggestion.name.lowercase().startsWith(lowercaseQuery)) 1
+            else 2
+        }.thenByDescending { suggestion ->
+            // Second priority: count of query occurrences
+            suggestion.name.lowercase().windowed(
+                size = lowercaseQuery.length,
+                step = 1
+            ).count { it == lowercaseQuery }
+        }.thenBy { suggestion ->
+            // Last priority: alphabetical ordering
+            suggestion.name
+        })
     }
 }
