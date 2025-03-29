@@ -8,13 +8,18 @@ import com.mikedg.thepinballapp.data.remote.OpdbApiService
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
 class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: OpdbApiService) : ViewModel() {
+    private val _scrollToTop = MutableSharedFlow<Unit>()
+    val scrollToTop = _scrollToTop.asSharedFlow()
+
     private val _searchQuery = MutableStateFlow("")
     val searchQuery = _searchQuery.asStateFlow()
 
@@ -38,15 +43,16 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
 
         // Cancel previous search job if it exists
         typeAheadSearchJob?.cancel()
-
-        if (query.isNotBlank()) {
-            // Start new search with debounce
-            typeAheadSearchJob = viewModelScope.launch {
+        typeAheadSearchJob = viewModelScope.launch {
+            if (query.isNotBlank()) {
+                // Start new search with debounce
                 delay(300) // Debounce timeout
                 _typeAheadSearchResults.value = scoreSearchSuggestions(opdbApiService.searchTypeAhead(query), query)
+                _scrollToTop.emit(Unit)
+            } else {
+                _typeAheadSearchResults.value = emptyList()
             }
-        } else {
-            _typeAheadSearchResults.value = emptyList()
+            _scrollToTop.emit(Unit)
         }
     }
 
@@ -58,7 +64,10 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
         }
     }
 
-    private fun scoreSearchSuggestions(suggestions: List<TypeAheadSearchResult>, query: String): List<TypeAheadSearchResult> {
+    private fun scoreSearchSuggestions(
+        suggestions: List<TypeAheadSearchResult>,
+        query: String
+    ): List<TypeAheadSearchResult> {
         if (query.isBlank()) return suggestions
 
         val lowercaseQuery = query.lowercase()
