@@ -49,7 +49,7 @@ fun HomeScreen() {
             bottomBar = {
                 BottomNavBar(navController = navController)
             }) { innerPadding ->
-            NavHost(navController = navController, startDestination = Route.ChangeLog) {
+            NavHost(navController = navController, startDestination = Route.Search) {
                 composable<Route.Search> {
                     SearchScreen(navController)
                 }
