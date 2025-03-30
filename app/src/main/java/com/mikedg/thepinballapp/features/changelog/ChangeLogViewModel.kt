@@ -12,12 +12,32 @@ import javax.inject.Inject
 
 @HiltViewModel
 class ChangeLogViewModel @Inject constructor(private val opdbApiService: OpdbApiService): ViewModel() {
-    private val _changeLog = MutableStateFlow<List<ChangeLog>>(emptyList())
-    val changeLog = _changeLog.asStateFlow()
+    sealed class UiState {
+        data object Loading : UiState()
+        data class Content(val changeLogs: List<ChangeLog>) : UiState()
+        data class Error(val message: String) : UiState()
+    }
+
+    private val _uiState = MutableStateFlow<UiState>(UiState.Loading)
+    val uiState = _uiState.asStateFlow()
 
     init {
+        loadChangeLogs()
+    }
+
+    private fun loadChangeLogs() {
         viewModelScope.launch {
-            _changeLog.value = opdbApiService.fetchChangeLogs()
+            try {
+                _uiState.value = UiState.Loading
+                val result = opdbApiService.fetchChangeLogs()
+                _uiState.value = UiState.Content(result)
+            } catch (e: Exception) {
+                _uiState.value = UiState.Error(e.message ?: "Unknown error occurred")
+            }
         }
+    }
+
+    fun retry() {
+        loadChangeLogs()
     }
 }
