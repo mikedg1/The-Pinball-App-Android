@@ -1,6 +1,8 @@
 package com.mikedg.thepinballapp.features.home.view
 
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -16,6 +18,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
+import com.mikedg.thepinballapp.features.about.view.AboutScreen
 import com.mikedg.thepinballapp.features.changelog.ChangeLogViewModel
 import com.mikedg.thepinballapp.features.changelog.view.ChangeLogScreen
 import com.mikedg.thepinballapp.features.home.Route
@@ -74,7 +77,9 @@ fun HomeScreen() {
                     } ?: Text("Machine Details ${machineDetails.id}")
                 }
                 composable<Route.About> {
-                    Text("About")
+                    Box(modifier = Modifier.padding(innerPadding)) {
+                        AboutScreen()
+                    }
                 }
             }
         }
