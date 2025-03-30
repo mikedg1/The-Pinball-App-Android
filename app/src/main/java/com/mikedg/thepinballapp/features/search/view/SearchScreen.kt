@@ -64,7 +64,9 @@ fun SearchScreen(navController: NavHostController, innerPadding: PaddingValues) 
                 }
             }),
             maxLines = 1,
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = innerPadding.calculateTopPadding())
         )
         Spacer(modifier = Modifier.height(16.dp))
 
