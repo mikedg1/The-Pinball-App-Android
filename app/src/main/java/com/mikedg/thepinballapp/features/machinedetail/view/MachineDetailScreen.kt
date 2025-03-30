@@ -1,7 +1,10 @@
 package com.mikedg.thepinballapp.features.machinedetail.view
 
+import android.content.Intent
+import android.net.Uri
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -9,7 +12,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -22,6 +24,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
@@ -47,7 +50,14 @@ fun MachineDetailScreen(machine: Machine) {
                 DetailRow("Type", machine.type.orEmpty())
                 DetailRow("Display", machine.display.orEmpty())
                 DetailRow("Player count", "${machine.playerCount} players")
-                DetailRow("IPDB", "IPDB no. ${machine.ipdbId}", isLink = true) // TODO: link
+
+                val context = LocalContext.current
+                DetailRow("IPDB", "IPDB no. ${machine.ipdbId}", isLink = true) {
+                    val intent = Intent(Intent.ACTION_VIEW).apply {
+                        data = Uri.parse("https://www.ipdb.org/machine.cgi?id=${machine.ipdbId}")
+                    }
+                    context.startActivity(intent)
+                }
                 DetailRow("Keywords", machine.keywords.orEmpty().joinToString(", "))
 
                 if (machine.images.orEmpty().isNotEmpty()) {
@@ -93,13 +103,31 @@ fun MachineDetailScreen(machine: Machine) {
 }
 
 @Composable
-fun DetailRow(label: String, value: String, isLink: Boolean = false) {
-    Row(modifier = Modifier.padding(vertical = 4.dp)) {
-        Text("$label:", fontWeight = FontWeight.Bold, modifier = Modifier.width(120.dp))
-        if (isLink) {
-            Text(text = value, color = Color.Blue, textDecoration = TextDecoration.Underline)
-        } else {
-            Text(text = value)
-        }
+fun DetailRow(
+    label: String,
+    value: String,
+    isLink: Boolean = false,
+    onLinkClick: (() -> Unit)? = null
+) {
+    val modifier = if (isLink) {
+        Modifier.clickable { onLinkClick?.invoke() }
+    } else {
+        Modifier
+    }
+
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .then(modifier)
+    ) {
+        Text(
+            text = "$label: ",
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = value,
+            textDecoration = if (isLink) TextDecoration.Underline else TextDecoration.None,
+            color = if (isLink) MaterialTheme.colorScheme.primary else Color.Unspecified
+        )
     }
 }
