@@ -4,7 +4,7 @@ import com.squareup.moshi.Json
 
 data class Machine(
     @Json(name = "opdb_id")
-    val opdbId: String?,
+    val opdbId: String,
 
     @Json(name = "is_machine")
     val isMachine: Boolean?,

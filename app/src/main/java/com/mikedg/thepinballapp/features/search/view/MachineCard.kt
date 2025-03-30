@@ -1,6 +1,7 @@
 package com.mikedg.thepinballapp.features.search.view
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -9,52 +10,78 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import coil3.compose.AsyncImage
 import com.mikedg.thepinballapp.data.model.Machine
+import com.mikedg.thepinballapp.features.search.MachineCardViewModel
+
+private val IMAGE_WIDTH = 100.dp
 
 @Composable
 fun MachineCard(machine: Machine) {
+    val viewModel = hiltViewModel<MachineCardViewModel>(
+        key = machine.opdbId // Gets away from shared view models across all MachineCards
+    )
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
             .heightIn(min = 100.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
-        Row (
+        Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(16.dp)
-        ) {
+                .onSizeChanged {
+                    viewModel.updateCardSize(it)
+                }
+        ) { 
             // Thumbnail image if available
             machine.images.orEmpty().firstOrNull { it.primary ?: false }?.let { primaryImage ->
                 primaryImage.urls?.let {
-                    AsyncImage(
-                        model = primaryImage.urls.small,
-                        contentDescription = "${machine.name} image",
-                        modifier = Modifier
-                            .size(80.dp)
-                            .clip(RoundedCornerShape(4.dp)),
-                        contentScale = ContentScale.Crop
+                    with(LocalDensity.current) {
+                        val rowHeight = viewModel.rowHeight.collectAsState()
+
+                        AsyncImage(
+                            model = primaryImage.urls.small,
+                            contentDescription = "${machine.name} image",
+                            modifier = Modifier
+                                .size(width = IMAGE_WIDTH, height = rowHeight.value.toDp()),
+                            contentScale = ContentScale.Crop
+                        )
+                    }
+                }
+            } ?: run {
+                Box(
+                    modifier = Modifier
+                        .size(width = IMAGE_WIDTH, height = 0.dp)
+                        .padding(16.dp)
+                ) {
+                    Text(
+                        text = "No Image",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
-                    Spacer(modifier = Modifier.width(16.dp))
                 }
             }
 
             // Machine details
             Column(
-                modifier = Modifier.weight(1f)
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(16.dp) // Moved padding to the content column
             ) {
                 Text(
                     text = machine.name.orEmpty(),
