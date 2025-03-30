@@ -73,7 +73,7 @@ fun MachineCard(machine: Machine) {
                             modifier = Modifier
                                 .size(width = IMAGE_WIDTH * 5, height = rowHeight.value.toDp())
                                 .background(
-                                    if (isDarkTheme) Color.White.copy(alpha = 0.8f) else Color.White.copy(alpha = 0.8f)
+                                    if (isDarkTheme) Color.Black.copy(alpha = 0.8f) else Color.White.copy(alpha = 0.8f)
                                 )
                         )
                     }
