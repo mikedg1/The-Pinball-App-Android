@@ -2,7 +2,9 @@ package com.mikedg.thepinballapp.features.changelog.view
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -20,7 +22,8 @@ import com.mikedg.thepinballapp.features.home.Route
 fun ChangeLogList(
     changeLogs: List<ChangeLog>,
     modifier: Modifier = Modifier,
-    navController: NavHostController
+    navController: NavHostController,
+    innerPadding: PaddingValues = PaddingValues(0.dp)
 ) {
 
     LazyColumn(
@@ -31,6 +34,10 @@ fun ChangeLogList(
             ChangeLogCard(changeLog = entry, modifier = Modifier.clickable {
                 entry.opdbIdReplacement?.let { navController.navigate(Route.MachineInfo(it)) }
             })
+        }
+        item {
+            // Allows scrolling under the navigation bar
+            Spacer(modifier = Modifier.height(innerPadding.calculateBottomPadding()))
         }
     }
 }

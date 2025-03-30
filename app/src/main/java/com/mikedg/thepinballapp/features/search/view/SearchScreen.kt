@@ -2,6 +2,7 @@ package com.mikedg.thepinballapp.features.search.view
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -33,7 +34,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 @Composable
-fun SearchScreen(navController: NavHostController) {
+fun SearchScreen(navController: NavHostController, innerPadding: PaddingValues) {
     val typeAheadSearchViewModel = hiltViewModel<TypeAheadSearchViewModel>()
     val suggestions by typeAheadSearchViewModel.typeAheadSearchResults.collectAsState()
     val query by typeAheadSearchViewModel.searchQuery.collectAsState()
@@ -110,6 +111,10 @@ fun SearchScreen(navController: NavHostController) {
                         MachineCard(machine = result)
                     }
                 }
+            }
+            item {
+                // Allows scrolling under the navigation bar
+                Spacer(modifier = Modifier.height(innerPadding.calculateBottomPadding()))
             }
         }
     }

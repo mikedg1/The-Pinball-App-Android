@@ -1,7 +1,6 @@
 package com.mikedg.thepinballapp.features.home.view
 
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -49,13 +48,13 @@ fun HomeScreen() {
             bottomBar = {
                 BottomNavBar(navController = navController)
             }) { innerPadding ->
-            NavHost(navController = navController, startDestination = Route.Search, modifier = Modifier.padding(innerPadding)) {
+            NavHost(navController = navController, startDestination = Route.Search) {
                 composable<Route.Search> {
-                    SearchScreen(navController)
+                    SearchScreen(navController, innerPadding)
                 }
                 composable<Route.ChangeLog> {
                     val changeLogViewModel: ChangeLogViewModel = hiltViewModel()
-                    ChangeLogScreen(changeLogViewModel, navController)
+                    ChangeLogScreen(changeLogViewModel, navController, innerPadding)
                 }
                 composable<Route.MachineInfo> {
                     val machineDetails: Route.MachineInfo = it.toRoute()
