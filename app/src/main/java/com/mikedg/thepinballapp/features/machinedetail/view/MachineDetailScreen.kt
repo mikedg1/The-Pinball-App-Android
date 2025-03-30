@@ -36,34 +36,36 @@ fun MachineDetailScreen(machine: Machine) {
             .padding(16.dp)
             .verticalScroll(rememberScrollState())
     ) {
-        Text(machine.name, style = MaterialTheme.typography.headlineMedium)
-        Text(machine.opdbId, style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(bottom = 16.dp))
+        Text(machine.name.orEmpty(), style = MaterialTheme.typography.headlineMedium)
+        Text(machine.opdbId.orEmpty(), style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(bottom = 16.dp))
 
         Card(modifier = Modifier.fillMaxWidth(), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)) {
             Column(modifier = Modifier.padding(16.dp)) {
-                DetailRow("Short name", machine.shortname)
-                DetailRow("Manufacturer", machine.manufacturer.name)
-                DetailRow("Manufacture date", machine.manufactureDate)
-                DetailRow("Type", machine.type)
-                DetailRow("Display", machine.display)
+                DetailRow("Short name", machine.shortname.orEmpty())
+                DetailRow("Manufacturer", machine.manufacturer.name.orEmpty())
+                DetailRow("Manufacture date", machine.manufactureDate.orEmpty())
+                DetailRow("Type", machine.type.orEmpty())
+                DetailRow("Display", machine.display.orEmpty())
                 DetailRow("Player count", "${machine.playerCount} players")
                 DetailRow("IPDB", "IPDB no. ${machine.ipdbId}", isLink = true) // TODO: link
-                DetailRow("Keywords", machine.keywords.joinToString(", "))
+                DetailRow("Keywords", machine.keywords.orEmpty().joinToString(", "))
 
-                if (machine.images.isNotEmpty()) {
+                if (machine.images.orEmpty().isNotEmpty()) {
                     Spacer(Modifier.height(16.dp))
                     Text("Images", style = MaterialTheme.typography.titleSmall)
                     Spacer(Modifier.height(8.dp))
-                    Image(
-                        painter = rememberAsyncImagePainter(machine.images.first().urls.medium),
-                        contentDescription = "Machine Image",
-                        modifier = Modifier
-                            .height(120.dp)
-                            .clip(RoundedCornerShape(8.dp))
-                            .background(Color.LightGray)
-                            .fillMaxWidth(),
-                        contentScale = ContentScale.Crop
-                    )
+                    machine.images.orEmpty().first().urls?.medium?.let { mediumUrl ->
+                        Image(
+                            painter = rememberAsyncImagePainter(mediumUrl),
+                            contentDescription = "Machine Image",
+                            modifier = Modifier
+                                .height(120.dp)
+                                .clip(RoundedCornerShape(8.dp))
+                                .background(Color.LightGray)
+                                .fillMaxWidth(),
+                            contentScale = ContentScale.Crop
+                        )
+                    }
                 }
             }
         }
@@ -78,7 +80,7 @@ fun MachineDetailScreen(machine: Machine) {
                 // TODO: linkify these
                 // TODO: remove place holders
                 Text(
-                    "Medieval Madness (${machine.manufacturer.name}, ${machine.manufactureDate.takeLast(4)})",
+                    "Medieval Madness (${machine.manufacturer.name}, ${machine.manufactureDate.orEmpty().takeLast(4)})",
                     fontWeight = FontWeight.SemiBold
                 )
                 Text("Medieval Madness (Remake LE) (Chicago Gaming, 2015)", color = Color.Blue)

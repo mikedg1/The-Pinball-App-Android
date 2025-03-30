@@ -69,7 +69,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.retrofit)
-    implementation(libs.retrofit.converter.gson)
     implementation(libs.androidx.material3)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -88,4 +87,8 @@ dependencies {
     kapt(libs.hilt.compiler)
 
     implementation(libs.androidx.hilt.navigation.compose)
+    implementation(libs.moshi.kotlin)
+    implementation(libs.converter.moshi)
+    implementation (libs.converter.moshi.latestversion)
+
 }

@@ -4,8 +4,10 @@ import com.mikedg.thepinballapp.BuildConfig
 import com.mikedg.thepinballapp.data.model.ChangeLog
 import com.mikedg.thepinballapp.data.model.Machine
 import com.mikedg.thepinballapp.data.model.TypeAheadSearchResult
+import com.squareup.moshi.Moshi
+import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
@@ -40,10 +42,14 @@ class OpdbApiService(
             @Query("include_grouping_entries") includeGroupingEntries: Int? = 0
         ): List<Machine>
     }
+    
+private val moshi = Moshi.Builder()
+    .addLast(KotlinJsonAdapterFactory())
+    .build()
 
     private val retrofit = Retrofit.Builder()
         .baseUrl("https://opdb.org/")
-        .addConverterFactory(GsonConverterFactory.create())
+        .addConverterFactory(MoshiConverterFactory.create(moshi))
         .build()
 
     private val api = retrofit.create(OpdbApi::class.java)

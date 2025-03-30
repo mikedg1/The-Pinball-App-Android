@@ -38,16 +38,18 @@ fun MachineCard(machine: Machine) {
                 .padding(16.dp)
         ) {
             // Thumbnail image if available
-            machine.images.firstOrNull { it.primary }?.let { primaryImage ->
-                AsyncImage(
-                    model = primaryImage.urls.small,
-                    contentDescription = "${machine.name} image",
-                    modifier = Modifier
-                        .size(80.dp)
-                        .clip(RoundedCornerShape(4.dp)),
-                    contentScale = ContentScale.Crop
-                )
-                Spacer(modifier = Modifier.width(16.dp))
+            machine.images.orEmpty().firstOrNull { it.primary ?: false }?.let { primaryImage ->
+                primaryImage.urls?.let {
+                    AsyncImage(
+                        model = primaryImage.urls.small,
+                        contentDescription = "${machine.name} image",
+                        modifier = Modifier
+                            .size(80.dp)
+                            .clip(RoundedCornerShape(4.dp)),
+                        contentScale = ContentScale.Crop
+                    )
+                    Spacer(modifier = Modifier.width(16.dp))
+                }
             }
 
             // Machine details
@@ -55,7 +57,7 @@ fun MachineCard(machine: Machine) {
                 modifier = Modifier.weight(1f)
             ) {
                 Text(
-                    text = machine.name,
+                    text = machine.name.orEmpty(),
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold
                 )
@@ -63,7 +65,7 @@ fun MachineCard(machine: Machine) {
                 Spacer(modifier = Modifier.height(4.dp))
 
                 Text(
-                    text = machine.manufacturer.name,
+                    text = machine.manufacturer.name.orEmpty(),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -74,7 +76,7 @@ fun MachineCard(machine: Machine) {
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     Text(
-                        text = machine.manufactureDate,
+                        text = machine.manufactureDate.orEmpty(),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -82,11 +84,13 @@ fun MachineCard(machine: Machine) {
                         text = "•",
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
-                    Text(
-                        text = "${machine.playerCount} Player${if (machine.playerCount > 1) "s" else ""}",
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
+                    machine.playerCount?.let { playerCount ->
+                        Text(
+                            text = "${playerCount} Player${if (playerCount > 1) "s" else ""}",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
                 }
             }
         }

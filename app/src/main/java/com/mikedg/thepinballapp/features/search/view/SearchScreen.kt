@@ -101,7 +101,9 @@ fun SearchScreen(navController: NavHostController) {
                             .fillMaxWidth()
                             .padding(vertical = 4.dp)
                             .clickable {
-                                navController.navigate(Route.MachineInfo(id = result.opdbId))
+                                result.opdbId?.let { id ->
+                                    navController.navigate(Route.MachineInfo(id))
+                                }
                             },
                         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
                     ) {
