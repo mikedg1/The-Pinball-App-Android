@@ -39,10 +39,15 @@ fun BottomNavBar(navController: NavHostController) {
                 Text(text = screen.title)
             }, selected = currentRoute == screen.route, onClick = {
                 if (currentRoute != screen.route) {
+
                     navController.navigate(screen.route) {
-                        // Avoid creating multiple copies of the same destination
                         launchSingleTop = true
                         restoreState = true
+                        // Pop up to the start destination of the graph to
+                        // avoid building up a large stack of destinations
+                        popUpTo(navController.graph.startDestinationId) {
+                            saveState = true
+                        }
                     }
                 }
             })
