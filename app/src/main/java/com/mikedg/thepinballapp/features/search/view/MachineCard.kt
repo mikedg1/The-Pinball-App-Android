@@ -2,16 +2,7 @@ package com.mikedg.thepinballapp.features.search.view
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.heightIn
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
@@ -26,6 +17,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -52,13 +44,17 @@ fun MachineCard(machine: Machine) {
             elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
         ) {
             Box {
+                // A background based off the machine image
                 machine.images.orEmpty().firstOrNull { it.primary ?: false }?.let { primaryImage ->
                     primaryImage.urls?.let {
                         val isDarkTheme = isSystemInDarkTheme() // Detect if we're in light theme
 
                         AsyncImage(
                             model = primaryImage.urls.small,
-                            contentDescription = "${machine.name} image",
+                            contentDescription = stringResource(
+                                R.string.machine_card_image_blurred,
+                                machine.name.orEmpty()
+                            ),
                             modifier = Modifier
                                 .size(width = IMAGE_WIDTH * 5, height = rowHeight.value.toDp())
                                 .graphicsLayer {
@@ -93,7 +89,10 @@ fun MachineCard(machine: Machine) {
 
                             AsyncImage(
                                 model = primaryImage.urls.small,
-                                contentDescription = "${machine.name} image",
+                                contentDescription = stringResource(
+                                    R.string.machine_card_image,
+                                    machine.name.orEmpty()
+                                ),
                                 modifier = Modifier
                                     .size(width = IMAGE_WIDTH, height = rowHeight.value.toDp()),
                                 contentScale = ContentScale.Crop
@@ -151,7 +150,11 @@ fun MachineCard(machine: Machine) {
                             )
                             machine.playerCount?.let { playerCount ->
                                 Text(
-                                    text = "${playerCount} Player${if (playerCount > 1) "s" else ""}",
+                                    text = pluralStringResource(
+                                        R.plurals.machine_card_players_count,
+                                        playerCount,
+                                        playerCount
+                                    ),
                                     style = MaterialTheme.typography.bodySmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant
                                 )
