@@ -89,6 +89,4 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.moshi.kotlin)
     implementation(libs.converter.moshi)
-    implementation (libs.converter.moshi.latestversion)
-
 }
