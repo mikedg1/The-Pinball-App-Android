@@ -20,6 +20,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.mikedg.thepinballapp.BuildConfig
 import com.mikedg.thepinballapp.R
+import java.util.Calendar
 
 @Composable
 fun AboutScreen() {
@@ -126,7 +127,7 @@ fun AboutScreen() {
                     style = MaterialTheme.typography.titleMedium
                 )
                 Text(
-                    text = "© ${java.time.Year.now().value} Mike DiGiovanni. All rights reserved.",
+                    text = "© ${Calendar.getInstance().get(Calendar.YEAR)} Mike DiGiovanni. All rights reserved.",
                     textAlign = TextAlign.Center
                 )
             }
