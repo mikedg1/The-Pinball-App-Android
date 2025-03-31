@@ -13,10 +13,12 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.mikedg.thepinballapp.R
 import com.mikedg.thepinballapp.data.model.ChangeLog
 
 
@@ -31,7 +33,7 @@ fun ChangeLogCard(changeLog: ChangeLog, modifier: Modifier) {
             modifier = Modifier.fillMaxWidth().padding(16.dp)
         ) {
             Text(
-                text = "Changelog ID: ${changeLog.changelogId}",
+                text = stringResource(R.string.changelog_screen_changelog_id, changeLog.changelogId ?: ""),
                 style = MaterialTheme.typography.titleMedium,
                 fontSize = 18.sp
             )
@@ -39,7 +41,7 @@ fun ChangeLogCard(changeLog: ChangeLog, modifier: Modifier) {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "Action: ${changeLog.action}",
+                text = stringResource(R.string.changelog_screen_action, changeLog.action.orEmpty()),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.fillMaxWidth()
             )
@@ -47,7 +49,7 @@ fun ChangeLogCard(changeLog: ChangeLog, modifier: Modifier) {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "Deleted ID: ${changeLog.opdbIdDeleted}",
+                text = stringResource(R.string.changelog_screen_deleted_id, changeLog.opdbIdDeleted.orEmpty()),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.fillMaxWidth()
             )
@@ -55,7 +57,7 @@ fun ChangeLogCard(changeLog: ChangeLog, modifier: Modifier) {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "Replacement ID: ${changeLog.opdbIdReplacement}",
+                text = stringResource(R.string.changelog_screen_replacement_id, changeLog.opdbIdReplacement.orEmpty()),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.fillMaxWidth()
             )
@@ -63,7 +65,7 @@ fun ChangeLogCard(changeLog: ChangeLog, modifier: Modifier) {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "Created At: ${changeLog.createdAt}",
+                text = stringResource(R.string.changelog_screen_created_at, changeLog.createdAt.orEmpty()),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.fillMaxWidth(),
                 maxLines = 1,
@@ -73,7 +75,7 @@ fun ChangeLogCard(changeLog: ChangeLog, modifier: Modifier) {
             Spacer(modifier = Modifier.height(4.dp))
 
             Text(
-                text = "Updated At: ${changeLog.updatedAt}",
+                text = stringResource(R.string.changelog_screen_updated_at, changeLog.updatedAt.orEmpty()),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.fillMaxWidth(),
                 maxLines = 1,

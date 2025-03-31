@@ -6,6 +6,8 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import com.mikedg.thepinballapp.R
 
 @Composable
 fun ErrorState(
@@ -19,7 +21,7 @@ fun ErrorState(
         ) {
             Text(text = message)
             TextButton(onClick = onRetry) {
-                Text("Retry")
+                Text(stringResource(R.string.error_retry))
             }
         }
     }

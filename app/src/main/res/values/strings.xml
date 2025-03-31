@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">The Pinball App</string>
+    <string name="machine_detail_short_name">Short name</string>
+    <string name="machine_detail_manufacturer">Manufacturer</string>
+    <string name="machine_detail_manufacture_date">Manufacture date</string>
+    <string name="machine_detail_type">Type</string>
+    <string name="machine_detail_display">Display</string>
+    <string name="machine_detail_player_count">Player count</string>
+    <string name="machine_detail_ipdb">IPDB</string>
+    <string name="machine_detail_keywords">Keywords</string>
+    <string name="machine_detail_images">Images</string>
+    <string name="machine_detail_machine_image">Machine Image</string>
+    <string name="machine_detail_ipdb_no">IPDB no. %1$s</string>
+    <string name="players">%1$s players</string>
+    <string name="machine_detail_unknown_player_count">Unknown</string>
+    <string name="machine_detail_machine_group">Machine Group</string>
+    <string name="machine_card_no_image">No Image</string>
+    <string name="search_screen_search_placeholder">Search...</string>
+    <string name="search_screen_suggestions">Suggestions</string>
+    <string name="search_screen_search_results">Search Results</string>
+    <string name="error_retry">Retry</string>
+    <string name="about_screen_about_the_pinball_app">About The Pinball App</string>
+    <string name="about_screen_developer">Developer</string>
+    <string name="about_screen_mike_digiovanni">Mike DiGiovanni</string>
+    <string name="about_screen_powered_by_opdb">Powered by OPDB</string>
+    <string name="about_screen_opdb_thanks">Special thanks to OPDB (Open Pinball Database) for providing their API free
+        of charge.
+    </string>
+    <string name="about_screen_visit_opdb">Visit OPDB</string>
+    <string name="about_screen_app_information">App Information</string>
+    <string name="about_screen_version">Version: %1$s</string>
+    <string name="about_screen_license">License</string>
+    <string name="about_screen_privacy_policy">Privacy Policy</string>
+    <string name="error_unknown_error_occurred">Unknown error occurred</string>
+    <string name="changelog_screen_changelog_id">Changelog ID: %1$s</string>
+    <string name="changelog_screen_action">Action: %1$s</string>
+    <string name="changelog_screen_deleted_id">Deleted ID: %1$s</string>
+    <string name="changelog_screen_replacement_id">Replacement ID: %1$s</string>
+    <string name="changelog_screen_created_at">Created At: %1$s</string>
+    <string name="changelog_screen_updated_at">Updated At: %1$s</string>
+    <string name="nav_about">About</string>
 </resources>

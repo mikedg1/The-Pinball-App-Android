@@ -27,10 +27,12 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
+import com.mikedg.thepinballapp.R
 import com.mikedg.thepinballapp.features.home.Route
 import com.mikedg.thepinballapp.features.search.TypeAheadSearchViewModel
 import kotlinx.coroutines.Dispatchers
@@ -57,7 +59,7 @@ fun SearchScreen(navController: NavHostController, innerPadding: PaddingValues) 
             onValueChange = { newQuery ->
                 typeAheadSearchViewModel.onSearchQueryChange(newQuery)
             },
-            placeholder = { Text("Search...") },
+            placeholder = { Text(stringResource(R.string.search_screen_search_placeholder)) },
             keyboardOptions = KeyboardOptions.Default.copy(imeAction = ImeAction.Search),
             keyboardActions = KeyboardActions(onSearch = {
                 coroutineScope.launch(Dispatchers.IO) {
@@ -78,7 +80,7 @@ fun SearchScreen(navController: NavHostController, innerPadding: PaddingValues) 
         ) {
             if (suggestions.isNotEmpty()) {
                 item {
-                    Text("Suggestions", style = MaterialTheme.typography.titleMedium)
+                    Text(stringResource(R.string.search_screen_suggestions), style = MaterialTheme.typography.titleMedium)
                 }
                 items(suggestions) { suggestion ->
                     Text(
@@ -99,7 +101,7 @@ fun SearchScreen(navController: NavHostController, innerPadding: PaddingValues) 
 
             if (searchResults.isNotEmpty()) {
                 item {
-                    Text("Search Results", style = MaterialTheme.typography.titleMedium)
+                    Text(stringResource(R.string.search_screen_search_results), style = MaterialTheme.typography.titleMedium)
                 }
                 items(searchResults) { result ->
                     Card(

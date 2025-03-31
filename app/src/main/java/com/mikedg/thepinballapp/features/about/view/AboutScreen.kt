@@ -15,9 +15,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.mikedg.thepinballapp.BuildConfig
+import com.mikedg.thepinballapp.R
 
 @Composable
 fun AboutScreen() {
@@ -33,7 +35,7 @@ fun AboutScreen() {
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         Text(
-            text = "About The Pinball App",
+            text = stringResource(R.string.about_screen_about_the_pinball_app),
             style = MaterialTheme.typography.headlineMedium
         )
 
@@ -46,10 +48,10 @@ fun AboutScreen() {
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Text(
-                    text = "Developer",
+                    text = stringResource(R.string.about_screen_developer),
                     style = MaterialTheme.typography.titleMedium
                 )
-                Text(text = "Mike DiGiovanni")
+                Text(text = stringResource(R.string.about_screen_mike_digiovanni))
                 TextButton(
                     onClick = {
                         uriHandler.openUri("mailto:thepinballapp@mikedg.com")
@@ -69,18 +71,18 @@ fun AboutScreen() {
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Text(
-                    text = "Powered by OPDB",
+                    text = stringResource(R.string.about_screen_powered_by_opdb),
                     style = MaterialTheme.typography.titleMedium
                 )
                 Text(
-                    text = "Special thanks to OPDB (Open Pinball Database) for providing their API free of charge."
+                    text = stringResource(R.string.about_screen_opdb_thanks)
                 )
                 TextButton(
                     onClick = {
                         uriHandler.openUri("https://opdb.org/")
                     }
                 ) {
-                    Text("Visit OPDB")
+                    Text(stringResource(R.string.about_screen_visit_opdb))
                 }
             }
         }
@@ -94,10 +96,10 @@ fun AboutScreen() {
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Text(
-                    text = "App Information",
+                    text = stringResource(R.string.about_screen_app_information),
                     style = MaterialTheme.typography.titleMedium
                 )
-                Text("Version: ${BuildConfig.VERSION_NAME}")
+                Text(stringResource(R.string.about_screen_version, BuildConfig.VERSION_NAME))
 
                 // Add Privacy Policy if you have one
                 TextButton(
@@ -106,7 +108,7 @@ fun AboutScreen() {
                         // uriHandler.openUri("your-privacy-policy-url")
                     }
                 ) {
-                    Text("Privacy Policy")
+                    Text(stringResource(R.string.about_screen_privacy_policy))
                 }
             }
         }
@@ -120,7 +122,7 @@ fun AboutScreen() {
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Text(
-                    text = "License",
+                    text = stringResource(R.string.about_screen_license),
                     style = MaterialTheme.typography.titleMedium
                 )
                 Text(

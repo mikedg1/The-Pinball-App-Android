@@ -24,10 +24,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import coil3.compose.rememberAsyncImagePainter
+import com.mikedg.thepinballapp.R
 import com.mikedg.thepinballapp.data.model.Machine
 
 @Composable
@@ -47,32 +49,34 @@ fun MachineDetailScreen(machine: Machine, innerPadding: PaddingValues) {
             Column(
                 modifier = Modifier.padding(16.dp)
             ) {
-                DetailRow("Short name", machine.shortname.orEmpty())
-                DetailRow("Manufacturer", machine.manufacturer.name.orEmpty())
-                DetailRow("Manufacture date", machine.manufactureDate.orEmpty())
-                DetailRow("Type", machine.type.orEmpty())
-                DetailRow("Display", machine.display.orEmpty())
-                DetailRow("Player count", "${machine.playerCount} players")
+                DetailRow(stringResource(R.string.machine_detail_short_name), machine.shortname.orEmpty())
+                DetailRow(stringResource(R.string.machine_detail_manufacturer), machine.manufacturer.name.orEmpty())
+                DetailRow(stringResource(R.string.machine_detail_manufacture_date), machine.manufactureDate.orEmpty())
+                DetailRow(stringResource(R.string.machine_detail_type), machine.type.orEmpty())
+                DetailRow(stringResource(R.string.machine_detail_display), machine.display.orEmpty())
+                DetailRow(stringResource(R.string.machine_detail_player_count),
+                    stringResource(R.string.players, machine.playerCount ?: stringResource(R.string.machine_detail_unknown_player_count)))
 
                 val context = LocalContext.current
-                DetailRow("IPDB", "IPDB no. ${machine.ipdbId}", isLink = true) {
+                DetailRow(stringResource(R.string.machine_detail_ipdb),
+                    stringResource(R.string.machine_detail_ipdb_no, machine.ipdbId ?: ""), isLink = true) {
                     val intent = Intent(Intent.ACTION_VIEW).apply {
                         data = Uri.parse("https://www.ipdb.org/machine.cgi?id=${machine.ipdbId}")
                     }
                     context.startActivity(intent)
                 }
-                DetailRow("Keywords", machine.keywords.orEmpty().joinToString(", "))
+                DetailRow(stringResource(R.string.machine_detail_keywords), machine.keywords.orEmpty().joinToString(", "))
 
                 if (machine.images.orEmpty().isNotEmpty()) {
                     Spacer(Modifier.height(16.dp))
-                    Text("Images", style = MaterialTheme.typography.titleSmall)
+                    Text(stringResource(R.string.machine_detail_images), style = MaterialTheme.typography.titleSmall)
                 }
             }
             if (machine.images.orEmpty().isNotEmpty()) {
                 machine.images.orEmpty().first().urls?.medium?.let { mediumUrl ->
                     Image(
                         painter = rememberAsyncImagePainter(mediumUrl),
-                        contentDescription = "Machine Image",
+                        contentDescription = stringResource(R.string.machine_detail_machine_image),
                         modifier = Modifier
                             .height(120.dp)
                             .background(Color.LightGray)
@@ -96,7 +100,7 @@ private fun GroupInfo(machine: Machine) {
     // Machine Group / Related Versions
     Card(modifier = Modifier.fillMaxWidth(), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)) {
         Column(modifier = Modifier.padding(16.dp)) {
-            Text("Machine Group", style = MaterialTheme.typography.titleMedium)
+            Text(stringResource(R.string.machine_detail_machine_group), style = MaterialTheme.typography.titleMedium)
             Spacer(Modifier.height(8.dp))
             // TODO: linkify these
             // TODO: remove place holders

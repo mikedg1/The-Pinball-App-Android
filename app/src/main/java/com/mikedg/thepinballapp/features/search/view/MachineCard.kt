@@ -26,10 +26,12 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil3.compose.AsyncImage
+import com.mikedg.thepinballapp.R
 import com.mikedg.thepinballapp.data.model.Machine
 import com.mikedg.thepinballapp.features.search.MachineCardViewModel
 
@@ -105,7 +107,7 @@ fun MachineCard(machine: Machine) {
                                 .padding(16.dp)
                         ) {
                             Text(
-                                text = "No Image",
+                                text = stringResource(R.string.machine_card_no_image),
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
@@ -143,7 +145,8 @@ fun MachineCard(machine: Machine) {
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                             Text(
-                                text = "•",
+                                text = " | ",
+                                style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                             machine.playerCount?.let { playerCount ->
