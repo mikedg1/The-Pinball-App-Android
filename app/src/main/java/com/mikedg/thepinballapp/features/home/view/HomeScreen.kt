@@ -69,7 +69,6 @@ fun HomeScreen() {
                         factory = MachineDetailViewModel.Factory,
                         extras = extras,
                     )
-
                     // TODO: implement progress LCE status
                     val machineInfo by machineDetailsViewModel.machine.collectAsState()
                     machineInfo?.let { machineInfo ->

@@ -25,11 +25,15 @@ fun ChangeLogList(
     navController: NavHostController,
     innerPadding: PaddingValues = PaddingValues(0.dp)
 ) {
-
     LazyColumn(
         modifier = modifier.fillMaxSize(),
         contentPadding = PaddingValues(8.dp)
     ) {
+        item {
+            // Allows scrolling under the status bar
+            Spacer(modifier = Modifier.height(innerPadding.calculateTopPadding()))
+        }
+
         items(changeLogs) { entry ->
             ChangeLogCard(changeLog = entry, modifier = Modifier.clickable {
                 entry.opdbIdReplacement?.let { navController.navigate(Route.MachineInfo(it)) }
