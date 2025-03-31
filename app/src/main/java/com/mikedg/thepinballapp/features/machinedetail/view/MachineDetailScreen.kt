@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -22,7 +21,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
@@ -46,7 +44,9 @@ fun MachineDetailScreen(machine: Machine, innerPadding: PaddingValues) {
         Text(machine.opdbId.orEmpty(), style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(bottom = 16.dp))
 
         Card(modifier = Modifier.fillMaxWidth(), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)) {
-            Column(modifier = Modifier.padding(16.dp)) {
+            Column(
+                modifier = Modifier.padding(16.dp)
+            ) {
                 DetailRow("Short name", machine.shortname.orEmpty())
                 DetailRow("Manufacturer", machine.manufacturer.name.orEmpty())
                 DetailRow("Manufacture date", machine.manufactureDate.orEmpty())
@@ -66,19 +66,19 @@ fun MachineDetailScreen(machine: Machine, innerPadding: PaddingValues) {
                 if (machine.images.orEmpty().isNotEmpty()) {
                     Spacer(Modifier.height(16.dp))
                     Text("Images", style = MaterialTheme.typography.titleSmall)
-                    Spacer(Modifier.height(8.dp))
-                    machine.images.orEmpty().first().urls?.medium?.let { mediumUrl ->
-                        Image(
-                            painter = rememberAsyncImagePainter(mediumUrl),
-                            contentDescription = "Machine Image",
-                            modifier = Modifier
-                                .height(120.dp)
-                                .clip(RoundedCornerShape(8.dp))
-                                .background(Color.LightGray)
-                                .fillMaxWidth(),
-                            contentScale = ContentScale.Crop
-                        )
-                    }
+                }
+            }
+            if (machine.images.orEmpty().isNotEmpty()) {
+                machine.images.orEmpty().first().urls?.medium?.let { mediumUrl ->
+                    Image(
+                        painter = rememberAsyncImagePainter(mediumUrl),
+                        contentDescription = "Machine Image",
+                        modifier = Modifier
+                            .height(120.dp)
+                            .background(Color.LightGray)
+                            .fillMaxWidth(),
+                        contentScale = ContentScale.Crop
+                    )
                 }
             }
         }
