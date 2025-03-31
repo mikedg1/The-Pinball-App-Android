@@ -83,27 +83,32 @@ fun MachineDetailScreen(machine: Machine, innerPadding: PaddingValues) {
             }
         }
 
-        Spacer(Modifier.height(16.dp))
-
-        // Machine Group / Related Versions
-        Card(modifier = Modifier.fillMaxWidth(), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)) {
-            Column(modifier = Modifier.padding(16.dp)) {
-                Text("Machine Group", style = MaterialTheme.typography.titleMedium)
-                Spacer(Modifier.height(8.dp))
-                // TODO: linkify these
-                // TODO: remove place holders
-                Text(
-                    "Medieval Madness (${machine.manufacturer.name}, ${machine.manufactureDate.orEmpty().takeLast(4)})",
-                    fontWeight = FontWeight.SemiBold
-                )
-                Text("Medieval Madness (Remake LE) (Chicago Gaming, 2015)", color = Color.Blue)
-                Text("Medieval Madness (Remake Royal Edition) (Chicago Gaming, 2015)", color = Color.Blue)
-                Text("Medieval Madness (Remake Special Edition) (Chicago Gaming, 2016)", color = Color.Blue)
-                Text("Medieval Madness (Remake) (Chicago Gaming, 2016)", color = Color.Blue)
-            }
-        }
+//        Spacer(Modifier.height(16.dp))
+//        GroupInfo(machine)
 
         Spacer(modifier = Modifier.height(innerPadding.calculateBottomPadding()))
+    }
+}
+
+@Composable
+private fun GroupInfo(machine: Machine) {
+
+    // Machine Group / Related Versions
+    Card(modifier = Modifier.fillMaxWidth(), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Text("Machine Group", style = MaterialTheme.typography.titleMedium)
+            Spacer(Modifier.height(8.dp))
+            // TODO: linkify these
+            // TODO: remove place holders
+            Text(
+                "Medieval Madness (${machine.manufacturer.name}, ${machine.manufactureDate.orEmpty().takeLast(4)})",
+                fontWeight = FontWeight.SemiBold
+            )
+            Text("Medieval Madness (Remake LE) (Chicago Gaming, 2015)", color = Color.Blue)
+            Text("Medieval Madness (Remake Royal Edition) (Chicago Gaming, 2015)", color = Color.Blue)
+            Text("Medieval Madness (Remake Special Edition) (Chicago Gaming, 2016)", color = Color.Blue)
+            Text("Medieval Madness (Remake) (Chicago Gaming, 2016)", color = Color.Blue)
+        }
     }
 }
 
