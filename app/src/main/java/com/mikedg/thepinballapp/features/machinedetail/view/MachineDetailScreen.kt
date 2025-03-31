@@ -6,6 +6,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -32,13 +33,15 @@ import coil3.compose.rememberAsyncImagePainter
 import com.mikedg.thepinballapp.data.model.Machine
 
 @Composable
-fun MachineDetailScreen(machine: Machine) {
+fun MachineDetailScreen(machine: Machine, innerPadding: PaddingValues) {
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp)
             .verticalScroll(rememberScrollState())
     ) {
+        Spacer(modifier = Modifier.height(innerPadding.calculateTopPadding()))
+
         Text(machine.name.orEmpty(), style = MaterialTheme.typography.headlineMedium)
         Text(machine.opdbId.orEmpty(), style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(bottom = 16.dp))
 
@@ -99,6 +102,8 @@ fun MachineDetailScreen(machine: Machine) {
                 Text("Medieval Madness (Remake) (Chicago Gaming, 2016)", color = Color.Blue)
             }
         }
+
+        Spacer(modifier = Modifier.height(innerPadding.calculateBottomPadding()))
     }
 }
 

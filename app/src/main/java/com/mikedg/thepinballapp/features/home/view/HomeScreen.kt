@@ -73,8 +73,8 @@ fun HomeScreen() {
                     // TODO: implement progress LCE status
                     val machineInfo by machineDetailsViewModel.machine.collectAsState()
                     machineInfo?.let { machineInfo ->
-                        MachineDetailScreen(machineInfo)
-                    } ?: Text("Machine Details ${machineDetails.id}")
+                        MachineDetailScreen(machineInfo, innerPadding)
+                    } ?: Text("Machine Details ${machineDetails.id}", modifier = Modifier.padding(innerPadding))
                 }
                 composable<Route.About> {
                     Box(modifier = Modifier.padding(innerPadding)) {
