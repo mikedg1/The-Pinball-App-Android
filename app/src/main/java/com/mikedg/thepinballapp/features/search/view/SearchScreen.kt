@@ -4,9 +4,12 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -115,8 +118,20 @@ fun SearchScreen(navController: NavHostController, innerPadding: PaddingValues) 
                 }
             }
             item {
-                // Allows scrolling under the navigation bar
-                Spacer(modifier = Modifier.height(innerPadding.calculateBottomPadding()))
+                val imeInsets = WindowInsets.ime.asPaddingValues()
+
+                // Allows scrolling under the navigation bar and keyboard
+                Spacer(
+                    modifier =
+                        Modifier
+                            .padding(
+                                bottom = if (imeInsets.calculateBottomPadding() > 0.dp) {
+                                    imeInsets.calculateBottomPadding()
+                                } else {
+                                    innerPadding.calculateBottomPadding()
+                                }
+                            )
+                )
             }
         }
     }
