@@ -109,7 +109,7 @@ fun SearchScreen(navController: NavHostController, innerPadding: PaddingValues) 
                             .fillMaxWidth()
                             .padding(vertical = 4.dp)
                             .clickable {
-                                result.opdbId?.let { id ->
+                                result.opdbId.let { id ->
                                     navController.navigate(Route.MachineInfo(id))
                                 }
                             },

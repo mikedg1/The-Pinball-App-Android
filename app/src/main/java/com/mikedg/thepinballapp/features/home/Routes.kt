@@ -8,11 +8,11 @@ sealed class Route {
     data object Search : Route()
 
     @Serializable
-    object ChangeLog : Route()
+    data object ChangeLog : Route()
 
     @Serializable
     data class MachineInfo(val id: String) : Route()
 
     @Serializable
-    object About : Route()
+    data object About : Route()
 }

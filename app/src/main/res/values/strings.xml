@@ -15,7 +15,7 @@
     <string name="machine_detail_unknown_player_count">Unknown</string>
     <string name="machine_detail_machine_group">Machine Group</string>
     <string name="machine_card_no_image">No Image</string>
-    <string name="search_screen_search_placeholder">Search...</string>
+    <string name="search_screen_search_placeholder">Search…</string>
     <string name="search_screen_suggestions">Suggestions</string>
     <string name="search_screen_search_results">Search Results</string>
     <string name="error_retry">Retry</string>
@@ -31,14 +31,12 @@
     <string name="about_screen_version">Version: %1$s</string>
     <string name="about_screen_license">License</string>
     <string name="about_screen_privacy_policy">Privacy Policy</string>
-    <string name="error_unknown_error_occurred">Unknown error occurred</string>
     <string name="changelog_screen_changelog_id">Changelog ID: %1$s</string>
     <string name="changelog_screen_action">Action: %1$s</string>
     <string name="changelog_screen_deleted_id">Deleted ID: %1$s</string>
     <string name="changelog_screen_replacement_id">Replacement ID: %1$s</string>
     <string name="changelog_screen_created_at">Created At: %1$s</string>
     <string name="changelog_screen_updated_at">Updated At: %1$s</string>
-    <string name="nav_about">About</string>
     <string name="machine_card_image_blurred">%1$s image blurred</string>
     <string name="machine_card_image">%1$s image</string>
     <plurals name="machine_card_players_count">

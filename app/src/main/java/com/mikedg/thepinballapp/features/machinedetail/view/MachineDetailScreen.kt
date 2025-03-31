@@ -43,7 +43,7 @@ fun MachineDetailScreen(machine: Machine, innerPadding: PaddingValues) {
         Spacer(modifier = Modifier.height(innerPadding.calculateTopPadding()))
 
         Text(machine.name.orEmpty(), style = MaterialTheme.typography.headlineMedium)
-        Text(machine.opdbId.orEmpty(), style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(bottom = 16.dp))
+        Text(machine.opdbId, style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(bottom = 16.dp))
 
         Card(modifier = Modifier.fillMaxWidth(), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)) {
             Column(

@@ -11,7 +11,7 @@ private const val UNSET_ROW_HEIGHT = -1
 
 @HiltViewModel
 class MachineCardViewModel @Inject constructor(): ViewModel() {
-    val _rowHeight = MutableStateFlow(UNSET_ROW_HEIGHT)
+    private val _rowHeight = MutableStateFlow(UNSET_ROW_HEIGHT)
     val rowHeight = _rowHeight.asStateFlow()
 
     fun updateCardSize(newRowSize: IntSize) {
