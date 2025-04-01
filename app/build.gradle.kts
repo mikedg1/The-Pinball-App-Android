@@ -1,3 +1,4 @@
+import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 import java.io.FileInputStream
 import java.util.Properties
 
@@ -8,6 +9,22 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.hilt.android)
+    alias(libs.plugins.ktlint)
+}
+
+ktlint {
+    android = true // Enable Android-specific linting rules
+    ignoreFailures = false // Fail the build if KtLint finds any issues
+
+    filter {
+        exclude("**/generated/**")
+        exclude("**/build/**")
+    }
+
+    reporters {
+        reporter(ReporterType.PLAIN) // Output KtLint results in plain text format
+        reporter(ReporterType.HTML) // Output KtLint results in HTML format
+    }
 }
 
 android {
