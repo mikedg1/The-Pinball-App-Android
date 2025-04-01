@@ -18,14 +18,16 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import com.mikedg.thepinballapp.BuildConfig
 import com.mikedg.thepinballapp.R
-import java.util.Calendar
+import com.mikedg.thepinballapp.features.about.AboutViewModel
 
 @Composable
 fun AboutScreen() {
     val scrollState = rememberScrollState()
     val uriHandler = LocalUriHandler.current
+    val viewModel = hiltViewModel<AboutViewModel>()
 
     Column(
         modifier = Modifier
@@ -127,7 +129,7 @@ fun AboutScreen() {
                     style = MaterialTheme.typography.titleMedium
                 )
                 Text(
-                    text = "© ${Calendar.getInstance().get(Calendar.YEAR)} Mike DiGiovanni. All rights reserved.",
+                    text = viewModel.copyrightString,
                     textAlign = TextAlign.Center
                 )
             }
