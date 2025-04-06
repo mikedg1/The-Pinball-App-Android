@@ -4,7 +4,6 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.util.Calendar
 
-
 class AboutViewModelTest {
 
     @Test

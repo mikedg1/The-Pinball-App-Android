@@ -106,4 +106,9 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.moshi.kotlin)
     implementation(libs.converter.moshi)
+
+    testImplementation(libs.mockk)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.turbine)
+    testImplementation(libs.kotlin.test)
 }

@@ -26,9 +26,9 @@ class ChangeLogViewModel @Inject constructor(private val opdbApiService: OpdbApi
     }
 
     private fun loadChangeLogs() {
+        _uiState.value = UiState.Loading
         viewModelScope.launch {
             try {
-                _uiState.value = UiState.Loading
                 val result = opdbApiService.fetchChangeLogs()
                 _uiState.value = UiState.Content(result)
             } catch (e: Exception) {
@@ -41,3 +41,4 @@ class ChangeLogViewModel @Inject constructor(private val opdbApiService: OpdbApi
         loadChangeLogs()
     }
 }
+// Test fail states
