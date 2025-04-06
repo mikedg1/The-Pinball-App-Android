@@ -16,16 +16,6 @@ import org.junit.Before
 import org.junit.Test
 import kotlin.test.assertEquals
 
-private const val FIRST_ERROR = "First error"
-private val testChangeLog = ChangeLog(
-    changelogId = 1,
-    opdbIdDeleted = "GrdNZ-MQo1e",
-    action = "move",
-    opdbIdReplacement = "GRveZ-MNE38",
-    createdAt = "2018-10-19T15:06:20.000000Z",
-    updatedAt = "2018-10-19T15:06:20.000000Z"
-)
-
 @OptIn(ExperimentalCoroutinesApi::class)
 class ChangeLogViewModelTest {
     private lateinit var viewModel: ChangeLogViewModel
@@ -55,17 +45,14 @@ class ChangeLogViewModelTest {
     @Test
     fun `successful data fetch updates state to Content`() {
         runTest {
-            val mockChangeLogs = listOf(
-                testChangeLog
-            )
-            coEvery { apiService.fetchChangeLogs() } returns mockChangeLogs
+            coEvery { apiService.fetchChangeLogs() } returns MOCK_CHANGELOGS
 
             viewModel = ChangeLogViewModel(apiService)
 
             // Then
             viewModel.uiState.test {
                 assertEquals(ChangeLogViewModel.UiState.Loading, awaitItem())
-                assertEquals(ChangeLogViewModel.UiState.Content(mockChangeLogs), awaitItem())
+                assertEquals(ChangeLogViewModel.UiState.Content(MOCK_CHANGELOGS), awaitItem())
             }
         }
     }
@@ -85,16 +72,12 @@ class ChangeLogViewModelTest {
 
     @Test
     fun `retry function reloads data and updates state accordingly`() = runTest {
-        val mockChangeLogs = listOf(
-            testChangeLog
-        )
-
         coEvery {
             apiService.fetchChangeLogs()
         } answers {
             throw RuntimeException(FIRST_ERROR)
         } andThenAnswer {
-            mockChangeLogs
+            MOCK_CHANGELOGS
         }
 
         viewModel = ChangeLogViewModel(apiService)
@@ -112,7 +95,20 @@ class ChangeLogViewModelTest {
         viewModel.uiState.test {
             assertEquals(ChangeLogViewModel.UiState.Loading, awaitItem())
             testScheduler.advanceUntilIdle()
-            assertEquals(ChangeLogViewModel.UiState.Content(mockChangeLogs), awaitItem())
+            assertEquals(ChangeLogViewModel.UiState.Content(MOCK_CHANGELOGS), awaitItem())
         }
+    }
+
+    private companion object {
+        const val FIRST_ERROR = "First error"
+        val TEST_CHANGELOG = ChangeLog(
+            changelogId = 1,
+            opdbIdDeleted = "GrdNZ-MQo1e",
+            action = "move",
+            opdbIdReplacement = "GRveZ-MNE38",
+            createdAt = "2018-10-19T15:06:20.000000Z",
+            updatedAt = "2018-10-19T15:06:20.000000Z"
+        )
+        val MOCK_CHANGELOGS = listOf(TEST_CHANGELOG)
     }
 }
