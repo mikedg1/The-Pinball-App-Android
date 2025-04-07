@@ -3,11 +3,9 @@ package com.mikedg.thepinballapp.features.home.view
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.PhotoCamera
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.Icon
-import androidx.compose.material3.NavigationBar
-import androidx.compose.material3.NavigationBarItem
-import androidx.compose.material3.Text
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation.NavHostController
@@ -28,25 +26,32 @@ fun BottomNavBar(navController: NavHostController) {
         Screen.ChangeLog,
         Screen.About,
     )
+//    BottomAppBar{// = CircleShape) {
 
-    NavigationBar {
+    BottomAppBar {
         val currentRoute = currentRoute(navController)
 
         items.forEach { screen ->
-            NavigationBarItem(icon = {
-                Icon(imageVector = screen.icon, contentDescription = screen.title)
-            }, label = {
-                Text(text = screen.title)
-            }, selected = currentRoute == screen.route, onClick = {
-                if (currentRoute != screen.route) {
-                    navController.navigate(screen.route) {
-                        launchSingleTop = true
-                        // Pop up to the start destination of the graph to
-                        // avoid building up a large stack of destinations
-                        popUpTo(navController.graph.startDestinationId)
+            NavigationBarItem(
+                icon = {
+                    Icon(imageVector = screen.icon, contentDescription = screen.title)
+                },
+                label = {
+                    Text(text = screen.title)
+                },
+                selected = currentRoute == screen.route,
+                onClick = {
+                    if (currentRoute != screen.route) {
+                        navController.navigate(screen.route) {
+                            launchSingleTop = true
+                            popUpTo(navController.graph.startDestinationId)
+                        }
                     }
                 }
-            })
+            )
+        }
+        FloatingActionButton(onClick = { navController.navigate(Route.Search) }) {
+            Icon(imageVector = Icons.Default.PhotoCamera, contentDescription = "Capture Score")
         }
     }
 }
