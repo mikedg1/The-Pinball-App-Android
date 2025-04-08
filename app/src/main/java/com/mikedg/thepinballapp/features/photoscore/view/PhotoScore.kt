@@ -1,12 +1,9 @@
-import android.R.attr.bitmap
-import android.app.Activity
 import android.content.ContentValues
 import android.content.Context
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.media.ExifInterface
 import android.net.Uri
 import android.os.Build
 import android.provider.MediaStore
@@ -14,27 +11,17 @@ import android.util.Log
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.material3.Text
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.lifecycleScope
 import androidx.hilt.navigation.compose.hiltViewModel
-import coil3.util.CoilUtils.result
-import com.aallam.openai.client.OpenAI
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
@@ -46,9 +33,6 @@ import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import kotlin.math.min
-import androidx.compose.ui.graphics.asImageBitmap
-import kotlin.time.Duration.Companion.seconds
 
 //package com.mikedg.thepinballapp.features.photoscore.view
 //
@@ -128,7 +112,7 @@ fun PhotoScore() {
 
                     // Now you can pass the resized bitmap to your function
                     resizedBitmap?.let { bitmap ->
-
+                        viewModel.showScore("", bitmap)
                         // TODO: remove from here
                         val openAi = OpenAiService()
 
@@ -140,12 +124,14 @@ fun PhotoScore() {
                         val jsonAdapter = moshi.adapter(Any::class.java).indent("  ") // Pretty print with indentation
                         val prettyJson = jsonAdapter.toJson(response)
                         Log.d("PhotoScore", "Pretty JSON Response: $prettyJson")
-                        val scoreInfo =  response.output.joinToString("\n") {
+                        val scoreInfo = response.output.joinToString("\n") {
                             it.content.joinToString("\n") { it.text }
                         }
-                        Log.d("PhotoScore", "Response: ${
-                           scoreInfo
-                        }")
+                        Log.d(
+                            "PhotoScore", "Response: ${
+                                scoreInfo
+                            }"
+                        )
                         viewModel.showScore(scoreInfo, resizedBitmap)
 //                        yourFunctionThatNeedsSmallImage(bitmap)
                         // Works!
@@ -164,9 +150,9 @@ fun PhotoScore() {
 //            val imageBitmap = result.data?.extras?.get("data") as? Bitmap // Thumbnail?
 //            imageBitmap?.let {
 //                https://developer.android.com/media/camera/camera-deprecated/photobasics
-                // Do something with the bitmap
+            // Do something with the bitmap
 //                viewModel.onImageCaptured(it)
-                // Save the image to the gallery
+            // Save the image to the gallery
 
 //            }
         } else {
@@ -196,6 +182,49 @@ fun PhotoScore() {
     CameraPreviewScreen(viewModel)
 }
 
+// Helper function to get file path from URI for older Android versions
+private fun getRealPathFromURI(context: Context, uri: Uri): String? {
+    val cursor = context.contentResolver.query(uri, null, null, null, null)
+    cursor?.use {
+        if (it.moveToFirst()) {
+            val columnIndex = it.getColumnIndex(MediaStore.Images.Media.DATA)
+            if (columnIndex >= 0) {
+                return it.getString(columnIndex)
+            }
+        }
+    }
+    return uri.path
+}
+
+private fun getRotatedBitmap(context: Context, uri: Uri, bitmap: Bitmap): Bitmap {
+    val inputStream = context.contentResolver.openInputStream(uri)
+    val exifInterface = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+        ExifInterface(inputStream!!)
+    } else {
+        // For older Android versions, you need the file path
+        val path = getRealPathFromURI(context, uri)
+        ExifInterface(path!!)
+    }
+    inputStream?.close()
+
+    val orientation = exifInterface.getAttributeInt(
+        ExifInterface.TAG_ORIENTATION,
+        ExifInterface.ORIENTATION_NORMAL
+    )
+
+    val matrix = android.graphics.Matrix()
+    when (orientation) {
+        ExifInterface.ORIENTATION_ROTATE_90 -> matrix.postRotate(90f)
+        ExifInterface.ORIENTATION_ROTATE_180 -> matrix.postRotate(180f)
+        ExifInterface.ORIENTATION_ROTATE_270 -> matrix.postRotate(270f)
+        ExifInterface.ORIENTATION_FLIP_HORIZONTAL -> matrix.preScale(-1f, 1f)
+        ExifInterface.ORIENTATION_FLIP_VERTICAL -> matrix.preScale(1f, -1f)
+    }
+
+    return Bitmap.createBitmap(
+        bitmap, 0, 0, bitmap.width, bitmap.height, matrix, true
+    )
+}
 
 // Function to resize image from Uri
 suspend fun resizeImageFromUri(
@@ -210,7 +239,15 @@ suspend fun resizeImageFromUri(
         val options = BitmapFactory.Options().apply {
             inJustDecodeBounds = true
         }
-        BitmapFactory.decodeStream(inputStream, null, options)
+//        BitmapFactory.decodeStream(inputStream, null, options) // was this doing anything?
+        val fullBitmap = BitmapFactory.decodeStream(inputStream, null, options) //
+        fullBitmap?.let {
+            val rotatedBitmap = getRotatedBitmap(context, uri, fullBitmap)
+//
+//// Difference format than node WTF?
+//            return@withContext rotatedBitmap
+            return@withContext rotatedBitmap
+        }
         inputStream?.close()
 
         // Calculate sample size
@@ -222,30 +259,36 @@ suspend fun resizeImageFromUri(
         val sampledBitmap = BitmapFactory.decodeStream(secondInputStream, null, options)
         secondInputStream?.close()
 
-        // Further resize if needed for exact dimensions
-        if (sampledBitmap != null && (sampledBitmap.width > targetWidth || sampledBitmap.height > targetHeight)) {
-            val scaleFactor = min(
-                targetWidth.toFloat() / sampledBitmap.width,
-                targetHeight.toFloat() / sampledBitmap.height
-            )
+//        // Further resize if needed for exact dimensions
+//        if (sampledBitmap != null && (sampledBitmap.width > targetWidth || sampledBitmap.height > targetHeight)) {
+//            val scaleFactor = min(
+//                targetWidth.toFloat() / sampledBitmap.width,
+//                targetHeight.toFloat() / sampledBitmap.height
+//            )
+//
+//            val resizedBitmap = Bitmap.createScaledBitmap(
+//                sampledBitmap,
+//                (sampledBitmap.width * scaleFactor).toInt(),
+//                (sampledBitmap.height * scaleFactor).toInt(),
+//                true
+//            )
+//
+//            // If we created a new bitmap, recycle the sampled one
+//            if (resizedBitmap != sampledBitmap) {
+//                sampledBitmap.recycle()
+//            }
+//
+//            val rotatedBitmap = getRotatedBitmap(context, uri, resizedBitmap)
+//
+//// Difference format than node WTF?
+//            return@withContext rotatedBitmap
+//            return@withContext resizedBitmap
+//        }
+        sampledBitmap?.let {
+        val rotatedBitmap = getRotatedBitmap(context, uri, sampledBitmap)
 
-            val resizedBitmap = Bitmap.createScaledBitmap(
-                sampledBitmap,
-                (sampledBitmap.width * scaleFactor).toInt(),
-                (sampledBitmap.height * scaleFactor).toInt(),
-                true
-            )
-
-            // If we created a new bitmap, recycle the sampled one
-            if (resizedBitmap != sampledBitmap) {
-                sampledBitmap.recycle()
-            }
-
-// Difference format than node WTF?
-            return@withContext resizedBitmap
+        return@withContext rotatedBitmap
         }
-
-        return@withContext sampledBitmap
     } catch (e: Exception) {
         e.printStackTrace()
         null
@@ -278,20 +321,20 @@ fun CameraPreviewScreen(viewModel: PhotoScoreViewModel, modifier: Modifier = Mod
     if (cameraPermissionState.status.isGranted) {
         //CameraPreviewContent(viewModel = PhotoScoreViewModel(), modifier = modifier)
 //        Text("Got permissions")
-                val score = viewModel.score.collectAsState()
+        val score = viewModel.score.collectAsState()
         val bitmap = viewModel.image.collectAsState()
-Column {
-        bitmap.value?.let { image ->
-            Image(
-                bitmap = image.asImageBitmap(),
-                contentDescription = "Bitmap image",
-                modifier = modifier
-            )
+        Column {
+            bitmap.value?.let { image ->
+                Image(
+                    bitmap = image.asImageBitmap(),
+                    contentDescription = "Bitmap image",
+                    modifier = modifier
+                )
+
+            }
+            Text(score.value.toString())
 
         }
-        Text(score.value.toString())
-
-}
     } else {
         Column(
             modifier = modifier.fillMaxSize().wrapContentSize().widthIn(max = 480.dp),
