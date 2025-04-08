@@ -50,7 +50,7 @@ fun BottomNavBar(navController: NavHostController) {
                 }
             )
         }
-        FloatingActionButton(onClick = { navController.navigate(Route.Search) }) {
+        FloatingActionButton(onClick = { navController.navigate(Route.TakePhoto) }) {
             Icon(imageVector = Icons.Default.PhotoCamera, contentDescription = "Capture Score")
         }
     }

@@ -42,10 +42,10 @@ class OpdbApiService(
             @Query("include_grouping_entries") includeGroupingEntries: Int? = 0
         ): List<Machine>
     }
-    
-private val moshi = Moshi.Builder()
-    .addLast(KotlinJsonAdapterFactory())
-    .build()
+
+    private val moshi = Moshi.Builder()
+        .addLast(KotlinJsonAdapterFactory())
+        .build()
 
     private val retrofit = Retrofit.Builder()
         .baseUrl("https://opdb.org/")

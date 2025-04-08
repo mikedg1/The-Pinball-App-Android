@@ -1,3 +1,4 @@
+import org.gradle.kotlin.dsl.implementation
 import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 import java.io.FileInputStream
 import java.util.Properties
@@ -49,6 +50,11 @@ android {
         if (opdbApiToken.isNullOrEmpty()) {
             throw GradleException("The 'opdb.api.token' property must be defined in local.properties")
         }
+        val openAiApiToken = localProperties.getProperty("openai.api.token")
+        if (openAiApiToken.isNullOrEmpty()) {
+            throw GradleException("The 'openai.api.token' property must be defined in local.properties")
+        }
+        buildConfigField("String", "OPENAI_API_TOKEN", "\"$openAiApiToken\"")
         buildConfigField("String", "OPDB_API_TOKEN", "\"$opdbApiToken\"")
     }
 
@@ -111,4 +117,21 @@ dependencies {
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.turbine)
     testImplementation(libs.kotlin.test)
+
+    // CameraX core libraries
+    implementation(libs.androidx.camera.core)
+    implementation(libs.androidx.camera.camera2)
+    implementation(libs.androidx.camera.lifecycle)
+    implementation(libs.androidx.camera.extensions)
+    implementation(libs.androidx.camera.compose)
+
+//    implementation("com.google.accompanist:accompanist-navigation-animation:0.34.0")
+//    implementation("com.google.accompanist:accompanist-systemuicontroller:0.34.0")
+    implementation(libs.accompanist.permissions)
+//    implementation(platform("com.aallam.openai:openai-client-bom:4.0.1"))
+
+    implementation("com.aallam.openai:openai-client:4.0.1")
+    runtimeOnly("io.ktor:ktor-client-okhttp:2.3.2")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0") // Use the latest version
+
 }

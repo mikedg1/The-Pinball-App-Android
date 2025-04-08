@@ -15,4 +15,7 @@ sealed class Route {
 
     @Serializable
     data object About : Route()
+
+    @Serializable
+    data object TakePhoto : Route()
 }

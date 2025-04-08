@@ -38,3 +38,5 @@ google-services.json
 /captures
 .externalNativeBuild
 .cxx
+/external/js/node_modules/
+/external/js/.env

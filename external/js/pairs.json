@@ -1,0 +1,8966 @@
+[
+  {
+    "machineName": "Challenger",
+    "opdbId": "G50L9-MDxXD"
+  },
+  {
+    "machineName": "Moon Shot",
+    "opdbId": "GR7V3-MQPyL"
+  },
+  {
+    "machineName": "Galaxy Play",
+    "opdbId": "GRDlQ-MJ9yJ"
+  },
+  {
+    "machineName": "Free Fall",
+    "opdbId": "G4xlK-MDEKL"
+  },
+  {
+    "machineName": "The 30's",
+    "opdbId": "G4Xdq-MLBlD"
+  },
+  {
+    "machineName": "Sisters",
+    "opdbId": "G5WPp-MLyZJ"
+  },
+  {
+    "machineName": "Space Mission",
+    "opdbId": "GRnX6-MQk8L"
+  },
+  {
+    "machineName": "Groovy",
+    "opdbId": "GRpKY-MDlYQ"
+  },
+  {
+    "machineName": "Big Ben",
+    "opdbId": "G5QBX-MQd1L"
+  },
+  {
+    "machineName": "City Slicker",
+    "opdbId": "GrEVb-MLOxJ"
+  },
+  {
+    "machineName": "Big Day",
+    "opdbId": "G48JX-MJw3J"
+  },
+  {
+    "machineName": "Flash Gordon",
+    "opdbId": "G5728-MDbjD"
+  },
+  {
+    "machineName": "Pinball Champ '82",
+    "opdbId": "GrPdq-MQYkJ"
+  },
+  {
+    "machineName": "Surfer",
+    "opdbId": "GrZwo-MJNlQ"
+  },
+  {
+    "machineName": "High Roller Casino",
+    "opdbId": "G4JZ4-ML0pL"
+  },
+  {
+    "machineName": "Explorer",
+    "opdbId": "G5VPX-MQjXJ"
+  },
+  {
+    "machineName": "The 4 Horsemen",
+    "opdbId": "GRKdD-MLnxD"
+  },
+  {
+    "machineName": "Blondie",
+    "opdbId": "GRVdN-MLqwD"
+  },
+  {
+    "machineName": "Sky·Line",
+    "opdbId": "GRQ6d-MDRlL"
+  },
+  {
+    "machineName": "Dealer's Choice",
+    "opdbId": "GRwW9-MJoeQ"
+  },
+  {
+    "machineName": "Apollo 13",
+    "opdbId": "G411e-MJrEL"
+  },
+  {
+    "machineName": "Criterium 75",
+    "opdbId": "G4Plz-MDz6D"
+  },
+  {
+    "machineName": "Moon Flight",
+    "opdbId": "GreN3-MJ7wJ"
+  },
+  {
+    "machineName": "Target Pool",
+    "opdbId": "GRbWj-MD3RJ"
+  },
+  {
+    "machineName": "Carnival",
+    "opdbId": "GRBv9-MLXlL"
+  },
+  {
+    "machineName": "Scorpion",
+    "opdbId": "G4qQj-MD8XD"
+  },
+  {
+    "machineName": "Winter Sports",
+    "opdbId": "GrxWp-MDvrD"
+  },
+  {
+    "machineName": "Sapporo",
+    "opdbId": "G5n67-MQVRQ"
+  },
+  {
+    "machineName": "Bank Shot",
+    "opdbId": "GrqL6-MQ5Rn"
+  },
+  {
+    "machineName": "Vampire",
+    "opdbId": "GRYZK-MQp44"
+  },
+  {
+    "machineName": "Catacomb",
+    "opdbId": "GRoQ6-MLx0X"
+  },
+  {
+    "machineName": "Adventures of Rocky and Bullwinkle and Friends",
+    "opdbId": "G5vnL-MJP3y"
+  },
+  {
+    "machineName": "Electric Hockey",
+    "opdbId": "GRDo0-MQ9Ry"
+  },
+  {
+    "machineName": "Le King",
+    "opdbId": "Grqn7-MLE0K"
+  },
+  {
+    "machineName": "Saturn 2",
+    "opdbId": "GRwl7-MDBRl"
+  },
+  {
+    "machineName": "The Sopranos",
+    "opdbId": "G5WoB-MDyNZ"
+  },
+  {
+    "machineName": "Card Whiz (1P)",
+    "opdbId": "GrEWx-MJkP8"
+  },
+  {
+    "machineName": "Lady Robin Hood",
+    "opdbId": "GRVL2-MLl9Y"
+  },
+  {
+    "machineName": "Gulfstream",
+    "opdbId": "G4EJB-MJdE1"
+  },
+  {
+    "machineName": "Corvette",
+    "opdbId": "GrjDz-MJKN6"
+  },
+  {
+    "machineName": "Sheba",
+    "opdbId": "GRDQ1-MDOEx"
+  },
+  {
+    "machineName": "Hayburners",
+    "opdbId": "GRojj-MQwN3"
+  },
+  {
+    "machineName": "Flying Circus",
+    "opdbId": "G41Y6-MDePR"
+  },
+  {
+    "machineName": "Lucky Man",
+    "opdbId": "G5wLN-MJ2YO"
+  },
+  {
+    "machineName": "Juke Box",
+    "opdbId": "G5Qnx-MJYek"
+  },
+  {
+    "machineName": "Scramble",
+    "opdbId": "G5p8V-MD0op"
+  },
+  {
+    "machineName": "Register",
+    "opdbId": "G5WEb-MJjBX"
+  },
+  {
+    "machineName": "Circus",
+    "opdbId": "G5KJW-MDnKx"
+  },
+  {
+    "machineName": "Dr. Dude And His Excellent Ray",
+    "opdbId": "GRVEJ-MDq1w"
+  },
+  {
+    "machineName": "Nugent",
+    "opdbId": "G5VWL-MLRjl"
+  },
+  {
+    "machineName": "Touchdown",
+    "opdbId": "G4qEl-MQrRE"
+  },
+  {
+    "machineName": "Springtime",
+    "opdbId": "GRVvb-MLz26"
+  },
+  {
+    "machineName": "Panthera",
+    "opdbId": "G5bQq-MQ4ob"
+  },
+  {
+    "machineName": "Escape from the Lost World",
+    "opdbId": "G5oEz-MQ7Zw"
+  },
+  {
+    "machineName": "Kings & Queens",
+    "opdbId": "G4Ne1-ML3dR"
+  },
+  {
+    "machineName": "Gridiron",
+    "opdbId": "G41E2-ML85X"
+  },
+  {
+    "machineName": "Knockout",
+    "opdbId": "G4xzV-MQZeV"
+  },
+  {
+    "machineName": "Robot",
+    "opdbId": "G5Wjk-MLvBr"
+  },
+  {
+    "machineName": "Gypsy Queen",
+    "opdbId": "GR63e-MJVKR"
+  },
+  {
+    "machineName": "Hokus Pokus",
+    "opdbId": "GRwBN-MJ5ln"
+  },
+  {
+    "machineName": "Cyclone",
+    "opdbId": "G4O2b-MJpn4"
+  },
+  {
+    "machineName": "Grand Prix",
+    "opdbId": "G5YWX-MDxXX"
+  },
+  {
+    "machineName": "Time Machine",
+    "opdbId": "GR99Y-MJ9Zy"
+  },
+  {
+    "machineName": "The Rolling Stones",
+    "opdbId": "GredR-MDE2K"
+  },
+  {
+    "machineName": "4X4",
+    "opdbId": "G59VQ-MLBVl"
+  },
+  {
+    "machineName": "Dakar",
+    "opdbId": "GR02j-MLy1Z"
+  },
+  {
+    "machineName": "Ice-Revue",
+    "opdbId": "GRnYX-MQk08"
+  },
+  {
+    "machineName": "Surf 'n Safari",
+    "opdbId": "G5W0z-MLW6N"
+  },
+  {
+    "machineName": "Aloha",
+    "opdbId": "G4kw7-MDl0Y"
+  },
+  {
+    "machineName": "Super Soccer",
+    "opdbId": "GRn8D-MQd21"
+  },
+  {
+    "machineName": "Mibs",
+    "opdbId": "G56P2-MQKR6"
+  },
+  {
+    "machineName": "Pinball",
+    "opdbId": "GrPdq-MLONx"
+  },
+  {
+    "machineName": "Fan-Tas-Tic",
+    "opdbId": "G48VE-MLebR"
+  },
+  {
+    "machineName": "Red Arrow",
+    "opdbId": "G5WPp-MDbNj"
+  },
+  {
+    "machineName": "Double Action",
+    "opdbId": "G4xB9-MQ28O"
+  },
+  {
+    "machineName": "Shoot the Moon",
+    "opdbId": "GRLq7-MQY6k"
+  },
+  {
+    "machineName": "Spectrum",
+    "opdbId": "GRw7z-MJN9l"
+  },
+  {
+    "machineName": "Galaxie",
+    "opdbId": "G48nw-ML02p"
+  },
+  {
+    "machineName": "Rancho",
+    "opdbId": "GRzow-MQjZX"
+  },
+  {
+    "machineName": "Time Zone",
+    "opdbId": "GRvE1-MLnBx"
+  },
+  {
+    "machineName": "Lady Sharpshooter",
+    "opdbId": "G48NN-MLqOw"
+  },
+  {
+    "machineName": "Jurassic Park",
+    "opdbId": "G4ZVB-MJ5lE"
+  },
+  {
+    "machineName": "Trident",
+    "opdbId": "GR0KD-MJpnr"
+  },
+  {
+    "machineName": "Gamatron",
+    "opdbId": "GRo6e-MQPov"
+  },
+  {
+    "machineName": "Lady Luck",
+    "opdbId": "GRY0B-MJ9Z3"
+  },
+  {
+    "machineName": "Night Moves",
+    "opdbId": "G4NY0-MDE29"
+  },
+  {
+    "machineName": "Lunar Shot",
+    "opdbId": "GRBDj-MLBV6"
+  },
+  {
+    "machineName": "Bowl-O",
+    "opdbId": "GRnK7-MQk0V"
+  },
+  {
+    "machineName": "Demolition Man",
+    "opdbId": "G5bv3-MLW68"
+  },
+  {
+    "machineName": "Caravelle",
+    "opdbId": "Gryq6-MDl0b"
+  },
+  {
+    "machineName": "Big Strike",
+    "opdbId": "GrZex-MQKR0"
+  },
+  {
+    "machineName": "Fireball Classic",
+    "opdbId": "G48ZN-MLONl"
+  },
+  {
+    "machineName": "Wizard!",
+    "opdbId": "G4l8K-MJwXy"
+  },
+  {
+    "machineName": "Revenge From Mars",
+    "opdbId": "G50Wr-MLeZP"
+  },
+  {
+    "machineName": "Black Hole",
+    "opdbId": "GRwYo-MQ2RR"
+  },
+  {
+    "machineName": "Mustang",
+    "opdbId": "GRVXD-MJN2n"
+  },
+  {
+    "machineName": "Straight Flush",
+    "opdbId": "G5L06-ML08k"
+  },
+  {
+    "machineName": "Kickoff",
+    "opdbId": "G4qEl-MQjk6"
+  },
+  {
+    "machineName": "Thunderball",
+    "opdbId": "G4J3k-MLnnX"
+  },
+  {
+    "machineName": "Pinball Pool",
+    "opdbId": "G4kdB-MLqe3"
+  },
+  {
+    "machineName": "Fandango",
+    "opdbId": "Gr1VD-MDRNP"
+  },
+  {
+    "machineName": "Messalina",
+    "opdbId": "G4PeZ-MQ6Xw"
+  },
+  {
+    "machineName": "Monte Carlo",
+    "opdbId": "G5Wl0-MJoR7"
+  },
+  {
+    "machineName": "Mars God of War",
+    "opdbId": "GrNpY-MJrZw"
+  },
+  {
+    "machineName": "Melody Lane",
+    "opdbId": "G5plO-MDzVY"
+  },
+  {
+    "machineName": "Race Time",
+    "opdbId": "G4O8o-MJ4Wp"
+  },
+  {
+    "machineName": "Dolly Parton",
+    "opdbId": "G43Yq-MJ7o4"
+  },
+  {
+    "machineName": "Bowling Queen",
+    "opdbId": "G4xYD-MD3nw"
+  },
+  {
+    "machineName": "King",
+    "opdbId": "G4XjW-MLXXy"
+  },
+  {
+    "machineName": "Wolf Man",
+    "opdbId": "G4P0b-MD115"
+  },
+  {
+    "machineName": "Voltan Escapes Cosmic Doom",
+    "opdbId": "GrkW3-MD8RW"
+  },
+  {
+    "machineName": "Happy Days",
+    "opdbId": "Grl1L-MJZyq"
+  },
+  {
+    "machineName": "Vulcan",
+    "opdbId": "GRoDo-MDv3l"
+  },
+  {
+    "machineName": "Beatniks",
+    "opdbId": "G5bYP-MQV6l"
+  },
+  {
+    "machineName": "Bazaar",
+    "opdbId": "GRKeO-MQ53E"
+  },
+  {
+    "machineName": "Smoke Signal",
+    "opdbId": "G48B7-MQpRr"
+  },
+  {
+    "machineName": "Big Buck Hunter Pro",
+    "opdbId": "G4N6n-MLxER"
+  },
+  {
+    "machineName": "Sorcerer",
+    "opdbId": "G4qxv-MJPyv"
+  },
+  {
+    "machineName": "Skill-Pool",
+    "opdbId": "G5zvZ-MQ9Y3"
+  },
+  {
+    "machineName": "Rey de Diamantes",
+    "opdbId": "GrlPj-MLEY9"
+  },
+  {
+    "machineName": "Waterworld",
+    "opdbId": "G4JK7-MDBe6"
+  },
+  {
+    "machineName": "Circus",
+    "opdbId": "GRpw8-MDyqp"
+  },
+  {
+    "machineName": "Wheel of Fortune",
+    "opdbId": "G417d-MJkXV"
+  },
+  {
+    "machineName": "El Dorado",
+    "opdbId": "GrEZ5-MDWv8"
+  },
+  {
+    "machineName": "Derby Day",
+    "opdbId": "G5vyY-MJdZy"
+  },
+  {
+    "machineName": "Lucky Seven",
+    "opdbId": "G5D3O-MJKe0"
+  },
+  {
+    "machineName": "Fire Mountain",
+    "opdbId": "G4E9p-MDOrl"
+  },
+  {
+    "machineName": "Hay-Ride",
+    "opdbId": "GR90K-MQw2y"
+  },
+  {
+    "machineName": "Fire! Champagne Edition",
+    "opdbId": "G41Lo-MDerP"
+  },
+  {
+    "machineName": "Olympic Games",
+    "opdbId": "GreWJ-MLb7N"
+  },
+  {
+    "machineName": "Warlok",
+    "opdbId": "G5z2e-MJ2lR"
+  },
+  {
+    "machineName": "Playland!",
+    "opdbId": "G5Q82-MJYll"
+  },
+  {
+    "machineName": "Invader Ball",
+    "opdbId": "G5ow6-MQNYn"
+  },
+  {
+    "machineName": "Atlantis",
+    "opdbId": "G48OE-MD0bk"
+  },
+  {
+    "machineName": "Pinball Magic",
+    "opdbId": "GrZnn-MJj46"
+  },
+  {
+    "machineName": "Casino",
+    "opdbId": "G4xOz-MDnlX"
+  },
+  {
+    "machineName": "Mac Jungle",
+    "opdbId": "G4Z6n-MDq43"
+  },
+  {
+    "machineName": "Miss-O",
+    "opdbId": "G4eqP-MLR0P"
+  },
+  {
+    "machineName": "Knock Out",
+    "opdbId": "GR6Zq-MJ6nw"
+  },
+  {
+    "machineName": "Army Navy",
+    "opdbId": "G5VNb-MQoZ7"
+  },
+  {
+    "machineName": "Beat the Clock",
+    "opdbId": "GRY9k-MQr4w"
+  },
+  {
+    "machineName": "Straight Shooter",
+    "opdbId": "Grk9J-MQ4qp"
+  },
+  {
+    "machineName": "Title Fight",
+    "opdbId": "G4Xw9-MQ7K4"
+  },
+  {
+    "machineName": "The Party Zone",
+    "opdbId": "G5oBw-ML3Kw"
+  },
+  {
+    "machineName": "The Addams Family",
+    "opdbId": "G4ODR-MDXEy"
+  },
+  {
+    "machineName": "Buccaneer",
+    "opdbId": "G4lNn-ML1l5"
+  },
+  {
+    "machineName": "CSI: Crime Scene Investigation",
+    "opdbId": "GRokz-ML8oW"
+  },
+  {
+    "machineName": "Pro Pool",
+    "opdbId": "G5n1Q-MQZdq"
+  },
+  {
+    "machineName": "Love Bug",
+    "opdbId": "Grx1z-MLvVl"
+  },
+  {
+    "machineName": "Playboy",
+    "opdbId": "GrkOB-MJVvl"
+  },
+  {
+    "machineName": "Derby",
+    "opdbId": "G43O1-MJ51E"
+  },
+  {
+    "machineName": "Card King",
+    "opdbId": "GRL9Q-MJpKr"
+  },
+  {
+    "machineName": "Swinger",
+    "opdbId": "G5L1Q-MDx7R"
+  },
+  {
+    "machineName": "Touchdown",
+    "opdbId": "G4ldW-MQPNv"
+  },
+  {
+    "machineName": "Solar City",
+    "opdbId": "GrEZ5-MJ9y3"
+  },
+  {
+    "machineName": "Fiesta",
+    "opdbId": "Gr1VD-MDEW9"
+  },
+  {
+    "machineName": "Silver Skates",
+    "opdbId": "G4XJ6-MLBw6"
+  },
+  {
+    "machineName": "Diner",
+    "opdbId": "GRWBd-MLy5p"
+  },
+  {
+    "machineName": "Rock 2500",
+    "opdbId": "Grydq-MLWR8"
+  },
+  {
+    "machineName": "Verne's World",
+    "opdbId": "G5vYZ-MDlOb"
+  },
+  {
+    "machineName": "Check",
+    "opdbId": "GRBOy-MQd6y"
+  },
+  {
+    "machineName": "Fore",
+    "opdbId": "G4k8j-MLO6l"
+  },
+  {
+    "machineName": "Heat Wave",
+    "opdbId": "G5vDW-MJw9y"
+  },
+  {
+    "machineName": "Grand Slam",
+    "opdbId": "G4PL3-MLeBP"
+  },
+  {
+    "machineName": "Beauty Queens",
+    "opdbId": "Gryqo-MDbPN"
+  },
+  {
+    "machineName": "Attack",
+    "opdbId": "GRWDp-MQ2yR"
+  },
+  {
+    "machineName": "Campus Queen",
+    "opdbId": "GRDQ1-MQYrl"
+  },
+  {
+    "machineName": "Kingpin",
+    "opdbId": "G48od-MJNnn"
+  },
+  {
+    "machineName": "Champion",
+    "opdbId": "G5v11-ML0Nk"
+  },
+  {
+    "machineName": "Rock On",
+    "opdbId": "G4yLE-MLn8X"
+  },
+  {
+    "machineName": "Queen's Castle",
+    "opdbId": "GRVpL-MLqW3"
+  },
+  {
+    "machineName": "Take A Card",
+    "opdbId": "GrEXx-MJ5Yv"
+  },
+  {
+    "machineName": "Mini Pool",
+    "opdbId": "GRbWj-MJpkl"
+  },
+  {
+    "machineName": "Starship Troopers",
+    "opdbId": "G5we0-MDx6b"
+  },
+  {
+    "machineName": "Wild West",
+    "opdbId": "G41xJ-MQPzP"
+  },
+  {
+    "machineName": "Mini Cycle",
+    "opdbId": "G59j7-MJ940"
+  },
+  {
+    "machineName": "Can Can",
+    "opdbId": "G4jk1-MDEKP"
+  },
+  {
+    "machineName": "Evel Knievel (EM)",
+    "opdbId": "G59wx-MLBX4"
+  },
+  {
+    "machineName": "Space Rider",
+    "opdbId": "GRnwQ-MLyWb"
+  },
+  {
+    "machineName": "Sky Star",
+    "opdbId": "G4xlK-MQkWr"
+  },
+  {
+    "machineName": "Blackbelt",
+    "opdbId": "G5Ljd-MLWj0"
+  },
+  {
+    "machineName": "Neptune",
+    "opdbId": "GRoWo-MDllp"
+  },
+  {
+    "machineName": "Flipper",
+    "opdbId": "GrNXw-MLOYP"
+  },
+  {
+    "machineName": "Happy Papeete",
+    "opdbId": "G5o2k-MJw9Z"
+  },
+  {
+    "machineName": "Wild Wheels",
+    "opdbId": "GrqYl-MLeBV"
+  },
+  {
+    "machineName": "Solar Ride",
+    "opdbId": "GRDqo-MDbPx"
+  },
+  {
+    "machineName": "Wipe Out",
+    "opdbId": "G5w3q-MQYr0"
+  },
+  {
+    "machineName": "Trade Winds",
+    "opdbId": "G56Qx-MJNnO"
+  },
+  {
+    "machineName": "King Game",
+    "opdbId": "GRYbJ-ML0Ny"
+  },
+  {
+    "machineName": "Snow Derby",
+    "opdbId": "GRKZV-MQjb2"
+  },
+  {
+    "machineName": "Transporter the Rescue",
+    "opdbId": "G5n2D-MLn85"
+  },
+  {
+    "machineName": "Stripping Funny",
+    "opdbId": "Grq2n-MDR4Z"
+  },
+  {
+    "machineName": "Liberty Belle",
+    "opdbId": "G4Xbk-MQ6d3"
+  },
+  {
+    "machineName": "Merry-Go-Round",
+    "opdbId": "G4xj0-MJrNB"
+  },
+  {
+    "machineName": "Black Pyramid",
+    "opdbId": "GRVnY-MDz0l"
+  },
+  {
+    "machineName": "Spy Hunter",
+    "opdbId": "GRwl7-MJ45o"
+  },
+  {
+    "machineName": "Beat the Clock",
+    "opdbId": "G48e6-MJ7PR"
+  },
+  {
+    "machineName": "Navajo",
+    "opdbId": "GrJPo-MD3kn"
+  },
+  {
+    "machineName": "Eclipse",
+    "opdbId": "G4ddn-MLX3E"
+  },
+  {
+    "machineName": "Alien Poker",
+    "opdbId": "G4yen-MD12Y"
+  },
+  {
+    "machineName": "Rag Mop",
+    "opdbId": "G4O9Q-MJZ2E"
+  },
+  {
+    "machineName": "Mata Hari",
+    "opdbId": "G417e-MDvXz"
+  },
+  {
+    "machineName": "Screamo",
+    "opdbId": "GRpVj-MQVrX"
+  },
+  {
+    "machineName": "Fortune",
+    "opdbId": "GrEEy-MQ5pv"
+  },
+  {
+    "machineName": "Mermaid",
+    "opdbId": "G4qo1-MQp5l"
+  },
+  {
+    "machineName": "Coquette",
+    "opdbId": "G4NBw-MLxkb"
+  },
+  {
+    "machineName": "Hearts Spades",
+    "opdbId": "G5pkl-MJPrP"
+  },
+  {
+    "machineName": "Mademoiselle",
+    "opdbId": "GrNVz-MLERP"
+  },
+  {
+    "machineName": "Kick Off",
+    "opdbId": "GRzed-MDBl4"
+  },
+  {
+    "machineName": "Black Jack",
+    "opdbId": "G5nbD-MDyXb"
+  },
+  {
+    "machineName": "Bride of Pinbot 2.0",
+    "opdbId": "GRpee-MJkyr"
+  },
+  {
+    "machineName": "Indianapolis 500",
+    "opdbId": "Gr8l3-MDWr0"
+  },
+  {
+    "machineName": "Southern Belle",
+    "opdbId": "Gry8L-MJd5z"
+  },
+  {
+    "machineName": "Ship-Mates",
+    "opdbId": "G4jvD-MJKjd"
+  },
+  {
+    "machineName": "Surf Side",
+    "opdbId": "G48XX-MDO3P"
+  },
+  {
+    "machineName": "Mac's Galaxy",
+    "opdbId": "G4Z6n-MQweZ"
+  },
+  {
+    "machineName": "Raid",
+    "opdbId": "Grd1n-MDepV"
+  },
+  {
+    "machineName": "Dark Rider",
+    "opdbId": "GRVnd-MLbOx"
+  },
+  {
+    "machineName": "Rocket",
+    "opdbId": "Gr1JJ-MJY40"
+  },
+  {
+    "machineName": "Mexico 86",
+    "opdbId": "GrxeN-MD0ky"
+  },
+  {
+    "machineName": "Grand Slam",
+    "opdbId": "G43j1-MJj12"
+  },
+  {
+    "machineName": "Spectra IV",
+    "opdbId": "GRnqe-MDn45"
+  },
+  {
+    "machineName": "WHO dunnit",
+    "opdbId": "G50kj-MDqpv"
+  },
+  {
+    "machineName": "Stardust",
+    "opdbId": "G4qO8-MJ6x3"
+  },
+  {
+    "machineName": "Derby Day",
+    "opdbId": "GR9DK-MQoy0"
+  },
+  {
+    "machineName": "Sweetheart",
+    "opdbId": "GnPdP-MQrxB"
+  },
+  {
+    "machineName": "Top Hand",
+    "opdbId": "G4EeX-MLzRl"
+  },
+  {
+    "machineName": "Stock Car",
+    "opdbId": "G4PQj-MQ4xo"
+  },
+  {
+    "machineName": "Spin-a-Card",
+    "opdbId": "G4ZQv-MQ7ER"
+  },
+  {
+    "machineName": "Jacks Open",
+    "opdbId": "GrPpb-ML3pn"
+  },
+  {
+    "machineName": "Neutron Star",
+    "opdbId": "GrlQV-ML1BY"
+  },
+  {
+    "machineName": "Torpedo Alley",
+    "opdbId": "G48on-ML8B9"
+  },
+  {
+    "machineName": "Big Ben",
+    "opdbId": "GRBo3-MLv0z"
+  },
+  {
+    "machineName": "Baseball",
+    "opdbId": "G4E2y-MJ5Pv"
+  },
+  {
+    "machineName": "Criterium 2000",
+    "opdbId": "GrNNL-MJpZl"
+  },
+  {
+    "machineName": "Duotron",
+    "opdbId": "G57OL-MDx1b"
+  },
+  {
+    "machineName": "Cleopatra",
+    "opdbId": "G5n1Q-MQPRP"
+  },
+  {
+    "machineName": "Rodeo",
+    "opdbId": "G5nNX-MJ950"
+  },
+  {
+    "machineName": "Skateboard",
+    "opdbId": "Grewp-MDEOP"
+  },
+  {
+    "machineName": "The Who's Tommy Pinball Wizard",
+    "opdbId": "GR6do-MLBq4"
+  },
+  {
+    "machineName": "Galaxy Ranger",
+    "opdbId": "G4ynZ-MLyZb"
+  },
+  {
+    "machineName": "Lortium",
+    "opdbId": "GRW3o-MQkNr"
+  },
+  {
+    "machineName": "Rock Star",
+    "opdbId": "GRbD8-MLWx0"
+  },
+  {
+    "machineName": "Cherokee",
+    "opdbId": "G5BE9-MDlVp"
+  },
+  {
+    "machineName": "Tag-Team Pinball",
+    "opdbId": "G5Yyo-MQdNz"
+  },
+  {
+    "machineName": "Nemesis",
+    "opdbId": "GrOLe-MQK3d"
+  },
+  {
+    "machineName": "Seven Up",
+    "opdbId": "G5BJx-MLO2P"
+  },
+  {
+    "machineName": "Bumper Pool",
+    "opdbId": "GRbWj-MJw1Z"
+  },
+  {
+    "machineName": "Magic Wizard",
+    "opdbId": "G5W6N-MLe6V"
+  },
+  {
+    "machineName": "Atlantis",
+    "opdbId": "G5w1Z-MDb8x"
+  },
+  {
+    "machineName": "Super Straight",
+    "opdbId": "G4xyp-MQ25n"
+  },
+  {
+    "machineName": "Batman (Standard Model)",
+    "opdbId": "G4yVw-MQY90"
+  },
+  {
+    "machineName": "Peter Pan",
+    "opdbId": "G4xV9-MJNoO"
+  },
+  {
+    "machineName": "Paragon",
+    "opdbId": "GrXy3-ML0Ey"
+  },
+  {
+    "machineName": "Stellar Airship",
+    "opdbId": "GrN7J-MQj62"
+  },
+  {
+    "machineName": "Majestic",
+    "opdbId": "GRQYv-MLn15"
+  },
+  {
+    "machineName": "Winner",
+    "opdbId": "Gr33p-MLqdv"
+  },
+  {
+    "machineName": "Pokerino",
+    "opdbId": "G5pn8-MJ5P4"
+  },
+  {
+    "machineName": "K. C. Jones",
+    "opdbId": "GryOX-MJpZN"
+  },
+  {
+    "machineName": "Cerberus",
+    "opdbId": "G4NvY-MDx14"
+  },
+  {
+    "machineName": "Perky",
+    "opdbId": "G4jN3-MQPRK"
+  },
+  {
+    "machineName": "Road Racer",
+    "opdbId": "G59wx-MJ92p"
+  },
+  {
+    "machineName": "Volèe",
+    "opdbId": "G5Q19-MDEy0"
+  },
+  {
+    "machineName": "Eight Ball Deluxe",
+    "opdbId": "G5KXk-MLB9V"
+  },
+  {
+    "machineName": "Pirate Gold",
+    "opdbId": "GRQQZ-MLyjq"
+  },
+  {
+    "machineName": "Family Fun!",
+    "opdbId": "GRoW6-MQk81"
+  },
+  {
+    "machineName": "Judge Dredd",
+    "opdbId": "GRoZw-MLW3j"
+  },
+  {
+    "machineName": "Pop-A-Card",
+    "opdbId": "GRL9Q-MDl8Z"
+  },
+  {
+    "machineName": "Gigi",
+    "opdbId": "G43ek-MQd7N"
+  },
+  {
+    "machineName": "Old Chicago",
+    "opdbId": "G4dJE-MQKoo"
+  },
+  {
+    "machineName": "Serenade",
+    "opdbId": "G5zkk-MLOoX"
+  },
+  {
+    "machineName": "X-Men",
+    "opdbId": "Grj6X-MJwj5"
+  },
+  {
+    "machineName": "Hot Line",
+    "opdbId": "GrZex-MLe41"
+  },
+  {
+    "machineName": "Bugs Bunny's Birthday Ball",
+    "opdbId": "GRozL-MDb46"
+  },
+  {
+    "machineName": "Dona Elvira 2",
+    "opdbId": "G5oVL-MQ2XK"
+  },
+  {
+    "machineName": "Skipper",
+    "opdbId": "GRvkP-MQYn1"
+  },
+  {
+    "machineName": "Dennis Lillee's Howzat!",
+    "opdbId": "GRzz6-MJN6K"
+  },
+  {
+    "machineName": "Wood's Queen (2P)",
+    "opdbId": "G5By3-ML0Xe"
+  },
+  {
+    "machineName": "King of Diamonds",
+    "opdbId": "GrlPj-MQjdp"
+  },
+  {
+    "machineName": "Spider-Man",
+    "opdbId": "G5D94-MLnXq"
+  },
+  {
+    "machineName": "Rainbow",
+    "opdbId": "GRobp-MDRWe"
+  },
+  {
+    "machineName": "Satellite",
+    "opdbId": "Grqwp-MQ626"
+  },
+  {
+    "machineName": "Gin",
+    "opdbId": "GrNNZ-MJoXP"
+  },
+  {
+    "machineName": "Seawitch",
+    "opdbId": "GR6kB-MDz81"
+  },
+  {
+    "machineName": "Hayburners II",
+    "opdbId": "G48Xw-MJ4XY"
+  },
+  {
+    "machineName": "Odds & Evens",
+    "opdbId": "G4NnZ-MD3vq"
+  },
+  {
+    "machineName": "Aladdin's Castle",
+    "opdbId": "G5oXq-MD82e"
+  },
+  {
+    "machineName": "Doozie",
+    "opdbId": "GRVk8-MJZnp"
+  },
+  {
+    "machineName": "Tales from the Crypt",
+    "opdbId": "GR6wO-MDvzk"
+  },
+  {
+    "machineName": "Happy Clown",
+    "opdbId": "G5WbJ-MQVn8"
+  },
+  {
+    "machineName": "Dimension",
+    "opdbId": "G48nw-MQ5V4"
+  },
+  {
+    "machineName": "Jalisco",
+    "opdbId": "G56xZ-MLx84"
+  },
+  {
+    "machineName": "TX-Sector",
+    "opdbId": "GRLzj-MJPYK"
+  },
+  {
+    "machineName": "Flipper Cowboy",
+    "opdbId": "G4yl6-MQ9op"
+  },
+  {
+    "machineName": "Conquest 200",
+    "opdbId": "G4E88-MLEo0"
+  },
+  {
+    "machineName": "Times Square",
+    "opdbId": "G5LP7-MDBBV"
+  },
+  {
+    "machineName": "Lucky Draw",
+    "opdbId": "G4x0p-MDyyq"
+  },
+  {
+    "machineName": "Hot & Cold (4P)",
+    "opdbId": "G5LVp-MJk21"
+  },
+  {
+    "machineName": "Foxy Lady",
+    "opdbId": "G48Ex-MDWNj"
+  },
+  {
+    "machineName": "Big Bang Bar",
+    "opdbId": "G56vo-MLl1Z"
+  },
+  {
+    "machineName": "Circa 1933",
+    "opdbId": "G4XD3-MJdVN"
+  },
+  {
+    "machineName": "Totem",
+    "opdbId": "G5YDN-MJKYo"
+  },
+  {
+    "machineName": "Galaxy",
+    "opdbId": "GrxJV-MDOXX"
+  },
+  {
+    "machineName": "Bullfight",
+    "opdbId": "G5pJQ-MQwE5"
+  },
+  {
+    "machineName": "Rancho",
+    "opdbId": "GrPJz-MLbe6"
+  },
+  {
+    "machineName": "Crescendo",
+    "opdbId": "GRpKY-MJYo1"
+  },
+  {
+    "machineName": "Drop-A-Card",
+    "opdbId": "GRL9Q-MQNXK"
+  },
+  {
+    "machineName": "Crazy Race",
+    "opdbId": "Gr1k2-MD0Ve"
+  },
+  {
+    "machineName": "Olympics",
+    "opdbId": "G4jE1-MJj3p"
+  },
+  {
+    "machineName": "Picnic",
+    "opdbId": "G4yJo-MDnVq"
+  },
+  {
+    "machineName": "Gondolier",
+    "opdbId": "Gr1wP-MDq3y"
+  },
+  {
+    "machineName": "Festival",
+    "opdbId": "G4lY9-MLRXe"
+  },
+  {
+    "machineName": "Close Encounters of the Third Kind (EM)",
+    "opdbId": "G4qvL-MJ6z6"
+  },
+  {
+    "machineName": "Top Hand",
+    "opdbId": "GRYbJ-MQo4P"
+  },
+  {
+    "machineName": "Shaq Attaq",
+    "opdbId": "G4PoV-MQr5e"
+  },
+  {
+    "machineName": "Jolly Jokers",
+    "opdbId": "GR0Q1-MLzk1"
+  },
+  {
+    "machineName": "Big Brave",
+    "opdbId": "GrXKb-MQ4OY"
+  },
+  {
+    "machineName": "Dyn O' Mite",
+    "opdbId": "G4yLE-MQ7nd"
+  },
+  {
+    "machineName": "West Club",
+    "opdbId": "GRLDP-ML3Oq"
+  },
+  {
+    "machineName": "Big Hunt",
+    "opdbId": "GrJPo-MDXVN"
+  },
+  {
+    "machineName": "24",
+    "opdbId": "GrEkZ-ML13O"
+  },
+  {
+    "machineName": "Genie",
+    "opdbId": "GRBKZ-ML8Oe"
+  },
+  {
+    "machineName": "Wild Wild West",
+    "opdbId": "G5LQ2-MQZ7p"
+  },
+  {
+    "machineName": "Count-Down",
+    "opdbId": "G56zB-MLv9k"
+  },
+  {
+    "machineName": "Strange Science",
+    "opdbId": "G5nzJ-MJVX8"
+  },
+  {
+    "machineName": "Big Ben",
+    "opdbId": "GRBo3-MJ5O4"
+  },
+  {
+    "machineName": "Band Wagon",
+    "opdbId": "GRVVb-MDxB4"
+  },
+  {
+    "machineName": "Stampede",
+    "opdbId": "GRQ79-MDE30"
+  },
+  {
+    "machineName": "Transformers",
+    "opdbId": "GRnPz-MLBzV"
+  },
+  {
+    "machineName": "Iron Man",
+    "opdbId": "GRVq4-MLyxq"
+  },
+  {
+    "machineName": "Big Foot",
+    "opdbId": "GR7qv-MQk31"
+  },
+  {
+    "machineName": "Challenger",
+    "opdbId": "GrN7J-MDlYZ"
+  },
+  {
+    "machineName": "Diamond Lady",
+    "opdbId": "G4jXW-MQdrN"
+  },
+  {
+    "machineName": "Double Barrel",
+    "opdbId": "G4dvX-MQKOo"
+  },
+  {
+    "machineName": "Playboy",
+    "opdbId": "GrPKO-MLO5X"
+  },
+  {
+    "machineName": "Wood's Queen (4P)",
+    "opdbId": "G5By3-MJw55"
+  },
+  {
+    "machineName": "Vacation America",
+    "opdbId": "G5nbz-MLeY1"
+  },
+  {
+    "machineName": "Speed Rush",
+    "opdbId": "G4qln-MDbq6"
+  },
+  {
+    "machineName": "Double Action",
+    "opdbId": "G5Qwv-MQ2jK"
+  },
+  {
+    "machineName": "Nostalgia",
+    "opdbId": "G5vqv-MJN3K"
+  },
+  {
+    "machineName": "Elite Guard",
+    "opdbId": "GrEDX-ML0We"
+  },
+  {
+    "machineName": "King Tut",
+    "opdbId": "Gr3qw-MQjYp"
+  },
+  {
+    "machineName": "Bobby Orr's Power Play",
+    "opdbId": "G4en0-MJ5vB"
+  },
+  {
+    "machineName": "Lovers",
+    "opdbId": "G4xlK-MJp6z"
+  },
+  {
+    "machineName": "Dragonfist",
+    "opdbId": "GRQkJ-MDxpK"
+  },
+  {
+    "machineName": "Gay 90's",
+    "opdbId": "Gr88w-MQPp9"
+  },
+  {
+    "machineName": "Easy Aces",
+    "opdbId": "G5p1j-MJ9zW"
+  },
+  {
+    "machineName": "Elektra",
+    "opdbId": "GRVld-MDE3l"
+  },
+  {
+    "machineName": "Palisades",
+    "opdbId": "GRvvl-MLBzn"
+  },
+  {
+    "machineName": "Silver Slugger",
+    "opdbId": "Gr8jd-MLyxK"
+  },
+  {
+    "machineName": "Take Five",
+    "opdbId": "G4XD3-MQk3l"
+  },
+  {
+    "machineName": "Centaur",
+    "opdbId": "GrX7q-MLWkn"
+  },
+  {
+    "machineName": "PlayMates",
+    "opdbId": "G4j8k-MDlYy"
+  },
+  {
+    "machineName": "Rockettes",
+    "opdbId": "GreB8-MQdrd"
+  },
+  {
+    "machineName": "Surf Rider",
+    "opdbId": "GRwPV-MLO58"
+  },
+  {
+    "machineName": "Elvis",
+    "opdbId": "G4qbX-MJw5r"
+  },
+  {
+    "machineName": "World Beauties",
+    "opdbId": "GRBpL-MLeYk"
+  },
+  {
+    "machineName": "El Dorado City of Gold",
+    "opdbId": "GrEZ5-MQ2jo"
+  },
+  {
+    "machineName": "Cherry Bell",
+    "opdbId": "GRKWZ-MQYWB"
+  },
+  {
+    "machineName": "Monte Carlo",
+    "opdbId": "G578Y-MJNzE"
+  },
+  {
+    "machineName": "Sea Shore",
+    "opdbId": "GryDO-ML032"
+  },
+  {
+    "machineName": "Dale Jr.",
+    "opdbId": "G5YWX-MQj9k"
+  },
+  {
+    "machineName": "Bushido",
+    "opdbId": "GrkVZ-MLnkl"
+  },
+  {
+    "machineName": "Cirqus Voltaire",
+    "opdbId": "GRVjJ-MLq7W"
+  },
+  {
+    "machineName": "Big Hit",
+    "opdbId": "GRLJp-MDRxv"
+  },
+  {
+    "machineName": "Champion Pub",
+    "opdbId": "G42k0-MQ6w9"
+  },
+  {
+    "machineName": "Lucky Strike",
+    "opdbId": "GrEZ5-MJoWX"
+  },
+  {
+    "machineName": "KZ-26",
+    "opdbId": "GRzwe-MJrK5"
+  },
+  {
+    "machineName": "Show Boat",
+    "opdbId": "Gr2KY-MDzXP"
+  },
+  {
+    "machineName": "Big Indian",
+    "opdbId": "GrXKb-MJ4ww"
+  },
+  {
+    "machineName": "Eight Ball",
+    "opdbId": "GrN7J-MJ78q"
+  },
+  {
+    "machineName": "BMX",
+    "opdbId": "G48NB-MD384"
+  },
+  {
+    "machineName": "Turf Champ",
+    "opdbId": "Grjq3-MLXkO"
+  },
+  {
+    "machineName": "Ro Go",
+    "opdbId": "G42OJ-MD1w4"
+  },
+  {
+    "machineName": "Tucson",
+    "opdbId": "GrP8X-MD86N"
+  },
+  {
+    "machineName": "Jumpin' Jacks",
+    "opdbId": "GrOP0-MJZlx"
+  },
+  {
+    "machineName": "Landing on Venus",
+    "opdbId": "G4dPD-MDvqp"
+  },
+  {
+    "machineName": "Shamrock",
+    "opdbId": "G5n7L-MQplz"
+  },
+  {
+    "machineName": "Prospector",
+    "opdbId": "Grlzn-MLxnK"
+  },
+  {
+    "machineName": "Kewpie Doll",
+    "opdbId": "GR6ox-MJP59"
+  },
+  {
+    "machineName": "Fast Draw",
+    "opdbId": "GRVoX-MLE7l"
+  },
+  {
+    "machineName": "Teacher's Pet",
+    "opdbId": "G5wpD-MDB3n"
+  },
+  {
+    "machineName": "Black Belt",
+    "opdbId": "G562j-MDyoK"
+  },
+  {
+    "machineName": "New York",
+    "opdbId": "GrlPK-MJkEl"
+  },
+  {
+    "machineName": "The Best Jump",
+    "opdbId": "G5pnl-MDWyn"
+  },
+  {
+    "machineName": "Sky Divers",
+    "opdbId": "G4dVX-MLlBy"
+  },
+  {
+    "machineName": "Big Shot",
+    "opdbId": "G5n1Q-MJKz4"
+  },
+  {
+    "machineName": "Alpha 2001",
+    "opdbId": "GRLdW-MDOz8"
+  },
+  {
+    "machineName": "Star Wars",
+    "opdbId": "G5w67-MDe1k"
+  },
+  {
+    "machineName": "No Good Gofers",
+    "opdbId": "G57X4-MLb1y"
+  },
+  {
+    "machineName": "Flag-Ship",
+    "opdbId": "G5pXO-MJ2eo"
+  },
+  {
+    "machineName": "NFL",
+    "opdbId": "GRVjq-MD0z2"
+  },
+  {
+    "machineName": "Score-Board",
+    "opdbId": "G42yY-MJj7k"
+  },
+  {
+    "machineName": "Riviera",
+    "opdbId": "G5wo9-MDn7l"
+  },
+  {
+    "machineName": "Bank-A-Ball",
+    "opdbId": "G9zpB-MLRzv"
+  },
+  {
+    "machineName": "Grand Tour",
+    "opdbId": "GrNx1-MJ6q9"
+  },
+  {
+    "machineName": "Monte Carlo",
+    "opdbId": "G5wLN-MQo7X"
+  },
+  {
+    "machineName": "World Poker Tour",
+    "opdbId": "G5poe-MQrb5"
+  },
+  {
+    "machineName": "Big Together",
+    "opdbId": "G5bNx-MLzNP"
+  },
+  {
+    "machineName": "Oh Boy",
+    "opdbId": "G5nLZ-MQ48w"
+  },
+  {
+    "machineName": "Niagara",
+    "opdbId": "G5v3l-ML3Z4"
+  },
+  {
+    "machineName": "Roy Clark Super Picker",
+    "opdbId": "G4J11-MDXwO"
+  },
+  {
+    "machineName": "Six Million Dollar Man",
+    "opdbId": "GrEke-ML8qN"
+  },
+  {
+    "machineName": "Star Trek",
+    "opdbId": "GRVnd-MQZzx"
+  },
+  {
+    "machineName": "Struggle Buggies",
+    "opdbId": "G4yNL-MJVOY"
+  },
+  {
+    "machineName": "Sky Warrior",
+    "opdbId": "Gr3VN-MJ5qB"
+  },
+  {
+    "machineName": "Cue Ball Wizard",
+    "opdbId": "G5vPd-MJp7z"
+  },
+  {
+    "machineName": "Satin Doll",
+    "opdbId": "G48YQ-MDxbK"
+  },
+  {
+    "machineName": "Caddie",
+    "opdbId": "G5pDZ-MQP09"
+  },
+  {
+    "machineName": "Triple Action",
+    "opdbId": "GRzny-MJ96W"
+  },
+  {
+    "machineName": "South Pacific",
+    "opdbId": "Gr1JJ-MDEXl"
+  },
+  {
+    "machineName": "Dogies",
+    "opdbId": "G4jZo-MLBbn"
+  },
+  {
+    "machineName": "Marathon",
+    "opdbId": "GrEYP-MLy2K"
+  },
+  {
+    "machineName": "Capersville",
+    "opdbId": "GrXex-MQk7l"
+  },
+  {
+    "machineName": "Spot-A-Card",
+    "opdbId": "GRoYp-MDlXy"
+  },
+  {
+    "machineName": "Centaur",
+    "opdbId": "G5bE7-MQdXd"
+  },
+  {
+    "machineName": "Gay Paree",
+    "opdbId": "G4dwK-MQK64"
+  },
+  {
+    "machineName": "Evil Fight",
+    "opdbId": "GRLbx-MLOn8"
+  },
+  {
+    "machineName": "Close Encounters of the Third Kind",
+    "opdbId": "G4qvL-MJwVr"
+  },
+  {
+    "machineName": "Alive",
+    "opdbId": "G5zjW-MLe7k"
+  },
+  {
+    "machineName": "Check Mate",
+    "opdbId": "GRBOy-MDb6y"
+  },
+  {
+    "machineName": "Piccadilly",
+    "opdbId": "GR63d-MQ2zo"
+  },
+  {
+    "machineName": "Ice Fever",
+    "opdbId": "G43DV-MQYKB"
+  },
+  {
+    "machineName": "Royal Flush",
+    "opdbId": "GrEWx-MJNpE"
+  },
+  {
+    "machineName": "Ice Show",
+    "opdbId": "GRnYX-ML0l2"
+  },
+  {
+    "machineName": "Hollywood",
+    "opdbId": "Grj7K-MQj8k"
+  },
+  {
+    "machineName": "Race-Way",
+    "opdbId": "G57eW-MLnel"
+  },
+  {
+    "machineName": "Sharp Shooter II",
+    "opdbId": "Gr8KB-MLqYW"
+  },
+  {
+    "machineName": "Lucky Strike",
+    "opdbId": "G5BQj-MJ5ep"
+  },
+  {
+    "machineName": "Criterium 75",
+    "opdbId": "G4Plz-MJpwZ"
+  },
+  {
+    "machineName": "El Toro",
+    "opdbId": "GrXpk-MDx98"
+  },
+  {
+    "machineName": "Card Whiz",
+    "opdbId": "GrEWx-MQPPX"
+  },
+  {
+    "machineName": "Fiesta",
+    "opdbId": "G5v6Y-MJ9nz"
+  },
+  {
+    "machineName": "Skill Flight",
+    "opdbId": "GRb7q-MDEn7"
+  },
+  {
+    "machineName": "Genesis",
+    "opdbId": "Gr2wz-MLBob"
+  },
+  {
+    "machineName": "King Pin",
+    "opdbId": "Gr3Qk-MQkZ9"
+  },
+  {
+    "machineName": "Star Race",
+    "opdbId": "G5VxP-MLWlV"
+  },
+  {
+    "machineName": "Full House",
+    "opdbId": "G4EeX-MDl4j"
+  },
+  {
+    "machineName": "The X Files",
+    "opdbId": "G4jPq-MQdlK"
+  },
+  {
+    "machineName": "Cosmic Wars",
+    "opdbId": "GrqJZ-MQKqK"
+  },
+  {
+    "machineName": "4 Roses",
+    "opdbId": "GRWz0-MLOxd"
+  },
+  {
+    "machineName": "Star Wars",
+    "opdbId": "G420r-MLedz"
+  },
+  {
+    "machineName": "Rodeo",
+    "opdbId": "GR9vD-MDbkK"
+  },
+  {
+    "machineName": "Jungle King",
+    "opdbId": "G5B0y-MQ2K0"
+  },
+  {
+    "machineName": "Gusher",
+    "opdbId": "G4EoQ-MQYK2"
+  },
+  {
+    "machineName": "Sunset",
+    "opdbId": "G59Ql-MJNpN"
+  },
+  {
+    "machineName": "Dixieland",
+    "opdbId": "GrND7-ML0l9"
+  },
+  {
+    "machineName": "Frontiersman",
+    "opdbId": "G4dbe-MQj8R"
+  },
+  {
+    "machineName": "Bird Man",
+    "opdbId": "G5QP6-MDREd"
+  },
+  {
+    "machineName": "Last Lap",
+    "opdbId": "GRzKW-MQ6er"
+  },
+  {
+    "machineName": "Firecracker",
+    "opdbId": "G5bKj-MJobp"
+  },
+  {
+    "machineName": "Travel Time",
+    "opdbId": "GrJED-MJrwv"
+  },
+  {
+    "machineName": "Bowl A Strike",
+    "opdbId": "G5BQj-MDzB7"
+  },
+  {
+    "machineName": "Airborne",
+    "opdbId": "G4EZe-MJ424"
+  },
+  {
+    "machineName": "Star Wars Episode I",
+    "opdbId": "GRL9r-MD34z"
+  },
+  {
+    "machineName": "Trail Drive",
+    "opdbId": "G5QZZ-MLXOj"
+  },
+  {
+    "machineName": "Cabaret",
+    "opdbId": "G5nx7-MD10r"
+  },
+  {
+    "machineName": "Rocket",
+    "opdbId": "G42BY-MD8ZY"
+  },
+  {
+    "machineName": "Atlas",
+    "opdbId": "GrXLd-MJZ3y"
+  },
+  {
+    "machineName": "Lariat",
+    "opdbId": "G5LQ2-MDvYV"
+  },
+  {
+    "machineName": "World Series",
+    "opdbId": "G43j1-MQVd4"
+  },
+  {
+    "machineName": "Ali",
+    "opdbId": "G43kO-MQ50p"
+  },
+  {
+    "machineName": "Black Rose",
+    "opdbId": "G5vZd-MQpWZ"
+  },
+  {
+    "machineName": "High Speed",
+    "opdbId": "GRvzd-MLxV8"
+  },
+  {
+    "machineName": "Jackpot",
+    "opdbId": "GR987-MJPEX"
+  },
+  {
+    "machineName": "Touch",
+    "opdbId": "GR7YL-MQ90z"
+  },
+  {
+    "machineName": "Lucky Card",
+    "opdbId": "GrPpb-MLEk7"
+  },
+  {
+    "machineName": "Zodiac",
+    "opdbId": "GRBBx-MDBEb"
+  },
+  {
+    "machineName": "Space Shuttle",
+    "opdbId": "G4jyz-MDyYE"
+  },
+  {
+    "machineName": "Crown Soccer Special",
+    "opdbId": "G5vjW-MJk99"
+  },
+  {
+    "machineName": "The Avengers",
+    "opdbId": "GRzNR-MLlEj"
+  },
+  {
+    "machineName": "Fairy",
+    "opdbId": "Gr8zQ-MJd3K"
+  },
+  {
+    "machineName": "Domino",
+    "opdbId": "G4j8k-MJK5K"
+  },
+  {
+    "machineName": "Team One",
+    "opdbId": "GRpZ2-MDO9d"
+  },
+  {
+    "machineName": "Global Warfare",
+    "opdbId": "G436N-MQw3K"
+  },
+  {
+    "machineName": "Big Jack",
+    "opdbId": "GR937-MDe3z"
+  },
+  {
+    "machineName": "Flip-VI",
+    "opdbId": "Gr3yE-MLb3K"
+  },
+  {
+    "machineName": "The Wizard of Oz",
+    "opdbId": "G4xyR-MJ2v0"
+  },
+  {
+    "machineName": "Poker Alley",
+    "opdbId": "GRBbJ-MJY12"
+  },
+  {
+    "machineName": "Shoo Shoo",
+    "opdbId": "GRwwl-MQNPN"
+  },
+  {
+    "machineName": "La Retata",
+    "opdbId": "GRvzd-MD0r9"
+  },
+  {
+    "machineName": "House of Diamonds",
+    "opdbId": "GRVpL-MJjPR"
+  },
+  {
+    "machineName": "Contact",
+    "opdbId": "G5v02-MDnyO"
+  },
+  {
+    "machineName": "Motordome",
+    "opdbId": "Gr8PN-MDqlN"
+  },
+  {
+    "machineName": "Night Rider (EM)",
+    "opdbId": "GryQj-MLRyd"
+  },
+  {
+    "machineName": "Dungeons & Dragons",
+    "opdbId": "G4JBP-MJ6jr"
+  },
+  {
+    "machineName": "Phantom of the Opera",
+    "opdbId": "Grq1D-MQokp"
+  },
+  {
+    "machineName": "Cleopatra",
+    "opdbId": "GrknN-MQrdv"
+  },
+  {
+    "machineName": "The Addams Family Gold",
+    "opdbId": "G4ODR-MLzY7"
+  },
+  {
+    "machineName": "Dragon (EM)",
+    "opdbId": "G4qPZ-MQ404"
+  },
+  {
+    "machineName": "Caddie",
+    "opdbId": "Grl0P-MQ705"
+  },
+  {
+    "machineName": "Cactus Jack's",
+    "opdbId": "G5bxy-ML30z"
+  },
+  {
+    "machineName": "Strike Zone",
+    "opdbId": "GRzYk-MDXRj"
+  },
+  {
+    "machineName": "Super Orbit",
+    "opdbId": "G4EPE-ML14r"
+  },
+  {
+    "machineName": "Speakeasy",
+    "opdbId": "GRbl7-ML8EY"
+  },
+  {
+    "machineName": "Orbit",
+    "opdbId": "G5o1K-MQZby"
+  },
+  {
+    "machineName": "Escape",
+    "opdbId": "G5v9V-MLvyV"
+  },
+  {
+    "machineName": "Gorgar",
+    "opdbId": "G5zd6-MJVo4"
+  },
+  {
+    "machineName": "Toreador",
+    "opdbId": "G4810-MJppZ"
+  },
+  {
+    "machineName": "Gulfstream",
+    "opdbId": "G4EJB-MDxW8"
+  },
+  {
+    "machineName": "Solar Fire",
+    "opdbId": "GRB26-MQPwX"
+  },
+  {
+    "machineName": "Playball",
+    "opdbId": "GR612-MJ9Bz"
+  },
+  {
+    "machineName": "Iron Maiden",
+    "opdbId": "G4yZN-MDEP7"
+  },
+  {
+    "machineName": "Psychedelic",
+    "opdbId": "GRpKY-MLylE"
+  },
+  {
+    "machineName": "Curling",
+    "opdbId": "Grl29-MQkR9"
+  },
+  {
+    "machineName": "Red Baron",
+    "opdbId": "GryvE-MLWVV"
+  },
+  {
+    "machineName": "Poseidon",
+    "opdbId": "GRoWo-MDl6j"
+  },
+  {
+    "machineName": "Big Top",
+    "opdbId": "GR9el-MQdRK"
+  },
+  {
+    "machineName": "Boogie",
+    "opdbId": "G4yLE-MQKWK"
+  },
+  {
+    "machineName": "Poker Plus (EM)",
+    "opdbId": "GrPyz-MLOOd"
+  },
+  {
+    "machineName": "Zira",
+    "opdbId": "G4lDV-MJwkK"
+  },
+  {
+    "machineName": "Be-Bop",
+    "opdbId": "GPBj9-MLeRz"
+  },
+  {
+    "machineName": "Icarus",
+    "opdbId": "G5pOY-MDbRK"
+  },
+  {
+    "machineName": "Mr. Doom",
+    "opdbId": "GrP1J-MQ240"
+  },
+  {
+    "machineName": "Tales of the Arabian Nights",
+    "opdbId": "G4llj-MQYb2"
+  },
+  {
+    "machineName": "Darts",
+    "opdbId": "G5WWb-MJNKN"
+  },
+  {
+    "machineName": "Fighting Irish",
+    "opdbId": "G5bye-ML0v9"
+  },
+  {
+    "machineName": "Tom Tom",
+    "opdbId": "G4EjL-MQjVR"
+  },
+  {
+    "machineName": "Rack 'Em Up",
+    "opdbId": "G4ywq-MLqxN"
+  },
+  {
+    "machineName": "Mr. Evil",
+    "opdbId": "G4N3O-MJ5xK"
+  },
+  {
+    "machineName": "Miss Universo",
+    "opdbId": "G5VQ8-MJppq"
+  },
+  {
+    "machineName": "Hi Ball",
+    "opdbId": "GR7j6-MDxWl"
+  },
+  {
+    "machineName": "F1 Grand Prix",
+    "opdbId": "G4Oye-MQPw8"
+  },
+  {
+    "machineName": "Hoe Down",
+    "opdbId": "G4J11-MJ9B1"
+  },
+  {
+    "machineName": "Lord of the Rings (LE)",
+    "opdbId": "GrqZX-MDEPd"
+  },
+  {
+    "machineName": "Hawaiian Beauty",
+    "opdbId": "GRzLZ-MLB5d"
+  },
+  {
+    "machineName": "Jolly Park",
+    "opdbId": "G4jWq-MLyl0"
+  },
+  {
+    "machineName": "Magic Picture Pin",
+    "opdbId": "GRD2P-MQknK"
+  },
+  {
+    "machineName": "Loop the Loop (AAB)",
+    "opdbId": "GrkYy-MLWz9"
+  },
+  {
+    "machineName": "Magic Town",
+    "opdbId": "G57xp-MDlj0"
+  },
+  {
+    "machineName": "Straight Flush",
+    "opdbId": "GrkK0-MQdjZ"
+  },
+  {
+    "machineName": "New Wave",
+    "opdbId": "GRB8Z-MQKXV"
+  },
+  {
+    "machineName": "Attila the Hun",
+    "opdbId": "GrZxD-MLO4Y"
+  },
+  {
+    "machineName": "Cue-Tee",
+    "opdbId": "G4O30-MJwBe"
+  },
+  {
+    "machineName": "WWF Royal Rumble",
+    "opdbId": "G57y6-MLej6"
+  },
+  {
+    "machineName": "Stampede",
+    "opdbId": "GRQ79-MQ2NZ"
+  },
+  {
+    "machineName": "Atarians",
+    "opdbId": "Gry9N-MQYVj"
+  },
+  {
+    "machineName": "Middle Earth",
+    "opdbId": "G4OzV-MJN4z"
+  },
+  {
+    "machineName": "Tropic Fun",
+    "opdbId": "G4EJB-ML0ez"
+  },
+  {
+    "machineName": "Joker Poker",
+    "opdbId": "GR9o1-MQjj8"
+  },
+  {
+    "machineName": "Star Trek",
+    "opdbId": "G42qQ-MLn3y"
+  },
+  {
+    "machineName": "Mustang (LE)",
+    "opdbId": "GrPOR-MLq5x"
+  },
+  {
+    "machineName": "Family Guy",
+    "opdbId": "G5LW9-MQ6N5"
+  },
+  {
+    "machineName": "Black Flag",
+    "opdbId": "G430p-MJojq"
+  },
+  {
+    "machineName": "Post Time",
+    "opdbId": "GR0W9-MJrpk"
+  },
+  {
+    "machineName": "Horsefeathers",
+    "opdbId": "GRwzK-MDzWe"
+  },
+  {
+    "machineName": "Oasis",
+    "opdbId": "GRYYZ-MJ4N3"
+  },
+  {
+    "machineName": "Monster Bash",
+    "opdbId": "Gr3EW-MD3Nj"
+  },
+  {
+    "machineName": "Satellite",
+    "opdbId": "GR0dd-MLXob"
+  },
+  {
+    "machineName": "Rock",
+    "opdbId": "Grk62-MD1qe"
+  },
+  {
+    "machineName": "Black Reed",
+    "opdbId": "G41DL-MD8NK"
+  },
+  {
+    "machineName": "Olympics",
+    "opdbId": "G5WKO-MJZRk"
+  },
+  {
+    "machineName": "Fair Lady",
+    "opdbId": "G41OP-MDvEj"
+  },
+  {
+    "machineName": "Spain 82",
+    "opdbId": "G4Zo1-MQV0j"
+  },
+  {
+    "machineName": "Expressway",
+    "opdbId": "G4xK8-MQ5jK"
+  },
+  {
+    "machineName": "Magic City",
+    "opdbId": "G57xp-MQp1q"
+  },
+  {
+    "machineName": "Top Hat",
+    "opdbId": "Gr3xX-MLxyl"
+  },
+  {
+    "machineName": "The Flipper Game",
+    "opdbId": "GrPEJ-MJP48"
+  },
+  {
+    "machineName": "Whirlwind",
+    "opdbId": "GrE7e-MQ9N1"
+  },
+  {
+    "machineName": "Around the World",
+    "opdbId": "G5bpE-MLE4d"
+  },
+  {
+    "machineName": "King Kong",
+    "opdbId": "G5BNq-MDB4d"
+  },
+  {
+    "machineName": "Sea Belles",
+    "opdbId": "G41OP-MDyk0"
+  },
+  {
+    "machineName": "South Pacific",
+    "opdbId": "G4q0l-MJdKZ"
+  },
+  {
+    "machineName": "Supersonic",
+    "opdbId": "G4xyV-MJK7V"
+  },
+  {
+    "machineName": "Beatniks (AAB)",
+    "opdbId": "G5bYP-MDO7Y"
+  },
+  {
+    "machineName": "Doctor Who",
+    "opdbId": "G4x2Y-MQwwe"
+  },
+  {
+    "machineName": "Lucky Ace",
+    "opdbId": "GRwW9-MDeO6"
+  },
+  {
+    "machineName": "Rio",
+    "opdbId": "GRw9Z-MLbl4"
+  },
+  {
+    "machineName": "All Stars",
+    "opdbId": "G4dyP-MJ2OZ"
+  },
+  {
+    "machineName": "Hook",
+    "opdbId": "G42EQ-MJYpj"
+  },
+  {
+    "machineName": "Hotdoggin'",
+    "opdbId": "GrENE-MD0dz"
+  },
+  {
+    "machineName": "Friendship \"7\"",
+    "opdbId": "GrxD0-MJjp8"
+  },
+  {
+    "machineName": "Soccer Kings",
+    "opdbId": "GR0VJ-MDnEy"
+  },
+  {
+    "machineName": "Meteor",
+    "opdbId": "G5b38-MDqkx"
+  },
+  {
+    "machineName": "Robo-War",
+    "opdbId": "GryK3-MQrWk"
+  },
+  {
+    "machineName": "Barracora",
+    "opdbId": "GRo7K-MQ4e3"
+  },
+  {
+    "machineName": "Band Wagon",
+    "opdbId": "G4kvy-MQ7pO"
+  },
+  {
+    "machineName": "Winner",
+    "opdbId": "G42nJ-ML3wj"
+  },
+  {
+    "machineName": "Silverball Mania",
+    "opdbId": "GRD2P-MDX5b"
+  },
+  {
+    "machineName": "Olympics",
+    "opdbId": "Gr8Q6-ML1Ke"
+  },
+  {
+    "machineName": "Galaxy",
+    "opdbId": "GrdDB-ML8xK"
+  },
+  {
+    "machineName": "Harem Cat",
+    "opdbId": "GR6qB-MQZxk"
+  },
+  {
+    "machineName": "Spirit",
+    "opdbId": "Grl9W-MLvOj"
+  },
+  {
+    "machineName": "Majorettes",
+    "opdbId": "GryxL-MJV7j"
+  },
+  {
+    "machineName": "Sinbad Adventures",
+    "opdbId": "G4xqN-MJ5bK"
+  },
+  {
+    "machineName": "Future World",
+    "opdbId": "G5Kl7-MDxel"
+  },
+  {
+    "machineName": "Lethal Weapon 3",
+    "opdbId": "GRokL-MQP78"
+  },
+  {
+    "machineName": "Star's Phoenix",
+    "opdbId": "G5VYY-MJ9V1"
+  },
+  {
+    "machineName": "Thing",
+    "opdbId": "GRB6P-MDEed"
+  },
+  {
+    "machineName": "Gemini",
+    "opdbId": "G5KPZ-MLBKd"
+  },
+  {
+    "machineName": "Andromeda",
+    "opdbId": "GrXOZ-MLyb0"
+  },
+  {
+    "machineName": "Show Boat",
+    "opdbId": "G4qp3-MQkrK"
+  },
+  {
+    "machineName": "Michael Jordan",
+    "opdbId": "G57EJ-MLWB9"
+  },
+  {
+    "machineName": "Lawman",
+    "opdbId": "GrEXx-MDlq0"
+  },
+  {
+    "machineName": "Creature from the Black Lagoon",
+    "opdbId": "GrNWn-MQdqZ"
+  },
+  {
+    "machineName": "Camel Lights",
+    "opdbId": "G43KY-MQKKV"
+  },
+  {
+    "machineName": "Little Joe",
+    "opdbId": "GRwO9-MLObY"
+  },
+  {
+    "machineName": "Super Tris",
+    "opdbId": "GRLpx-MJwxe"
+  },
+  {
+    "machineName": "Hi-Diver",
+    "opdbId": "G5DEb-MLeX6"
+  },
+  {
+    "machineName": "Temptation",
+    "opdbId": "G42bv-MDb24"
+  },
+  {
+    "machineName": "Deadly Weapon",
+    "opdbId": "Grj9q-MQ2EZ"
+  },
+  {
+    "machineName": "Cross Town",
+    "opdbId": "GrEQy-MQYkj"
+  },
+  {
+    "machineName": "North Star",
+    "opdbId": "GRV7Q-MJNez"
+  },
+  {
+    "machineName": "Jolly Joker",
+    "opdbId": "GrlEB-ML0Pz"
+  },
+  {
+    "machineName": "Jai Alai",
+    "opdbId": "GrelY-MQjq8"
+  },
+  {
+    "machineName": "Slugfest",
+    "opdbId": "Grkjn-MLnqy"
+  },
+  {
+    "machineName": "Whoa Nellie! Big Juicy Melons",
+    "opdbId": "GRYX4-MLqqx"
+  },
+  {
+    "machineName": "Fire!",
+    "opdbId": "G41Lo-MJp3y"
+  },
+  {
+    "machineName": "El Dorado",
+    "opdbId": "GrEZ5-MDxPP"
+  },
+  {
+    "machineName": "Golden Gloves",
+    "opdbId": "GRwNV-MQP2V"
+  },
+  {
+    "machineName": "Pyramid",
+    "opdbId": "GrknN-MJ9Kl"
+  },
+  {
+    "machineName": "Super Bowling",
+    "opdbId": "GRnBW-MDEBV"
+  },
+  {
+    "machineName": "Big Hit",
+    "opdbId": "G41xy-MLBPx"
+  },
+  {
+    "machineName": "Pole Position",
+    "opdbId": "Grlop-MLy9n"
+  },
+  {
+    "machineName": "Hot Hand",
+    "opdbId": "GRvNk-MQkro"
+  },
+  {
+    "machineName": "OXO",
+    "opdbId": "Gr87E-MLWBP"
+  },
+  {
+    "machineName": "World Cup '90",
+    "opdbId": "G56Y8-MDlqK"
+  },
+  {
+    "machineName": "Running Horse",
+    "opdbId": "G4ev3-MQdqY"
+  },
+  {
+    "machineName": "Sound Stage",
+    "opdbId": "G5Qnx-MQKKB"
+  },
+  {
+    "machineName": "Hairy Singers",
+    "opdbId": "G5VeQ-MLObw"
+  },
+  {
+    "machineName": "Stingray",
+    "opdbId": "G57lj-MJwxY"
+  },
+  {
+    "machineName": "Discotek",
+    "opdbId": "GRvlW-MLeXK"
+  },
+  {
+    "machineName": "Starfire",
+    "opdbId": "G4qDp-MDb20"
+  },
+  {
+    "machineName": "Space Riders",
+    "opdbId": "GrdzE-MQ2E6"
+  },
+  {
+    "machineName": "Bloody China",
+    "opdbId": "GrleW-MQYkZ"
+  },
+  {
+    "machineName": "Tee'd Off",
+    "opdbId": "G4yzj-ML0P4"
+  },
+  {
+    "machineName": "Mikoshi",
+    "opdbId": "G4Z9k-MQjqr"
+  },
+  {
+    "machineName": "Truck Stop",
+    "opdbId": "G5Y6O-MLn90"
+  },
+  {
+    "machineName": "World Fair",
+    "opdbId": "GrEyL-MLqy1"
+  },
+  {
+    "machineName": "Formula I",
+    "opdbId": "GrqBj-MDRw3"
+  },
+  {
+    "machineName": "Tim-Buc-Tu",
+    "opdbId": "GrlpL-MQ6EX"
+  },
+  {
+    "machineName": "Cowboy",
+    "opdbId": "G5wkx-MJoEZ"
+  },
+  {
+    "machineName": "Big Flipper",
+    "opdbId": "G5wkx-MJrkN"
+  },
+  {
+    "machineName": "Quartette",
+    "opdbId": "G5nn1-MJ7B2"
+  },
+  {
+    "machineName": "Paddock",
+    "opdbId": "GR0W9-MD3xO"
+  },
+  {
+    "machineName": "Auto Race",
+    "opdbId": "GR9WJ-MLX0W"
+  },
+  {
+    "machineName": "Lord of the Rings",
+    "opdbId": "GrqZX-MD15w"
+  },
+  {
+    "machineName": "Astro-Flite",
+    "opdbId": "GrdlQ-MD8yq"
+  },
+  {
+    "machineName": "Operation: Thunder",
+    "opdbId": "Gr3Lq-MJZo5"
+  },
+  {
+    "machineName": "All-Star Basketball",
+    "opdbId": "GRBeJ-MDvKY"
+  },
+  {
+    "machineName": "See Saw",
+    "opdbId": "G4lKk-MQ59j"
+  },
+  {
+    "machineName": "Lite-A-Card",
+    "opdbId": "G4j03-MQpBy"
+  },
+  {
+    "machineName": "Flipper Football",
+    "opdbId": "GRKKk-MLxwP"
+  },
+  {
+    "machineName": "Popeye Saves the Earth",
+    "opdbId": "GR0lW-MJPVV"
+  },
+  {
+    "machineName": "King Kool",
+    "opdbId": "GRBly-MQ9kl"
+  },
+  {
+    "machineName": "Space Walk",
+    "opdbId": "G56zB-MLEpV"
+  },
+  {
+    "machineName": "Gamatron",
+    "opdbId": "GRo6e-MDB2x"
+  },
+  {
+    "machineName": "Hits and Runs",
+    "opdbId": "G43XZ-MDyen"
+  },
+  {
+    "machineName": "Blue Chip",
+    "opdbId": "GrkNp-MJkpo"
+  },
+  {
+    "machineName": "Secret Service",
+    "opdbId": "G4qqv-MDW0P"
+  },
+  {
+    "machineName": "Set Up",
+    "opdbId": "G5BJx-MLlxK"
+  },
+  {
+    "machineName": "Quintette",
+    "opdbId": "GR77w-MJd0Y"
+  },
+  {
+    "machineName": "Carnival",
+    "opdbId": "GrOXo-MJKyB"
+  },
+  {
+    "machineName": "Gold Rush",
+    "opdbId": "GR987-MDOdw"
+  },
+  {
+    "machineName": "Schuss",
+    "opdbId": "GRBDx-MQwOY"
+  },
+  {
+    "machineName": "Toro",
+    "opdbId": "Gr1Q6-MDe0K"
+  },
+  {
+    "machineName": "Eye Of The Tiger",
+    "opdbId": "G4xqN-MLbX0"
+  },
+  {
+    "machineName": "Red & Ted's Road Show",
+    "opdbId": "G4dWd-MJ2p6"
+  },
+  {
+    "machineName": "Gunner",
+    "opdbId": "G4yWX-MJYzZ"
+  },
+  {
+    "machineName": "Mardi Gras",
+    "opdbId": "G5V0D-MQNl0"
+  },
+  {
+    "machineName": "4-Belles",
+    "opdbId": "G5DD0-MD014"
+  },
+  {
+    "machineName": "Olympic Hockey",
+    "opdbId": "G41WY-MJj5r"
+  },
+  {
+    "machineName": "Big Deal",
+    "opdbId": "G5vq2-MDnP0"
+  },
+  {
+    "machineName": "Hit Line",
+    "opdbId": "G41nY-MDqB1"
+  },
+  {
+    "machineName": "Whoa Nellie! Big Juicy Melons",
+    "opdbId": "GRYX4-MLRe3"
+  },
+  {
+    "machineName": "Casino Royale",
+    "opdbId": "GrEn8-MJ6yX"
+  },
+  {
+    "machineName": "Bronco",
+    "opdbId": "G42eb-MQo9Z"
+  },
+  {
+    "machineName": "Torpedo!!",
+    "opdbId": "G5p9k-MQryN"
+  },
+  {
+    "machineName": "Ben-Hur",
+    "opdbId": "GRY39-MLze0"
+  },
+  {
+    "machineName": "Double-Feature",
+    "opdbId": "GRLoV-MQ4Ex"
+  },
+  {
+    "machineName": "Solar Ride (EM)",
+    "opdbId": "GRDqo-MQ7k2"
+  },
+  {
+    "machineName": "Harley Davidson",
+    "opdbId": "G56lO-MDXpW"
+  },
+  {
+    "machineName": "Kings",
+    "opdbId": "GR7oK-ML1xw"
+  },
+  {
+    "machineName": "Four Seasons",
+    "opdbId": "G5WQN-ML8Wq"
+  },
+  {
+    "machineName": "Hit 'N' Run",
+    "opdbId": "GrPVx-MQZP5"
+  },
+  {
+    "machineName": "Hot Shot",
+    "opdbId": "G5n1Q-MLvdY"
+  },
+  {
+    "machineName": "Red White Blue",
+    "opdbId": "GrN1z-MJVNo"
+  },
+  {
+    "machineName": "Indiana Jones",
+    "opdbId": "G4e1d-MJ5Bj"
+  },
+  {
+    "machineName": "Loop the Loop",
+    "opdbId": "GrkYy-MDxOP"
+  },
+  {
+    "machineName": "Harem",
+    "opdbId": "G4l3P-MQPOV"
+  },
+  {
+    "machineName": "Clown",
+    "opdbId": "G5Wjo-MJ9ll"
+  },
+  {
+    "machineName": "Ten Stars",
+    "opdbId": "G4PW2-MDExV"
+  },
+  {
+    "machineName": "Bo Bo",
+    "opdbId": "GrPYp-MLBNx"
+  },
+  {
+    "machineName": "Electra-Pool",
+    "opdbId": "GrxdD-MLywn"
+  },
+  {
+    "machineName": "MiniZag",
+    "opdbId": "G4q68-MQk5o"
+  },
+  {
+    "machineName": "The Incredible Hulk",
+    "opdbId": "GRQW7-MLW5P"
+  },
+  {
+    "machineName": "The Hunter",
+    "opdbId": "G4Od9-MDlpK"
+  },
+  {
+    "machineName": "Aztec",
+    "opdbId": "GRpLk-MQdOY"
+  },
+  {
+    "machineName": "Joly Captain",
+    "opdbId": "G4eVQ-MQKkB"
+  },
+  {
+    "machineName": "Colors",
+    "opdbId": "G5b0Z-MLOKw"
+  },
+  {
+    "machineName": "Star Battle",
+    "opdbId": "G50xd-MDbV0"
+  },
+  {
+    "machineName": "Space Time",
+    "opdbId": "GRvE1-MQ2P6"
+  },
+  {
+    "machineName": "Aces High",
+    "opdbId": "G56BE-MQYxZ"
+  },
+  {
+    "machineName": "Flying Carpet",
+    "opdbId": "GrNPZ-MJNd0"
+  },
+  {
+    "machineName": "Circus",
+    "opdbId": "G42bD-MQjNr"
+  },
+  {
+    "machineName": "Jolly Roger",
+    "opdbId": "G4djP-MLnz0"
+  },
+  {
+    "machineName": "Colorama",
+    "opdbId": "GRBjX-MLqz1"
+  },
+  {
+    "machineName": "Big Game",
+    "opdbId": "G4jQw-MJ5rl"
+  },
+  {
+    "machineName": "Soccer",
+    "opdbId": "GRn8D-MJpzR"
+  },
+  {
+    "machineName": "Hi Dolly",
+    "opdbId": "G5Ypy-MDxx7"
+  },
+  {
+    "machineName": "Metallica (Premium)",
+    "opdbId": "GRBE4-MJ9rE"
+  },
+  {
+    "machineName": "Striker",
+    "opdbId": "G5YEE-MDEVO"
+  },
+  {
+    "machineName": "Roto",
+    "opdbId": "Gr2jZ-MLBr9"
+  },
+  {
+    "machineName": "Papillon",
+    "opdbId": "GRQEO-MLyPy"
+  },
+  {
+    "machineName": "Gold Ball",
+    "opdbId": "Grjlx-MQkz3"
+  },
+  {
+    "machineName": "Brave Team",
+    "opdbId": "G5vxV-MDlzX"
+  },
+  {
+    "machineName": "The Red Max",
+    "opdbId": "G57W3-MQdzl"
+  },
+  {
+    "machineName": "Rawhide",
+    "opdbId": "GRQ79-MQKr5"
+  },
+  {
+    "machineName": "Ramp Warrior",
+    "opdbId": "G5Y6O-MLOqO"
+  },
+  {
+    "machineName": "Mad World",
+    "opdbId": "Grl21-MJwpB"
+  },
+  {
+    "machineName": "The Hobbit",
+    "opdbId": "G5bYr-MLezO"
+  },
+  {
+    "machineName": "Nine Ball",
+    "opdbId": "G4jjx-MDbz2"
+  },
+  {
+    "machineName": "Amazon Hunt II",
+    "opdbId": "GrJkp-MQ21p"
+  },
+  {
+    "machineName": "Buckaroo",
+    "opdbId": "GRzow-MQYqx"
+  },
+  {
+    "machineName": "Checkpoint",
+    "opdbId": "G4Jdp-MJNrr"
+  },
+  {
+    "machineName": "Space Wars",
+    "opdbId": "GrN7J-MQjXy"
+  },
+  {
+    "machineName": "Ski Club",
+    "opdbId": "G5K3O-MLnzo"
+  },
+  {
+    "machineName": "Square Head",
+    "opdbId": "GRKB8-MLqzr"
+  },
+  {
+    "machineName": "Royal Pair",
+    "opdbId": "G4JND-MDR6K"
+  },
+  {
+    "machineName": "White Force",
+    "opdbId": "GRnW8-MQ66o"
+  },
+  {
+    "machineName": "Cosmic Pinball",
+    "opdbId": "GrE68-MJozw"
+  },
+  {
+    "machineName": "Gold Rush",
+    "opdbId": "Gr1PE-MDz9j"
+  },
+  {
+    "machineName": "Super Score",
+    "opdbId": "GR6XE-MJ436"
+  },
+  {
+    "machineName": "Showtime",
+    "opdbId": "GRKNz-MJ7rW"
+  },
+  {
+    "machineName": "Jockey Club",
+    "opdbId": "G4lqL-MD36o"
+  },
+  {
+    "machineName": "Kicker",
+    "opdbId": "G5Qed-MLX4Z"
+  },
+  {
+    "machineName": "Star Pool",
+    "opdbId": "G4O30-MD18o"
+  },
+  {
+    "machineName": "Flash Dragon",
+    "opdbId": "G4ZPD-MD8rV"
+  },
+  {
+    "machineName": "Big Show",
+    "opdbId": "G5oxB-MJZqX"
+  },
+  {
+    "machineName": "Riverboat Gambler",
+    "opdbId": "G4E0z-MDvl7"
+  },
+  {
+    "machineName": "Goldeneye",
+    "opdbId": "G43wE-MQV5K"
+  },
+  {
+    "machineName": "Red Shoes",
+    "opdbId": "G50NP-MQp9R"
+  },
+  {
+    "machineName": "Hi-Score",
+    "opdbId": "GR6XE-MQ9eE"
+  },
+  {
+    "machineName": "Storm",
+    "opdbId": "Grypn-MLEEO"
+  },
+  {
+    "machineName": "Golden Arrow",
+    "opdbId": "G5WPp-MDBx9"
+  },
+  {
+    "machineName": "Jacks to Open",
+    "opdbId": "GrPpb-MDyOy"
+  },
+  {
+    "machineName": "Jungle Princess",
+    "opdbId": "GrNnr-MJkj3"
+  },
+  {
+    "machineName": "Force II",
+    "opdbId": "G5Wpk-MDWpy"
+  },
+  {
+    "machineName": "Star Wars Trilogy",
+    "opdbId": "GrybN-MLl5X"
+  },
+  {
+    "machineName": "Joust",
+    "opdbId": "Grxk8-MJdwl"
+  },
+  {
+    "machineName": "Bloody Roller",
+    "opdbId": "GrjdW-MJKd5"
+  },
+  {
+    "machineName": "Atleta",
+    "opdbId": "GRn9J-MDOeO"
+  },
+  {
+    "machineName": "Pinky",
+    "opdbId": "GrkDY-MQwdB"
+  },
+  {
+    "machineName": "Fun-Fair",
+    "opdbId": "G5V6N-MDeeO"
+  },
+  {
+    "machineName": "Mystic Marvel",
+    "opdbId": "Grdpe-MLbK2"
+  },
+  {
+    "machineName": "Jolly Ride",
+    "opdbId": "Gr1zL-MJ2kp"
+  },
+  {
+    "machineName": "Barb Wire",
+    "opdbId": "GRwyv-MQNwr"
+  },
+  {
+    "machineName": "Hockey Girl",
+    "opdbId": "Gry16-MD0BB"
+  },
+  {
+    "machineName": "Tic-Tac-Toe",
+    "opdbId": "GreoN-MJj0y"
+  },
+  {
+    "machineName": "Split Second",
+    "opdbId": "GRLbz-MDnxo"
+  },
+  {
+    "machineName": "Joust",
+    "opdbId": "G4den-MLRYK"
+  },
+  {
+    "machineName": "Thunderbird",
+    "opdbId": "GRWLD-MJ6Ko"
+  },
+  {
+    "machineName": "Blackout",
+    "opdbId": "GRwYo-MQoPw"
+  },
+  {
+    "machineName": "Dodge City",
+    "opdbId": "GrJen-MQ4l6"
+  },
+  {
+    "machineName": "Heavy Metal Meltdown",
+    "opdbId": "GRo3e-MQ7OW"
+  },
+  {
+    "machineName": "Tag-Team Pinball",
+    "opdbId": "G5Yyo-ML3Wo"
+  },
+  {
+    "machineName": "3 Jokers",
+    "opdbId": "GrkK0-MDXxZ"
+  },
+  {
+    "machineName": "Star Fire",
+    "opdbId": "G5nOY-ML1yo"
+  },
+  {
+    "machineName": "Strato-Flite",
+    "opdbId": "GrdlQ-ML8wV"
+  },
+  {
+    "machineName": "Snow Queen",
+    "opdbId": "GRKZV-MQZ9X"
+  },
+  {
+    "machineName": "Night Rider",
+    "opdbId": "GryQj-MLvN7"
+  },
+  {
+    "machineName": "Locomotion",
+    "opdbId": "G4d7B-MJVlK"
+  },
+  {
+    "machineName": "Swords of Fury",
+    "opdbId": "GrPzV-MDxj7"
+  },
+  {
+    "machineName": "A.G. Soccer-Ball",
+    "opdbId": "G5wxv-MQP9z"
+  },
+  {
+    "machineName": "Sharkey's Shootout",
+    "opdbId": "GRwv0-MJ99E"
+  },
+  {
+    "machineName": "Rio",
+    "opdbId": "GrJy1-MDEbO"
+  },
+  {
+    "machineName": "Camelot",
+    "opdbId": "G4yY2-MLyny"
+  },
+  {
+    "machineName": "F-14 Tomcat",
+    "opdbId": "GRY2O-MLWdy"
+  },
+  {
+    "machineName": "Baby Pac-Man",
+    "opdbId": "G5Kvx-MQdpl"
+  },
+  {
+    "machineName": "Speed Way",
+    "opdbId": "G41WL-MQKn5"
+  },
+  {
+    "machineName": "Flipper Pool",
+    "opdbId": "GrxdD-MLOPO"
+  },
+  {
+    "machineName": "Freefall",
+    "opdbId": "G5W9p-MJw0B"
+  },
+  {
+    "machineName": "Miss World",
+    "opdbId": "G4jXr-MLexO"
+  },
+  {
+    "machineName": "Devil's Dare",
+    "opdbId": "GrNkY-MDbn2"
+  },
+  {
+    "machineName": "Circus Circus",
+    "opdbId": "G57dv-MQ20p"
+  },
+  {
+    "machineName": "Flying Aces",
+    "opdbId": "G5B3L-MQYOx"
+  },
+  {
+    "machineName": "Wrath of Olympus",
+    "opdbId": "G5zyN-MJNxr"
+  },
+  {
+    "machineName": "Spitfire",
+    "opdbId": "G50qY-ML0YB"
+  },
+  {
+    "machineName": "The Lost World Jurassic Park",
+    "opdbId": "G4kBL-MLndo"
+  },
+  {
+    "machineName": "Tiger Rag",
+    "opdbId": "GR67j-MLqwr"
+  },
+  {
+    "machineName": "Big Valley",
+    "opdbId": "Gr1lY-MJ55W"
+  },
+  {
+    "machineName": "Safe Cracker",
+    "opdbId": "GRBxq-MJpOP"
+  },
+  {
+    "machineName": "Buck Rogers",
+    "opdbId": "GRw8o-MDxjq"
+  },
+  {
+    "machineName": "World Cup Soccer",
+    "opdbId": "G42E2-MQP9e"
+  },
+  {
+    "machineName": "Bon Voyage",
+    "opdbId": "GRLNQ-MDEb1"
+  },
+  {
+    "machineName": "Vagabond",
+    "opdbId": "G4Pvp-MLBO0"
+  },
+  {
+    "machineName": "Dragonette",
+    "opdbId": "G5DD0-MLynv"
+  },
+  {
+    "machineName": "Flying Chariots",
+    "opdbId": "GR6ex-MQkke"
+  },
+  {
+    "machineName": "Bonanza",
+    "opdbId": "GR6NE-MLWd4"
+  },
+  {
+    "machineName": "Disco '79",
+    "opdbId": "Gr83Y-MDlW2"
+  },
+  {
+    "machineName": "Criterium 80",
+    "opdbId": "GRo0B-MQdpe"
+  },
+  {
+    "machineName": "Terminator 3: Rise of the Machines",
+    "opdbId": "GR91N-MLOyE"
+  },
+  {
+    "machineName": "Moulin Rouge",
+    "opdbId": "GRDjY-MJwZ4"
+  },
+  {
+    "machineName": "Dealer's Choice",
+    "opdbId": "GRwW9-MDbo7"
+  },
+  {
+    "machineName": "Magic Castle",
+    "opdbId": "G5v2B-MQ2xy"
+  },
+  {
+    "machineName": "Amigo",
+    "opdbId": "G4ONX-MQY24"
+  },
+  {
+    "machineName": "Strike",
+    "opdbId": "GRpyl-MJNBo"
+  },
+  {
+    "machineName": "Red Show",
+    "opdbId": "GrP7X-ML05X"
+  },
+  {
+    "machineName": "Hi-Lo Ace",
+    "opdbId": "G5V3y-MQjo3"
+  },
+  {
+    "machineName": "Indiana Jones: The Pinball Adventure",
+    "opdbId": "G4xZy-MLno6"
+  },
+  {
+    "machineName": "Big House",
+    "opdbId": "GR07v-MDRlz"
+  },
+  {
+    "machineName": "Spanish Eyes",
+    "opdbId": "GrOjX-MJook"
+  },
+  {
+    "machineName": "Cover Girl",
+    "opdbId": "GRvbo-MJroP"
+  },
+  {
+    "machineName": "Harley Davidson",
+    "opdbId": "Gr2L0-MDz1W"
+  },
+  {
+    "machineName": "Buck Rogers",
+    "opdbId": "GRKx7-MJ49e"
+  },
+  {
+    "machineName": "Sky Rider",
+    "opdbId": "G50Oy-MJ7yl"
+  },
+  {
+    "machineName": "Freedom",
+    "opdbId": "GR9qY-MD3Px"
+  },
+  {
+    "machineName": "Ten Spot",
+    "opdbId": "GRoYk-MLXbp"
+  },
+  {
+    "machineName": "Eros One",
+    "opdbId": "G5LOx-MD1p8"
+  },
+  {
+    "machineName": "Flicker",
+    "opdbId": "GrEOB-MJZYw"
+  },
+  {
+    "machineName": "Jungle Lord",
+    "opdbId": "G5nkY-MDv88"
+  },
+  {
+    "machineName": "Time Machine",
+    "opdbId": "GRnoY-MQVwx"
+  },
+  {
+    "machineName": "Super Spin",
+    "opdbId": "G4qzZ-MQpoP"
+  },
+  {
+    "machineName": "Globe Trotter",
+    "opdbId": "G5pqX-MLx3q"
+  },
+  {
+    "machineName": "Grand Champion",
+    "opdbId": "G5BdJ-MJPke"
+  },
+  {
+    "machineName": "Sheriff",
+    "opdbId": "GrEXx-MQ9Wb"
+  },
+  {
+    "machineName": "Lexy Lightspeed Escape From Earth",
+    "opdbId": "G4doo-MLEj1"
+  },
+  {
+    "machineName": "Target Alpha",
+    "opdbId": "GrEZ5-MDBY0"
+  },
+  {
+    "machineName": "21",
+    "opdbId": "G48W0-MDy3v"
+  },
+  {
+    "machineName": "Lady Death",
+    "opdbId": "G417e-MJkoe"
+  },
+  {
+    "machineName": "Lost World",
+    "opdbId": "G5pEk-MDWe4"
+  },
+  {
+    "machineName": "Lady Luck",
+    "opdbId": "G5pzQ-MLlr2"
+  },
+  {
+    "machineName": "4 Aces",
+    "opdbId": "GrqK8-MJdoe"
+  },
+  {
+    "machineName": "Devil Riders",
+    "opdbId": "G5DPP-MJKbp"
+  },
+  {
+    "machineName": "Lucky Smile",
+    "opdbId": "G4Zjo-MQw84"
+  },
+  {
+    "machineName": "Amazon Hunt III",
+    "opdbId": "G5Lk0-MDeVZ"
+  },
+  {
+    "machineName": "Bus Stop",
+    "opdbId": "G41BE-MLbw7"
+  },
+  {
+    "machineName": "Monte Rosa",
+    "opdbId": "GrNoL-MJ2by"
+  },
+  {
+    "machineName": "A-Go-Go",
+    "opdbId": "G5oO9-MJYE4"
+  },
+  {
+    "machineName": "Mystery Castle",
+    "opdbId": "G5vZZ-MQNNo"
+  },
+  {
+    "machineName": "Beat Time",
+    "opdbId": "GRwqD-MD0wX"
+  },
+  {
+    "machineName": "Vegas",
+    "opdbId": "GrEXp-MJjn3"
+  },
+  {
+    "machineName": "Magnotron",
+    "opdbId": "G57OL-MDqr7"
+  },
+  {
+    "machineName": "Star Shooter",
+    "opdbId": "G4d9E-MLRqz"
+  },
+  {
+    "machineName": "Sweet Add-A-Line",
+    "opdbId": "GR9xv-MJ60e"
+  },
+  {
+    "machineName": "Super Bowl",
+    "opdbId": "GRpWD-MQork"
+  },
+  {
+    "machineName": "Yukon",
+    "opdbId": "GR987-MQrrP"
+  },
+  {
+    "machineName": "Pinball Lizard",
+    "opdbId": "GR9ko-MLzrW"
+  },
+  {
+    "machineName": "Lectronamo",
+    "opdbId": "GRWd2-MQ4Ye"
+  },
+  {
+    "machineName": "Las Vegas",
+    "opdbId": "G4Jzo-MQ7jl"
+  },
+  {
+    "machineName": "Super Star",
+    "opdbId": "G5WKO-ML32x"
+  },
+  {
+    "machineName": "Hang-On",
+    "opdbId": "GRVOY-ML1e8"
+  },
+  {
+    "machineName": "Maverick",
+    "opdbId": "GrN9V-ML8nw"
+  },
+  {
+    "machineName": "Faces",
+    "opdbId": "GRQvx-MLv18"
+  },
+  {
+    "machineName": "Granada",
+    "opdbId": "GrOjX-MJVxx"
+  },
+  {
+    "machineName": "Crazy Clock",
+    "opdbId": "G5zld-MJ5NW"
+  },
+  {
+    "machineName": "Happy-Go-Lucky",
+    "opdbId": "GRVJw-MJprP"
+  },
+  {
+    "machineName": "No Fear: Dangerous Sports",
+    "opdbId": "Gr2Y2-MDxZq"
+  },
+  {
+    "machineName": "Airport",
+    "opdbId": "GrOQ1-MQPje"
+  },
+  {
+    "machineName": "Space Odyssey",
+    "opdbId": "GRnX6-MJ9qb"
+  },
+  {
+    "machineName": "Roller Disco",
+    "opdbId": "G48qn-MDEl1"
+  },
+  {
+    "machineName": "Jumpin' Jack's",
+    "opdbId": "G5QLj-MLBy0"
+  },
+  {
+    "machineName": "Ready...Aim...Fire!",
+    "opdbId": "GRL2z-MQkqe"
+  },
+  {
+    "machineName": "Travel Time",
+    "opdbId": "GrJED-MLWP4"
+  },
+  {
+    "machineName": "Flame of Athens",
+    "opdbId": "G5LOx-MDlR2"
+  },
+  {
+    "machineName": "Flash",
+    "opdbId": "Grypn-MQdbe"
+  },
+  {
+    "machineName": "Ten-Up",
+    "opdbId": "GR6DZ-MLOWE"
+  },
+  {
+    "machineName": "Crossroads",
+    "opdbId": "GR97v-MJwq4"
+  },
+  {
+    "machineName": "Outer Space",
+    "opdbId": "G5o1K-MLeEZ"
+  },
+  {
+    "machineName": "James Cameron's Avatar",
+    "opdbId": "GrZBr-MDbx7"
+  },
+  {
+    "machineName": "Canasta 86",
+    "opdbId": "GrEpb-MQ2By"
+  },
+  {
+    "machineName": "Hot Tip",
+    "opdbId": "Grep0-MQYN4"
+  },
+  {
+    "machineName": "Defender",
+    "opdbId": "G5p7D-MJNVo"
+  },
+  {
+    "machineName": "Top Speed",
+    "opdbId": "G5Yn9-ML09X"
+  },
+  {
+    "machineName": "Bone Busters Inc.",
+    "opdbId": "G5Lk0-MQjl3"
+  },
+  {
+    "machineName": "Mystic",
+    "opdbId": "G5Bnl-MLnw6"
+  },
+  {
+    "machineName": "Phoenix",
+    "opdbId": "GRQp6-MJ5Wq"
+  },
+  {
+    "machineName": "Gold Star",
+    "opdbId": "GRKyL-MJpbw"
+  },
+  {
+    "machineName": "Flight 2000",
+    "opdbId": "G48kY-MDxRV"
+  },
+  {
+    "machineName": "James Bond 007",
+    "opdbId": "G4PXJ-MQPlw"
+  },
+  {
+    "machineName": "Criss Cross",
+    "opdbId": "GRvpY-MJ9ON"
+  },
+  {
+    "machineName": "Mustang",
+    "opdbId": "GR6bk-MDE6e"
+  },
+  {
+    "machineName": "Rock 'N Roll",
+    "opdbId": "GrjKk-MLBnP"
+  },
+  {
+    "machineName": "Real",
+    "opdbId": "GRBV9-MLy6e"
+  },
+  {
+    "machineName": "Terminator 2: Judgment Day",
+    "opdbId": "GR9Bx-MQkd5"
+  },
+  {
+    "machineName": "Playboy 35th Anniversary",
+    "opdbId": "GRL60-MLW2q"
+  },
+  {
+    "machineName": "Now",
+    "opdbId": "G4JZv-MDlK5"
+  },
+  {
+    "machineName": "Valiant",
+    "opdbId": "G5B1X-MQd9p"
+  },
+  {
+    "machineName": "Hula-Hula",
+    "opdbId": "GR7Lp-MQKEP"
+  },
+  {
+    "machineName": "Volley",
+    "opdbId": "G5Q19-MLeEN"
+  },
+  {
+    "machineName": "Striker Xtreme",
+    "opdbId": "GRVjq-MDbxp"
+  },
+  {
+    "machineName": "Jungle Queen",
+    "opdbId": "GrNnr-MQ2Bw"
+  },
+  {
+    "machineName": "Big Casino",
+    "opdbId": "GrEvL-MQYNY"
+  },
+  {
+    "machineName": "X-Men (LE)",
+    "opdbId": "Grj6X-MJNV1"
+  },
+  {
+    "machineName": "Orbit 1",
+    "opdbId": "G50jJ-ML09x"
+  },
+  {
+    "machineName": "Topaz",
+    "opdbId": "G5n1e-MQjlv"
+  },
+  {
+    "machineName": "Valencia",
+    "opdbId": "G5nj6-MLnwY"
+  },
+  {
+    "machineName": "Rack-A-Ball",
+    "opdbId": "GrqN3-MLq20"
+  },
+  {
+    "machineName": "Iron Man Classic",
+    "opdbId": "GRVq4-MDRKr"
+  },
+  {
+    "machineName": "Road Race",
+    "opdbId": "G4PQj-MQ6l8"
+  },
+  {
+    "machineName": "8 Ball",
+    "opdbId": "G592K-MJoxd"
+  },
+  {
+    "machineName": "Gold Wings",
+    "opdbId": "G5WXd-MJrER"
+  },
+  {
+    "machineName": "Hit the Deck",
+    "opdbId": "GRoWo-MDzOZ"
+  },
+  {
+    "machineName": "Space Ship",
+    "opdbId": "G5YXp-MJ4RW"
+  },
+  {
+    "machineName": "Sweet Hearts",
+    "opdbId": "G4JwE-MLXB3"
+  },
+  {
+    "machineName": "Pharaoh",
+    "opdbId": "G41vn-MD1jB"
+  },
+  {
+    "machineName": "4 Square",
+    "opdbId": "GryO2-MD8v2"
+  },
+  {
+    "machineName": "Sing Along",
+    "opdbId": "GrPkZ-MJZk7"
+  },
+  {
+    "machineName": "Eight Ball Champ",
+    "opdbId": "G439V-MDvWZ"
+  },
+  {
+    "machineName": "Strike",
+    "opdbId": "GRpyl-MQV9B"
+  },
+  {
+    "machineName": "Fireball (Home Model)",
+    "opdbId": "G48ZN-MQ56q"
+  },
+  {
+    "machineName": "Galahad",
+    "opdbId": "G4yY2-MQpPw"
+  },
+  {
+    "machineName": "Queen of Hearts",
+    "opdbId": "G5YNB-MLxdV"
+  },
+  {
+    "machineName": "Stop 'N' Go",
+    "opdbId": "G43v8-MJPvw"
+  },
+  {
+    "machineName": "Fun-Fest",
+    "opdbId": "G5L1Q-MQ9vN"
+  },
+  {
+    "machineName": "Viper",
+    "opdbId": "G5vXB-MLEve"
+  },
+  {
+    "machineName": "Space Ship",
+    "opdbId": "G5YVk-MDBvP"
+  },
+  {
+    "machineName": "Vegas",
+    "opdbId": "GrqVL-MDyKe"
+  },
+  {
+    "machineName": "Cosmic Princess",
+    "opdbId": "G4d9B-MJk65"
+  },
+  {
+    "machineName": "Quick Draw",
+    "opdbId": "GRVoX-MDWEq"
+  },
+  {
+    "machineName": "Arabian Knights",
+    "opdbId": "G59Xv-MJdYp"
+  },
+  {
+    "machineName": "Pinbot",
+    "opdbId": "G41Z8-MJKvP"
+  },
+  {
+    "machineName": "Devil King",
+    "opdbId": "G5QOw-MDOv0"
+  },
+  {
+    "machineName": "Sea Wolf",
+    "opdbId": "G57NK-MQwlq"
+  },
+  {
+    "machineName": "Spin-A-Card",
+    "opdbId": "G4ZQv-MDeNN"
+  },
+  {
+    "machineName": "Algar",
+    "opdbId": "G5nQQ-MLbbp"
+  },
+  {
+    "machineName": "Star Light",
+    "opdbId": "GRB86-MJ2nw"
+  },
+  {
+    "machineName": "Green Pastures",
+    "opdbId": "Gr12y-MJYyY"
+  },
+  {
+    "machineName": "World Challenge Soccer",
+    "opdbId": "GreOx-MQNv1"
+  },
+  {
+    "machineName": "Sexy Girl",
+    "opdbId": "GrkOB-MD00x"
+  },
+  {
+    "machineName": "Palace Guard",
+    "opdbId": "GRLD2-MJjRv"
+  },
+  {
+    "machineName": "San Francisco",
+    "opdbId": "GRLwP-MDnpY"
+  },
+  {
+    "machineName": "Cleopatra (EM)",
+    "opdbId": "GrknN-MDqV0"
+  },
+  {
+    "machineName": "Space Team",
+    "opdbId": "G4kyZ-MLR5r"
+  },
+  {
+    "machineName": "Wonderland",
+    "opdbId": "GRwPK-MJ6o8"
+  },
+  {
+    "machineName": "Space Station",
+    "opdbId": "G5QXO-MQowd"
+  },
+  {
+    "machineName": "Casbah",
+    "opdbId": "Gr3J1-MQr2R"
+  },
+  {
+    "machineName": "Ripley's Believe It or Not!",
+    "opdbId": "GRWyB-MLz6Z"
+  },
+  {
+    "machineName": "Nascar",
+    "opdbId": "G5YWX-MQ4VW"
+  },
+  {
+    "machineName": "Viking",
+    "opdbId": "G57kN-MQ71K"
+  },
+  {
+    "machineName": "Shrek",
+    "opdbId": "G5LW9-ML371"
+  },
+  {
+    "machineName": "Canasta",
+    "opdbId": "G4lOy-MDXN3"
+  },
+  {
+    "machineName": "Dealer",
+    "opdbId": "Grjn1-ML1vB"
+  },
+  {
+    "machineName": "FJ",
+    "opdbId": "GrlEV-ML872"
+  },
+  {
+    "machineName": "Strange World",
+    "opdbId": "GRYox-MJV2B"
+  },
+  {
+    "machineName": "Twin Win",
+    "opdbId": "G5Q9b-MJ5Zq"
+  },
+  {
+    "machineName": "Triple Action",
+    "opdbId": "GRzny-MJpew"
+  },
+  {
+    "machineName": "Big Star",
+    "opdbId": "GRV2y-MQPdw"
+  },
+  {
+    "machineName": "Rocket III",
+    "opdbId": "G42XB-MJ93N"
+  },
+  {
+    "machineName": "Pink Panther",
+    "opdbId": "Gre72-MDE5e"
+  },
+  {
+    "machineName": "Home Run",
+    "opdbId": "GR612-MLyRe"
+  },
+  {
+    "machineName": "Black Magic",
+    "opdbId": "GryXn-MQkl5"
+  },
+  {
+    "machineName": "Karate Fight",
+    "opdbId": "G562j-MLWYq"
+  },
+  {
+    "machineName": "War",
+    "opdbId": "GRvo2-MQdPp"
+  },
+  {
+    "machineName": "Big Deal",
+    "opdbId": "G4l61-MQKBP"
+  },
+  {
+    "machineName": "Egg Head",
+    "opdbId": "GrOx6-MLOV0"
+  },
+  {
+    "machineName": "Comodin",
+    "opdbId": "Grlvk-MJwnq"
+  },
+  {
+    "machineName": "3-D",
+    "opdbId": "GRz0q-MLe9N"
+  },
+  {
+    "machineName": "Deluxe Jumbo",
+    "opdbId": "GrX36-MDbpp"
+  },
+  {
+    "machineName": "America's Most Haunted",
+    "opdbId": "G4ELZ-MQ27w"
+  },
+  {
+    "machineName": "Lights...Camera...Action!",
+    "opdbId": "GrlZe-MQY0Y"
+  },
+  {
+    "machineName": "Congo",
+    "opdbId": "GrNd0-MJNW1"
+  },
+  {
+    "machineName": "Combat",
+    "opdbId": "GryPZ-ML07x"
+  },
+  {
+    "machineName": "Monte Carlo",
+    "opdbId": "G4NnZ-MQjWv"
+  },
+  {
+    "machineName": "Gladiators",
+    "opdbId": "G4P9q-MLnOY"
+  },
+  {
+    "machineName": "Space Train",
+    "opdbId": "GrN0J-MLqb0"
+  },
+  {
+    "machineName": "Big Guns",
+    "opdbId": "G4d8k-MJ5Z8"
+  },
+  {
+    "machineName": "Jubilee",
+    "opdbId": "GrPnx-MJpex"
+  },
+  {
+    "machineName": "Nifty",
+    "opdbId": "G57Q0-MDxo2"
+  },
+  {
+    "machineName": "Shamrock",
+    "opdbId": "G43bp-MJ9jZ"
+  },
+  {
+    "machineName": "Duette Deluxe",
+    "opdbId": "G5vyl-MDE9Y"
+  },
+  {
+    "machineName": "Mephisto",
+    "opdbId": "GrqXv-MLBpw"
+  },
+  {
+    "machineName": "Jack•Bot",
+    "opdbId": "GRKOX-MLyrW"
+  },
+  {
+    "machineName": "Foto Finish",
+    "opdbId": "GRV1D-MQkOy"
+  },
+  {
+    "machineName": "Shindig",
+    "opdbId": "Gr3Nj-MLWnx"
+  },
+  {
+    "machineName": "Mariner",
+    "opdbId": "G4jBk-MDlw8"
+  },
+  {
+    "machineName": "Street Fighter II",
+    "opdbId": "G5BYQ-MQdBV"
+  },
+  {
+    "machineName": "2 in 1",
+    "opdbId": "GRBWj-MQKlO"
+  },
+  {
+    "machineName": "Summer Time",
+    "opdbId": "GrJED-MLOwz"
+  },
+  {
+    "machineName": "Sunday on Ice",
+    "opdbId": "G48W6-MJw6V"
+  },
+  {
+    "machineName": "Highways",
+    "opdbId": "G4j0D-MLeyd"
+  },
+  {
+    "machineName": "Captain Hook",
+    "opdbId": "G4jeW-MDb93"
+  },
+  {
+    "machineName": "Royal Flash",
+    "opdbId": "GrPNp-MQ2w4"
+  },
+  {
+    "machineName": "Dark Shadow",
+    "opdbId": "G4eQ2-MJNO7"
+  },
+  {
+    "machineName": "Cue-Tease",
+    "opdbId": "GRYdp-ML0KP"
+  },
+  {
+    "machineName": "Paul Bunyan",
+    "opdbId": "GR937-MQjK5"
+  },
+  {
+    "machineName": "Monza",
+    "opdbId": "G5Qx7-MLnbP"
+  },
+  {
+    "machineName": "Eight Ball Deluxe (LE)",
+    "opdbId": "G5KXk-MLqNz"
+  },
+  {
+    "machineName": "Boomerang",
+    "opdbId": "GrEOB-MDR2Y"
+  },
+  {
+    "machineName": "The Best Corsair",
+    "opdbId": "G5L8W-MQ6Yp"
+  },
+  {
+    "machineName": "Iron Balls",
+    "opdbId": "G59LZ-MJo2o"
+  },
+  {
+    "machineName": "Flying High",
+    "opdbId": "GRbZZ-MJr0r"
+  },
+  {
+    "machineName": "Arrow Head",
+    "opdbId": "G5z1q-MDzz5"
+  },
+  {
+    "machineName": "Laser Cue",
+    "opdbId": "GRvJV-MJ4bR"
+  },
+  {
+    "machineName": "Raven",
+    "opdbId": "GrJWP-MJ7N1"
+  },
+  {
+    "machineName": "Pinball (EM)",
+    "opdbId": "GrZXj-MD3ee"
+  },
+  {
+    "machineName": "Back to the Future",
+    "opdbId": "GRpbW-MLXq2"
+  },
+  {
+    "machineName": "Blue Ribbon",
+    "opdbId": "Gr388-MD1On"
+  },
+  {
+    "machineName": "Casino",
+    "opdbId": "GRWNb-MD80l"
+  },
+  {
+    "machineName": "Six Sticks",
+    "opdbId": "GRWeJ-MJZ68"
+  },
+  {
+    "machineName": "Bali-Hi",
+    "opdbId": "GRDJx-MDvRo"
+  },
+  {
+    "machineName": "50/50",
+    "opdbId": "GR0yN-MQVjz"
+  },
+  {
+    "machineName": "Frank Thomas' Big Hurt",
+    "opdbId": "G4kzN-MQpYx"
+  },
+  {
+    "machineName": "Crocket",
+    "opdbId": "GR00k-MLxN2"
+  },
+  {
+    "machineName": "Argosy",
+    "opdbId": "Gr31Y-MQ9bZ"
+  },
+  {
+    "machineName": "Tri Zone",
+    "opdbId": "GrxNK-MLEzY"
+  },
+  {
+    "machineName": "Cue",
+    "opdbId": "G4kqd-MDB6w"
+  },
+  {
+    "machineName": "Keops",
+    "opdbId": "GR70j-MDyVW"
+  },
+  {
+    "machineName": "Poker Face",
+    "opdbId": "G5bzW-MDWbx"
+  },
+  {
+    "machineName": "Pool Champion",
+    "opdbId": "G4jex-MLly8"
+  },
+  {
+    "machineName": "Twin Bill",
+    "opdbId": "GrN1B-MJd4V"
+  },
+  {
+    "machineName": "Miss Annabelle",
+    "opdbId": "G4JqB-MJK9O"
+  },
+  {
+    "machineName": "Pistol Poker",
+    "opdbId": "GRLL9-MDOkz"
+  },
+  {
+    "machineName": "Robin Hood",
+    "opdbId": "G4XW0-MDe5d"
+  },
+  {
+    "machineName": "Alien (Pro)",
+    "opdbId": "G4PBO-MLbr3"
+  },
+  {
+    "machineName": "Lazy-Q",
+    "opdbId": "Grq8J-MJ2W4"
+  },
+  {
+    "machineName": "Big Dryvers",
+    "opdbId": "G43WO-MJYYV"
+  },
+  {
+    "machineName": "Mr. & Mrs. Pac-Man",
+    "opdbId": "Gr2Dk-MQNy7"
+  },
+  {
+    "machineName": "Centaur II",
+    "opdbId": "GrX7q-MD0yP"
+  },
+  {
+    "machineName": "The Wiggler",
+    "opdbId": "G4x9D-MJjE5"
+  },
+  {
+    "machineName": "Surf Champ",
+    "opdbId": "GrZwo-MDnWP"
+  },
+  {
+    "machineName": "Cosmos",
+    "opdbId": "G5p2Y-MDqKz"
+  },
+  {
+    "machineName": "Kick-Off",
+    "opdbId": "Gr8L0-MLRdY"
+  },
+  {
+    "machineName": "Captain Kidd",
+    "opdbId": "G41YP-MJ6Op"
+  },
+  {
+    "machineName": "NBA Fastbreak",
+    "opdbId": "GrO0D-MQolo"
+  },
+  {
+    "machineName": "The Empire Strikes Back",
+    "opdbId": "GRVqP-MQrOr"
+  },
+  {
+    "machineName": "Io Moon",
+    "opdbId": "G42W2-MLzj5"
+  },
+  {
+    "machineName": "Harvey",
+    "opdbId": "G4jbP-MQ4dR"
+  },
+  {
+    "machineName": "Batman",
+    "opdbId": "GrOpb-MQ7w1"
+  },
+  {
+    "machineName": "UFO-X",
+    "opdbId": "GrZb1-ML3le"
+  },
+  {
+    "machineName": "Demolition Classic",
+    "opdbId": "G5vVk-MDX22"
+  },
+  {
+    "machineName": "Sweet Sioux",
+    "opdbId": "G503n-ML8el"
+  },
+  {
+    "machineName": "Junk Yard",
+    "opdbId": "GRLlj-MQZN8"
+  },
+  {
+    "machineName": "Zip-A-Doo",
+    "opdbId": "GrdKP-MLv2o"
+  },
+  {
+    "machineName": "Top Card",
+    "opdbId": "G4JND-MJ5K8"
+  },
+  {
+    "machineName": "Hot Race",
+    "opdbId": "GRVby-MJpdx"
+  },
+  {
+    "machineName": "Marble Queen",
+    "opdbId": "G560e-MDx52"
+  },
+  {
+    "machineName": "Lady Luck",
+    "opdbId": "GrOBL-MQP13"
+  },
+  {
+    "machineName": "Cobra",
+    "opdbId": "G50zO-MJ97Z"
+  },
+  {
+    "machineName": "Palooka",
+    "opdbId": "G5pJd-MDE1Y"
+  },
+  {
+    "machineName": "Sea Ray",
+    "opdbId": "G4jBk-MLB1w"
+  },
+  {
+    "machineName": "Flashman",
+    "opdbId": "G5Q0J-MQkYy"
+  },
+  {
+    "machineName": "Duette",
+    "opdbId": "G5vyl-MLW1x"
+  },
+  {
+    "machineName": "Speakeasy",
+    "opdbId": "G4Xdq-MDlN8"
+  },
+  {
+    "machineName": "Top Ten",
+    "opdbId": "G5vwv-MQddV"
+  },
+  {
+    "machineName": "Apocalypse Now",
+    "opdbId": "G4Zyj-MQK1O"
+  },
+  {
+    "machineName": "Banjo",
+    "opdbId": "G5zOy-MLO1z"
+  },
+  {
+    "machineName": "Race the Clock",
+    "opdbId": "G42yx-MJw7V"
+  },
+  {
+    "machineName": "Melody",
+    "opdbId": "GrPkZ-MLeKd"
+  },
+  {
+    "machineName": "Volcano",
+    "opdbId": "GrEzp-MDbW3"
+  },
+  {
+    "machineName": "Gold Strike",
+    "opdbId": "GrEZ5-MQ2q4"
+  },
+  {
+    "machineName": "Laser War",
+    "opdbId": "G5one-MQY5V"
+  },
+  {
+    "machineName": "KISS (Premium)",
+    "opdbId": "G4qX5-MJN17"
+  },
+  {
+    "machineName": "Safari",
+    "opdbId": "GR6X2-MQj25"
+  },
+  {
+    "machineName": "Wood's Queen (1P)",
+    "opdbId": "G5By3-MLnjP"
+  },
+  {
+    "machineName": "3-In-Line",
+    "opdbId": "G41e6-MLqRz"
+  },
+  {
+    "machineName": "Casanova",
+    "opdbId": "GRYey-MJ5od"
+  },
+  {
+    "machineName": "Firepower",
+    "opdbId": "G5VDd-MJpqO"
+  },
+  {
+    "machineName": "Triple Strike",
+    "opdbId": "GR9YD-MQP1j"
+  },
+  {
+    "machineName": "The Games",
+    "opdbId": "GR9NZ-MJ97O"
+  },
+  {
+    "machineName": "Moon Shot",
+    "opdbId": "GRp0d-MDE1v"
+  },
+  {
+    "machineName": "Serenade",
+    "opdbId": "G4qpp-MLypr"
+  },
+  {
+    "machineName": "Underwater",
+    "opdbId": "GRWVw-MQkYB"
+  },
+  {
+    "machineName": "Attack from Mars",
+    "opdbId": "G4do5-MDlN7"
+  },
+  {
+    "machineName": "Rolling Stones",
+    "opdbId": "G5Qz4-MQddv"
+  },
+  {
+    "machineName": "Metallica (Pro)",
+    "opdbId": "GRBE4-MQK1Z"
+  },
+  {
+    "machineName": "Super Mario Bros.",
+    "opdbId": "GRBzQ-MLO1j"
+  },
+  {
+    "machineName": "Surfers",
+    "opdbId": "GryyO-MJw7z"
+  },
+  {
+    "machineName": "Slick Chick",
+    "opdbId": "Gre8z-MLeK2"
+  },
+  {
+    "machineName": "Hoops",
+    "opdbId": "G4j2z-MDb0Z"
+  },
+  {
+    "machineName": "Frontier",
+    "opdbId": "GRwjq-MQ29Y"
+  },
+  {
+    "machineName": "Liberty Bell",
+    "opdbId": "GrNJO-MQYd6"
+  },
+  {
+    "machineName": "Falstaff",
+    "opdbId": "GR0Yn-MJN52"
+  },
+  {
+    "machineName": "Jungle",
+    "opdbId": "G5B0y-ML0xb"
+  },
+  {
+    "machineName": "Punchy",
+    "opdbId": "GrNjq-MQjzb"
+  },
+  {
+    "machineName": "Cosmic Gunfight",
+    "opdbId": "GRv7B-MLqPd"
+  },
+  {
+    "machineName": "Black Knight (LE)",
+    "opdbId": "GrO7w-MDR9W"
+  },
+  {
+    "machineName": "KISS",
+    "opdbId": "G4jXr-MQ6kz"
+  },
+  {
+    "machineName": "Fantasy",
+    "opdbId": "GrX7q-MJop6"
+  },
+  {
+    "machineName": "Bow and Arrow",
+    "opdbId": "GRoqq-MJr9K"
+  },
+  {
+    "machineName": "Circus",
+    "opdbId": "G5oxB-MDzKN"
+  },
+  {
+    "machineName": "Super Score",
+    "opdbId": "G43lX-MJ4B2"
+  },
+  {
+    "machineName": "Blue Max",
+    "opdbId": "GryvE-MD3E5"
+  },
+  {
+    "machineName": "King Rex",
+    "opdbId": "Gr3qw-MD1PK"
+  },
+  {
+    "machineName": "Freddy: A Nightmare On Elm Street",
+    "opdbId": "GRzB7-MD8ld"
+  },
+  {
+    "machineName": "Student Prince",
+    "opdbId": "G42XZ-MDvkd"
+  },
+  {
+    "machineName": "Top Score",
+    "opdbId": "G5W1w-MQVkq"
+  },
+  {
+    "machineName": "Poker Plus",
+    "opdbId": "GrPyz-MQ5yd"
+  },
+  {
+    "machineName": "Alien Star",
+    "opdbId": "G4xwQ-MQpVO"
+  },
+  {
+    "machineName": "Fish Tales",
+    "opdbId": "G5Wxd-MLxl3"
+  },
+  {
+    "machineName": "Asteroid Annie and the Aliens",
+    "opdbId": "G59bo-MJPxj"
+  },
+  {
+    "machineName": "Pit Stop",
+    "opdbId": "GrPkj-MLEqv"
+  },
+  {
+    "machineName": "Jubilee",
+    "opdbId": "Gr3J1-MDB07"
+  },
+  {
+    "machineName": "Atlantis",
+    "opdbId": "GrNlV-MDydr"
+  },
+  {
+    "machineName": "Stop and Go",
+    "opdbId": "G48pZ-MJkVB"
+  },
+  {
+    "machineName": "Medusa",
+    "opdbId": "G4xXQ-MDWW1"
+  },
+  {
+    "machineName": "Tropic Isle",
+    "opdbId": "G5L3N-MLl77"
+  },
+  {
+    "machineName": "Big Kick",
+    "opdbId": "GrX80-MJdnv"
+  },
+  {
+    "machineName": "Haunted House",
+    "opdbId": "G5BP6-MJK4Z"
+  },
+  {
+    "machineName": "Minstrel Man",
+    "opdbId": "G4xx7-MDOpj"
+  },
+  {
+    "machineName": "Saloon",
+    "opdbId": "GrEqX-MLbvZ"
+  },
+  {
+    "machineName": "Wild Life",
+    "opdbId": "G5B0y-MJ26Y"
+  },
+  {
+    "machineName": "Capri",
+    "opdbId": "Gryoo-MJYv6"
+  },
+  {
+    "machineName": "Astro",
+    "opdbId": "GryO2-MQN82"
+  },
+  {
+    "machineName": "Classy Bowler",
+    "opdbId": "GrPDn-MD0qb"
+  },
+  {
+    "machineName": "Twist",
+    "opdbId": "GRDne-MDnv4"
+  },
+  {
+    "machineName": "Car Hop",
+    "opdbId": "Grd6d-MLR8W"
+  },
+  {
+    "machineName": "Black Flag",
+    "opdbId": "G430p-MJ64z"
+  },
+  {
+    "machineName": "Four Corners",
+    "opdbId": "G5pqj-MQov6"
+  },
+  {
+    "machineName": "Wagon Train",
+    "opdbId": "GrPYn-MQrvK"
+  },
+  {
+    "machineName": "Crossword",
+    "opdbId": "GRYJD-MLzvN"
+  },
+  {
+    "machineName": "Nags",
+    "opdbId": "GRV1N-MQ4r2"
+  },
+  {
+    "machineName": "Twinky",
+    "opdbId": "GrND1-MQ770"
+  },
+  {
+    "machineName": "Sinbad (EM)",
+    "opdbId": "G4xqN-ML3o5"
+  },
+  {
+    "machineName": "Spot-Pool",
+    "opdbId": "GrZ0J-ML1VK"
+  },
+  {
+    "machineName": "Viper Night Drivin'",
+    "opdbId": "G4Obw-ML83d"
+  },
+  {
+    "machineName": "Horseshoes",
+    "opdbId": "GR6Le-MQZ8o"
+  },
+  {
+    "machineName": "Black Gold",
+    "opdbId": "G4qy6-MLvvd"
+  },
+  {
+    "machineName": "4 Queens",
+    "opdbId": "GRwKx-MJV8q"
+  },
+  {
+    "machineName": "Poker Face",
+    "opdbId": "Grx69-MJ5zd"
+  },
+  {
+    "machineName": "Pin Ball Pool",
+    "opdbId": "G5KXk-MJpvO"
+  },
+  {
+    "machineName": "Chance",
+    "opdbId": "G4PqX-MDxv3"
+  },
+  {
+    "machineName": "Ski Jump",
+    "opdbId": "GRzxO-MQP8j"
+  },
+  {
+    "machineName": "The Bally Game Show",
+    "opdbId": "G5V92-MJ9XO"
+  },
+  {
+    "machineName": "Polo",
+    "opdbId": "G59j7-MDE8v"
+  },
+  {
+    "machineName": "Fireball II",
+    "opdbId": "Gry7q-MLyvr"
+  },
+  {
+    "machineName": "Varkon",
+    "opdbId": "G5Lvz-MQkvB"
+  },
+  {
+    "machineName": "Gaucho",
+    "opdbId": "GrdqX-MLW81"
+  },
+  {
+    "machineName": "Hot Tip (EM)",
+    "opdbId": "Grep0-MDlv7"
+  },
+  {
+    "machineName": "Time Warp",
+    "opdbId": "G5wJo-MQdvv"
+  },
+  {
+    "machineName": "Transformers The Pin",
+    "opdbId": "Grd2o-MQK8Z"
+  },
+  {
+    "machineName": "Playboy",
+    "opdbId": "G43z8-MLO8j"
+  },
+  {
+    "machineName": "Nine Sisters",
+    "opdbId": "GRny1-MDbBZ"
+  },
+  {
+    "machineName": "Ski Jump",
+    "opdbId": "G59y1-MQ2VY"
+  },
+  {
+    "machineName": "Full Throttle",
+    "opdbId": "G5V8q-MQYZ6"
+  },
+  {
+    "machineName": "T.K.O.",
+    "opdbId": "GrJxV-MJNZ2"
+  },
+  {
+    "machineName": "Star Gazer",
+    "opdbId": "GrZY2-ML0Rb"
+  },
+  {
+    "machineName": "Mach 2",
+    "opdbId": "G4lVe-MQjwb"
+  },
+  {
+    "machineName": "Harbor Lites",
+    "opdbId": "GRVdN-MLnY4"
+  },
+  {
+    "machineName": "Comet",
+    "opdbId": "Gryd3-MLqjd"
+  },
+  {
+    "machineName": "Preview",
+    "opdbId": "G5wXJ-MJ54V"
+  },
+  {
+    "machineName": "Mousin' Around!",
+    "opdbId": "G43oq-MJp02"
+  },
+  {
+    "machineName": "Spooky",
+    "opdbId": "Gr1j8-MDxzp"
+  },
+  {
+    "machineName": "Robocop",
+    "opdbId": "Grlxe-MJ916"
+  },
+  {
+    "machineName": "Balls-A-Poppin",
+    "opdbId": "G5KJW-MDEZn"
+  },
+  {
+    "machineName": "Lost In Space",
+    "opdbId": "GR91x-MLBZE"
+  },
+  {
+    "machineName": "The Simpsons",
+    "opdbId": "G5VBJ-MLy4l"
+  },
+  {
+    "machineName": "Joker's Wild",
+    "opdbId": "GrPJ2-MQken"
+  },
+  {
+    "machineName": "Flying Saucers",
+    "opdbId": "G4JlO-MLWZ7"
+  },
+  {
+    "machineName": "Stage Coach",
+    "opdbId": "GRLE7-MQdk0"
+  },
+  {
+    "machineName": "Mundial 90",
+    "opdbId": "Gr3yE-MQKZk"
+  },
+  {
+    "machineName": "Lucky Hand",
+    "opdbId": "GrPpb-MLOZq"
+  },
+  {
+    "machineName": "Frontier",
+    "opdbId": "GRwjq-MJwrd"
+  },
+  {
+    "machineName": "Rock Encore",
+    "opdbId": "Grk62-MLeWx"
+  },
+  {
+    "machineName": "Black Jack (EM)",
+    "opdbId": "G5nbD-MDbBo"
+  },
+  {
+    "machineName": "Pretty Baby",
+    "opdbId": "G5zDw-MQ2Vb"
+  },
+  {
+    "machineName": "Royal Flush Deluxe",
+    "opdbId": "GRwlz-MQYZN"
+  },
+  {
+    "machineName": "Daffie",
+    "opdbId": "GRVk8-ML0R7"
+  },
+  {
+    "machineName": "Blackwater 100",
+    "opdbId": "G5K6X-MQjwK"
+  },
+  {
+    "machineName": "Blue Note",
+    "opdbId": "GRbD8-MLnYW"
+  },
+  {
+    "machineName": "Far Out",
+    "opdbId": "G5zQO-MLqjR"
+  },
+  {
+    "machineName": "Gator",
+    "opdbId": "GRDQ1-MDRZ9"
+  },
+  {
+    "machineName": "The Flintstones",
+    "opdbId": "GRK95-MQ674"
+  },
+  {
+    "machineName": "Disney TRON: Legacy (LE)",
+    "opdbId": "GrkL5-MJoNN"
+  },
+  {
+    "machineName": "Taxi",
+    "opdbId": "GrN90-MJrnj"
+  },
+  {
+    "machineName": "Geisha",
+    "opdbId": "GRb1z-MDz73"
+  },
+  {
+    "machineName": "Music Man",
+    "opdbId": "Grlb3-MJ4z7"
+  },
+  {
+    "machineName": "Magic",
+    "opdbId": "G4eyp-MJ7XY"
+  },
+  {
+    "machineName": "Spooksville",
+    "opdbId": "G4XBb-MD3Vd"
+  },
+  {
+    "machineName": "Little Chief",
+    "opdbId": "G410D-MLX76"
+  },
+  {
+    "machineName": "Royal Guard",
+    "opdbId": "GRLD2-MD1o1"
+  },
+  {
+    "machineName": "Flipper Fair",
+    "opdbId": "G4e9z-MD81o"
+  },
+  {
+    "machineName": "Spot Bowler",
+    "opdbId": "G5D0d-MJZVO"
+  },
+  {
+    "machineName": "Card Trix",
+    "opdbId": "GRWZN-MDv6X"
+  },
+  {
+    "machineName": "Halley Comet",
+    "opdbId": "GR7DY-MQVzp"
+  },
+  {
+    "machineName": "Racers",
+    "opdbId": "G41XE-MQ57V"
+  },
+  {
+    "machineName": "Disco Fever",
+    "opdbId": "G5o9o-MQpN2"
+  },
+  {
+    "machineName": "Chicago Cubs 'Triple Play'",
+    "opdbId": "G5nZJ-MLxrp"
+  },
+  {
+    "machineName": "Bang! Bang!",
+    "opdbId": "GrdnO-MJPn5"
+  },
+  {
+    "machineName": "Steeple-Chase",
+    "opdbId": "GrJLB-MQ986"
+  },
+  {
+    "machineName": "Mayfair",
+    "opdbId": "GrdYD-MLEdn"
+  },
+  {
+    "machineName": "Arcade",
+    "opdbId": "GrNyB-MDBkE"
+  },
+  {
+    "machineName": "Big Town",
+    "opdbId": "GrjJL-MDyzl"
+  },
+  {
+    "machineName": "Grand Prix",
+    "opdbId": "G4O1L-MDW47"
+  },
+  {
+    "machineName": "Time 2000",
+    "opdbId": "G48Dx-MLleq"
+  },
+  {
+    "machineName": "Thunderbolt",
+    "opdbId": "GRVzX-MJdy0"
+  },
+  {
+    "machineName": "Mustang (Pro)",
+    "opdbId": "GrPOR-MJK2k"
+  },
+  {
+    "machineName": "Skyrocket",
+    "opdbId": "GrNZ7-MDOjq"
+  },
+  {
+    "machineName": "Star Explorer",
+    "opdbId": "G48DQ-MQwod"
+  },
+  {
+    "machineName": "Rocky",
+    "opdbId": "GrJvk-MDekx"
+  },
+  {
+    "machineName": "Af-Tor",
+    "opdbId": "GRY7E-MLbEo"
+  },
+  {
+    "machineName": "Monaco",
+    "opdbId": "GRVzL-MJ2rb"
+  },
+  {
+    "machineName": "Triplets",
+    "opdbId": "GRpdX-MJY3N"
+  },
+  {
+    "machineName": "Magic Circle",
+    "opdbId": "GRb9P-MQN0v"
+  },
+  {
+    "machineName": "Nautilus",
+    "opdbId": "GRKYx-MD067"
+  },
+  {
+    "machineName": "Hootenanny",
+    "opdbId": "G4xo0-MJjOK"
+  },
+  {
+    "machineName": "Double-Up",
+    "opdbId": "GrZZv-MDn2W"
+  },
+  {
+    "machineName": "Reno",
+    "opdbId": "GRb8E-MDq0R"
+  },
+  {
+    "machineName": "Yukon (Special)",
+    "opdbId": "GR987-MLRR9"
+  },
+  {
+    "machineName": "Agents 777",
+    "opdbId": "Grkpd-MQrjj"
+  },
+  {
+    "machineName": "Diamond Lill",
+    "opdbId": "G4Jpq-MLz43"
+  },
+  {
+    "machineName": "New World",
+    "opdbId": "G4E88-MQ447"
+  },
+  {
+    "machineName": "Theatre of Magic",
+    "opdbId": "G5BLE-MQ75Y"
+  },
+  {
+    "machineName": "Naples",
+    "opdbId": "G5Y1D-ML3Xd"
+  },
+  {
+    "machineName": "Fabulous 50's",
+    "opdbId": "GR6pk-MDX16"
+  },
+  {
+    "machineName": "Roller Coaster",
+    "opdbId": "G42pZ-ML171"
+  },
+  {
+    "machineName": "Wishing Well",
+    "opdbId": "GRoo7-ML8Vo"
+  },
+  {
+    "machineName": "Invasion Strategy",
+    "opdbId": "G4NwL-MQZZO"
+  },
+  {
+    "machineName": "Disney TRON: Legacy",
+    "opdbId": "GrkL5-MLvrX"
+  },
+  {
+    "machineName": "Starlite",
+    "opdbId": "GR0vY-MJV3p"
+  },
+  {
+    "machineName": "Spirit of 76",
+    "opdbId": "G4d0O-MJpj2"
+  },
+  {
+    "machineName": "Arena",
+    "opdbId": "G4EKb-MDx4p"
+  },
+  {
+    "machineName": "Black Hole",
+    "opdbId": "G41yq-MQP65"
+  },
+  {
+    "machineName": "Apollo",
+    "opdbId": "GRBDj-MJ9x6"
+  },
+  {
+    "machineName": "Zig Zag",
+    "opdbId": "GRoL9-MDEwn"
+  },
+  {
+    "machineName": "Golden Bells",
+    "opdbId": "GRK9W-MLBdE"
+  },
+  {
+    "machineName": "15 Pool",
+    "opdbId": "GrqL6-MLy7l"
+  },
+  {
+    "machineName": "250 cc",
+    "opdbId": "Gr22Q-MQkbn"
+  },
+  {
+    "machineName": "Eager Beaver",
+    "opdbId": "GrOvq-MDl2q"
+  },
+  {
+    "machineName": "Saturn",
+    "opdbId": "G41bD-MQK0k"
+  },
+  {
+    "machineName": "Poker",
+    "opdbId": "Grlwk-MLORq"
+  },
+  {
+    "machineName": "Skylab",
+    "opdbId": "G5DOx-MJwzd"
+  },
+  {
+    "machineName": "Galaxy Play 2",
+    "opdbId": "G4y63-MDbyo"
+  },
+  {
+    "machineName": "Pirates of the Caribbean",
+    "opdbId": "GR7ZX-MQ23b"
+  },
+  {
+    "machineName": "Chinatown",
+    "opdbId": "GRQzX-MQY8N"
+  },
+  {
+    "machineName": "Black Fever",
+    "opdbId": "Grydq-MJNqv"
+  },
+  {
+    "machineName": "Samba",
+    "opdbId": "G43pk-ML047"
+  },
+  {
+    "machineName": "Continental Cafe",
+    "opdbId": "G4ZWJ-MLnNW"
+  },
+  {
+    "machineName": "Solitaire",
+    "opdbId": "GrlPj-MLqnR"
+  },
+  {
+    "machineName": "King Rock",
+    "opdbId": "GRBly-MJ58y"
+  },
+  {
+    "machineName": "Astronaut",
+    "opdbId": "GR7V3-MJpjv"
+  },
+  {
+    "machineName": "Club House",
+    "opdbId": "G4ly3-MDx4z"
+  },
+  {
+    "machineName": "Lucky Fruit",
+    "opdbId": "G5n0W-MQP6n"
+  },
+  {
+    "machineName": "Timothyt",
+    "opdbId": "GRBv3-MJ9xx"
+  },
+  {
+    "machineName": "Stars",
+    "opdbId": "GrXEW-MDEwr"
+  },
+  {
+    "machineName": "Hollywood Heat",
+    "opdbId": "G5B9Z-MLBjW"
+  },
+  {
+    "machineName": "Batman Forever",
+    "opdbId": "G59zN-MLy0N"
+  },
+  {
+    "machineName": "Soccer",
+    "opdbId": "GRoJk-MQk40"
+  },
+  {
+    "machineName": "Karting",
+    "opdbId": "GR7zW-MLWov"
+  },
+  {
+    "machineName": "Dreamy",
+    "opdbId": "GV8Kw-MDl3O"
+  },
+  {
+    "machineName": "Swing Time",
+    "opdbId": "Grk27-MQde8"
+  },
+  {
+    "machineName": "Hyde Park",
+    "opdbId": "GrdYD-MQKxj"
+  },
+  {
+    "machineName": "Space Shuttle",
+    "opdbId": "G4q3L-MLOl2"
+  },
+  {
+    "machineName": "Fly High",
+    "opdbId": "GRLXd-MDbdq"
+  },
+  {
+    "machineName": "Ducks",
+    "opdbId": "GR9O6-MQ2oe"
+  },
+  {
+    "machineName": "Star-Jet",
+    "opdbId": "GRwEJ-MQY7w"
+  },
+  {
+    "machineName": "Grand Slam",
+    "opdbId": "GrJ9q-MJNkp"
+  },
+  {
+    "machineName": "Bowling Flipper",
+    "opdbId": "GRwnJ-MQjrV"
+  },
+  {
+    "machineName": "Evel Knievel",
+    "opdbId": "G59wx-MLnZ3"
+  },
+  {
+    "machineName": "Laser Ball",
+    "opdbId": "GRBXl-MLq9k"
+  },
+  {
+    "machineName": "Fashion Show",
+    "opdbId": "Gr2Qb-MDRbp"
+  },
+  {
+    "machineName": "Beach Games",
+    "opdbId": "GRbnW-MJo59"
+  },
+  {
+    "machineName": "King Pin",
+    "opdbId": "GR6DZ-MJrBz"
+  },
+  {
+    "machineName": "Metal Man",
+    "opdbId": "G4x3Y-MDznw"
+  },
+  {
+    "machineName": "Spanish Eyes",
+    "opdbId": "GrOjX-MJ47n"
+  },
+  {
+    "machineName": "Cyclopes",
+    "opdbId": "GRwZ7-MJ7vy"
+  },
+  {
+    "machineName": "Aquarius",
+    "opdbId": "GreKP-MLXzY"
+  },
+  {
+    "machineName": "Sinbad",
+    "opdbId": "G4xqN-MD1Rj"
+  },
+  {
+    "machineName": "Radical!",
+    "opdbId": "G59ZY-MD8p7"
+  },
+  {
+    "machineName": "Excalibur",
+    "opdbId": "GrPbb-MJZX6"
+  },
+  {
+    "machineName": "Sahara Love",
+    "opdbId": "G4xqN-MDvw2"
+  },
+  {
+    "machineName": "Shooting the Rapids",
+    "opdbId": "G41oq-MQVR1"
+  },
+  {
+    "machineName": "Stellar Wars",
+    "opdbId": "G4lLp-MQ5Xy"
+  },
+  {
+    "machineName": "South Park",
+    "opdbId": "G4qbD-MQpxv"
+  },
+  {
+    "machineName": "Bike Race",
+    "opdbId": "G4NzV-MLxYz"
+  },
+  {
+    "machineName": "Batter Up",
+    "opdbId": "G4E2y-MQ9Px"
+  },
+  {
+    "machineName": "Caveman",
+    "opdbId": "GR768-MLErr"
+  },
+  {
+    "machineName": "Cosmic Flash",
+    "opdbId": "G5pxD-MBRWW"
+  },
+  {
+    "machineName": "Spider-Man (Black Suited LE)",
+    "opdbId": "G5D94-MyNBN"
+  },
+  {
+    "machineName": "Sluggin' Champ",
+    "opdbId": "G4xVZ-MW9wv"
+  },
+  {
+    "machineName": "Wild Fyre",
+    "opdbId": "GrOwV-Ml9kO"
+  },
+  {
+    "machineName": "Quarterback",
+    "opdbId": "GRzed-MdEx8"
+  },
+  {
+    "machineName": "Metro",
+    "opdbId": "G5K88-MKNpj"
+  },
+  {
+    "machineName": "High Ace",
+    "opdbId": "GRwW9-MOEB2"
+  },
+  {
+    "machineName": "Fire Cracker",
+    "opdbId": "GrN2w-MwNyj"
+  },
+  {
+    "machineName": "Hearts and Spades",
+    "opdbId": "G4ZQv-MeP8n"
+  },
+  {
+    "machineName": "Quicksilver",
+    "opdbId": "GRBZl-Mb5Zq"
+  },
+  {
+    "machineName": "Texas Ranger",
+    "opdbId": "GrEXx-MYeBw"
+  },
+  {
+    "machineName": "Pin Wheel",
+    "opdbId": "Gr8b7-MNERp"
+  },
+  {
+    "machineName": "College Queens",
+    "opdbId": "GrOQ1-M0oOr"
+  },
+  {
+    "machineName": "Neptune",
+    "opdbId": "GRoWo-MjBxV"
+  },
+  {
+    "machineName": "Punchy the Clown",
+    "opdbId": "G4x2P-MnK03"
+  },
+  {
+    "machineName": "Monopoly",
+    "opdbId": "G48w3-Mq1Zk"
+  },
+  {
+    "machineName": "World Defender",
+    "opdbId": "GR9NQ-MRjop"
+  },
+  {
+    "machineName": "Special Force",
+    "opdbId": "GRDkX-M61RE"
+  },
+  {
+    "machineName": "Butterfly",
+    "opdbId": "G5nJe-MrR8z"
+  },
+  {
+    "machineName": "Tiger",
+    "opdbId": "GRw8o-Mz2lw"
+  },
+  {
+    "machineName": "Kings of Steel",
+    "opdbId": "GR67j-M7ZYy"
+  },
+  {
+    "machineName": "Daffy Derby",
+    "opdbId": "GrZ7y-M3dY2"
+  },
+  {
+    "machineName": "Time Line",
+    "opdbId": "Gr13q-MXrjY"
+  },
+  {
+    "machineName": "Joker",
+    "opdbId": "G5vjP-M1rWj"
+  },
+  {
+    "machineName": "Fortune",
+    "opdbId": "GrOBL-M8587"
+  },
+  {
+    "machineName": "Cyclone",
+    "opdbId": "GR9EB-MZe46"
+  },
+  {
+    "machineName": "Miss Nessie",
+    "opdbId": "G4kJ3-MvB72"
+  },
+  {
+    "machineName": "Klondike",
+    "opdbId": "GR987-M5Rny"
+  },
+  {
+    "machineName": "Cosmic Flash",
+    "opdbId": "G5pxD-Mp48v"
+  },
+  {
+    "machineName": "Doodle Bug",
+    "opdbId": "Grx1z-Mx02z"
+  },
+  {
+    "machineName": "Joker",
+    "opdbId": "GrXXB-MP3Bn"
+  },
+  {
+    "machineName": "Fathom",
+    "opdbId": "GrPO3-M9Rpx"
+  },
+  {
+    "machineName": "Dragon",
+    "opdbId": "G4qPZ-ME0Nr"
+  },
+  {
+    "machineName": "Four Stars",
+    "opdbId": "G5nn1-MBRRW"
+  },
+  {
+    "machineName": "Harvest Time",
+    "opdbId": "GrZKd-MyNNN"
+  },
+  {
+    "machineName": "Twister",
+    "opdbId": "GRwbv-MkPP0"
+  },
+  {
+    "machineName": "Go-Cart",
+    "opdbId": "GrZE0-MW99v"
+  },
+  {
+    "machineName": "The Games",
+    "opdbId": "GR9NZ-Ml99O"
+  },
+  {
+    "machineName": "Flipper Clown",
+    "opdbId": "GrJVE-MdEE8"
+  },
+  {
+    "machineName": "Super Nova",
+    "opdbId": "G56KW-MKNNj"
+  },
+  {
+    "machineName": "The Amazing Spider-Man",
+    "opdbId": "GrXlr-MOEE2"
+  },
+  {
+    "machineName": "America 1492",
+    "opdbId": "G5pjV-MwNNj"
+  },
+  {
+    "machineName": "Twenty Grand",
+    "opdbId": "G5KjL-MePPn"
+  },
+  {
+    "machineName": "Rally Girl",
+    "opdbId": "G4Oeq-Mb55q"
+  },
+  {
+    "machineName": "Magic Clock",
+    "opdbId": "GRBwX-M2YYe"
+  },
+  {
+    "machineName": "Sportsman",
+    "opdbId": "G432j-MYeew"
+  },
+  {
+    "machineName": "Happy Tour",
+    "opdbId": "GrNx1-MNEEp"
+  },
+  {
+    "machineName": "Double-Shuffle",
+    "opdbId": "GR986-MjBBV"
+  },
+  {
+    "machineName": "Pinball",
+    "opdbId": "GrZXj-Mq11k"
+  },
+  {
+    "machineName": "Spin Out",
+    "opdbId": "GrPx2-M5RRk"
+  },
+  {
+    "machineName": "Harley Davidson",
+    "opdbId": "G56lO-Mx00O"
+  },
+  {
+    "machineName": "Sea Side",
+    "opdbId": "GRVkQ-MP33q"
+  },
+  {
+    "machineName": "Pinball Champ",
+    "opdbId": "GrPdq-M9RRe"
+  },
+  {
+    "machineName": "Pro-Football",
+    "opdbId": "G41E2-ME00b"
+  },
+  {
+    "machineName": "Sky Kings",
+    "opdbId": "Grk0j-MBRRY"
+  },
+  {
+    "machineName": "L'Hexagone",
+    "opdbId": "GRBKZ-MyNN8"
+  },
+  {
+    "machineName": "3 Coins",
+    "opdbId": "GR0Q1-MkPPd"
+  },
+  {
+    "machineName": "Three Deuces",
+    "opdbId": "G43Pj-Ml99d"
+  },
+  {
+    "machineName": "Space Hawks",
+    "opdbId": "GR69j-MdEEB"
+  },
+  {
+    "machineName": "Independence Day",
+    "opdbId": "G4doQ-MKNN9"
+  },
+  {
+    "machineName": "Hi-Lo",
+    "opdbId": "G4ZQv-MOEE1"
+  },
+  {
+    "machineName": "Gold Record",
+    "opdbId": "G5vwv-MwNNW"
+  },
+  {
+    "machineName": "Aspen",
+    "opdbId": "G41o2-MePPv"
+  },
+  {
+    "machineName": "Johnny Mnemonic",
+    "opdbId": "GR6W8-Mb55B"
+  },
+  {
+    "machineName": "Big Top",
+    "opdbId": "G5DV6-M2YYr"
+  },
+  {
+    "machineName": "Cha Cha Cha",
+    "opdbId": "Grl7B-MYee8"
+  },
+  {
+    "machineName": "Out Law",
+    "opdbId": "G41N8-MNEEk"
+  },
+  {
+    "machineName": "Pool Sharks",
+    "opdbId": "GR68o-M0o2O"
+  },
+  {
+    "machineName": "Don Quijote",
+    "opdbId": "G5WP2-MjBZB"
+  },
+  {
+    "machineName": "On Beam",
+    "opdbId": "G4XQE-MnKBB"
+  },
+  {
+    "machineName": "Jokerz!",
+    "opdbId": "Gry3j-Mq1Oe"
+  },
+  {
+    "machineName": "Sea Hunt",
+    "opdbId": "GRoN2-MRj30"
+  },
+  {
+    "machineName": "Reserve",
+    "opdbId": "GRQ2j-M61vd"
+  },
+  {
+    "machineName": "King Pin",
+    "opdbId": "G42vx-Mo13y"
+  },
+  {
+    "machineName": "Circus Wagon",
+    "opdbId": "G4qWJ-MrRl7"
+  },
+  {
+    "machineName": "Daisy May",
+    "opdbId": "Gred6-Mz2Z8"
+  },
+  {
+    "machineName": "Six Shooter",
+    "opdbId": "GreYQ-M4ovO"
+  },
+  {
+    "machineName": "Arabian Night",
+    "opdbId": "G59dD-M7ZRb"
+  },
+  {
+    "machineName": "The Walking Dead (Pro)",
+    "opdbId": "G5nz5-M3d38"
+  },
+  {
+    "machineName": "Star Trek: The Next Generation",
+    "opdbId": "GR6d8-M1rZd"
+  },
+  {
+    "machineName": "The Shadow",
+    "opdbId": "G4jPX-M85YZ"
+  },
+  {
+    "machineName": "Black Sheep Squadron",
+    "opdbId": "G4j1L-MZerb"
+  },
+  {
+    "machineName": "Tri-Score",
+    "opdbId": "G5v8X-MVKV7"
+  },
+  {
+    "machineName": "Roy Clark 'The' Entertainer",
+    "opdbId": "G4XD3-M5Rlk"
+  },
+  {
+    "machineName": "Mars Trek",
+    "opdbId": "Gr89x-Mp4nB"
+  },
+  {
+    "machineName": "Transformers (LE)",
+    "opdbId": "GRnPz-Mx0XO"
+  },
+  {
+    "machineName": "Skill-Ball",
+    "opdbId": "G5zpL-ME02b"
+  },
+  {
+    "machineName": "Georgia",
+    "opdbId": "GRzN9-MyN18"
+  },
+  {
+    "machineName": "Punk!",
+    "opdbId": "GrEwE-MkP0d"
+  },
+  {
+    "machineName": "Skill Pool",
+    "opdbId": "G4O66-MW96E"
+  },
+  {
+    "machineName": "Dracula",
+    "opdbId": "G4Zl2-Ml90d"
+  },
+  {
+    "machineName": "Lady Luck",
+    "opdbId": "GR0nO-MdE2B"
+  },
+  {
+    "machineName": "Disk Jockey",
+    "opdbId": "G4kon-MwN4W"
+  },
+  {
+    "machineName": "Rawhide",
+    "opdbId": "GRQ79-MePbv"
+  },
+  {
+    "machineName": "Cue Ball",
+    "opdbId": "GrExQ-Mb5NB"
+  },
+  {
+    "machineName": "Star God",
+    "opdbId": "G5vXk-M2Y8r"
+  },
+  {
+    "machineName": "Hi Straight",
+    "opdbId": "G43pX-MYe68"
+  },
+  {
+    "machineName": "Gun Men",
+    "opdbId": "GryPE-MNE9k"
+  },
+  {
+    "machineName": "Hi-Deal",
+    "opdbId": "G4joK-M0o8O"
+  },
+  {
+    "machineName": "Black Jack",
+    "opdbId": "G5vWo-MjBkB"
+  },
+  {
+    "machineName": "Bomber",
+    "opdbId": "Gry2Q-MnKnB"
+  },
+  {
+    "machineName": "T.N.T.",
+    "opdbId": "G4yLE-Mq1ee"
+  },
+  {
+    "machineName": "Getaway",
+    "opdbId": "G4jzK-MRjN0"
+  },
+  {
+    "machineName": "Dirty Harry",
+    "opdbId": "GrJ2Z-M61Xd"
+  },
+  {
+    "machineName": "King of Diamonds",
+    "opdbId": "GrlPj-Mo1Ry"
+  },
+  {
+    "machineName": "Rondeevoo",
+    "opdbId": "GRQ3b-MrRZ7"
+  },
+  {
+    "machineName": "Jig Saw",
+    "opdbId": "G4Nbz-Mz2V8"
+  },
+  {
+    "machineName": "Farfalla",
+    "opdbId": "GRVw2-M4oWO"
+  },
+  {
+    "machineName": "Grand Lizard",
+    "opdbId": "G4XPZ-M7Zob"
+  },
+  {
+    "machineName": "Fantasy",
+    "opdbId": "Gr8zQ-M3dn8"
+  },
+  {
+    "machineName": "Pioneer",
+    "opdbId": "GrlPK-MXrXw"
+  },
+  {
+    "machineName": "Pat Hand",
+    "opdbId": "G48YQ-M1r1d"
+  },
+  {
+    "machineName": "Madison Square Gardens",
+    "opdbId": "G4Eb1-M85RZ"
+  },
+  {
+    "machineName": "Old Coney Island!",
+    "opdbId": "G4qjj-MZeyb"
+  },
+  {
+    "machineName": "The Big Lebowski",
+    "opdbId": "G5WBr-MvB3E"
+  },
+  {
+    "machineName": "Telecard",
+    "opdbId": "G4jBe-MVK67"
+  },
+  {
+    "machineName": "8 Ball",
+    "opdbId": "G4dke-M5R3k"
+  },
+  {
+    "machineName": "Big Guns",
+    "opdbId": "G4d8k-Mx0EO"
+  },
+  {
+    "machineName": "Big Daddy",
+    "opdbId": "G50e1-MP3yq"
+  },
+  {
+    "machineName": "Sun Valley",
+    "opdbId": "GRnvZ-M9RYe"
+  },
+  {
+    "machineName": "Wing Ding",
+    "opdbId": "GRoL9-ME0Yb"
+  },
+  {
+    "machineName": "Icarus",
+    "opdbId": "GR9v1-MBReY"
+  },
+  {
+    "machineName": "The Avengers (LE)",
+    "opdbId": "GRzNR-MyNq8"
+  },
+  {
+    "machineName": "Ding Dong",
+    "opdbId": "GRop9-MkPXd"
+  },
+  {
+    "machineName": "Rider's Surf",
+    "opdbId": "G5Kn3-MW9vE"
+  },
+  {
+    "machineName": "Oklahoma",
+    "opdbId": "GR9nl-MdEZB"
+  },
+  {
+    "machineName": "The Getaway: High Speed II",
+    "opdbId": "Grx8Y-MKNe9"
+  },
+  {
+    "machineName": "Sky Dive",
+    "opdbId": "G4xlK-MOEr1"
+  },
+  {
+    "machineName": "Medieval Madness",
+    "opdbId": "G5pe4-MePZv"
+  },
+  {
+    "machineName": "Alaska",
+    "opdbId": "G42zD-Mb5YB"
+  },
+  {
+    "machineName": "Snooks",
+    "opdbId": "G5neP-M2YRr"
+  },
+  {
+    "machineName": "Cue-T",
+    "opdbId": "G4eqP-MYeX8"
+  },
+  {
+    "machineName": "Regatta",
+    "opdbId": "G419y-MNE2k"
+  },
+  {
+    "machineName": "World Champ",
+    "opdbId": "GRDBb-M0obO"
+  },
+  {
+    "machineName": "Mercury",
+    "opdbId": "Gr1JJ-MjB4B"
+  },
+  {
+    "machineName": "Jack In The Box",
+    "opdbId": "Gr2JJ-MnKlB"
+  },
+  {
+    "machineName": "Lightning",
+    "opdbId": "G5pQ8-Mq14e"
+  },
+  {
+    "machineName": "New Canasta",
+    "opdbId": "Gr18d-M5R11"
+  },
+  {
+    "machineName": "Fire Queen",
+    "opdbId": "GRoDo-Mp4Kk"
+  },
+  {
+    "machineName": "Sure Shot",
+    "opdbId": "GrqL6-Mx07k"
+  },
+  {
+    "machineName": "4 Star",
+    "opdbId": "GRnVL-MP3NR"
+  },
+  {
+    "machineName": "Grande Domino",
+    "opdbId": "G4j8k-M9Ry2"
+  },
+  {
+    "machineName": "Bounty Hunter",
+    "opdbId": "G5nO8-ME0Wo"
+  },
+  {
+    "machineName": "Papillon",
+    "opdbId": "GR6VW-MBRwz"
+  },
+  {
+    "machineName": "Geisha",
+    "opdbId": "GRb1z-MyN5o"
+  },
+  {
+    "machineName": "Super-Flite",
+    "opdbId": "GrdlQ-MW9Rl"
+  },
+  {
+    "machineName": "Valkyrie",
+    "opdbId": "GrOkd-Ml9OE"
+  },
+  {
+    "machineName": "Stargate",
+    "opdbId": "G50pv-MdE6R"
+  },
+  {
+    "machineName": "Shangri-La",
+    "opdbId": "G50XN-MKNVX"
+  },
+  {
+    "machineName": "Gladiator",
+    "opdbId": "GRLE6-MOE67"
+  },
+  {
+    "machineName": "Alpine Club",
+    "opdbId": "G5K3O-MwN2x"
+  },
+  {
+    "machineName": "Sharpshooter",
+    "opdbId": "Gr37O-MePr0"
+  },
+  {
+    "machineName": "Rose-Bowl",
+    "opdbId": "G4dkb-Mb57V"
+  },
+  {
+    "machineName": "Star Action",
+    "opdbId": "GRzny-M2Yl1"
+  },
+  {
+    "machineName": "Baby Doll",
+    "opdbId": "G48YQ-MYelP"
+  },
+  {
+    "machineName": "Lucky Inning",
+    "opdbId": "Gj6LP-MNEYx"
+  },
+  {
+    "machineName": "Football",
+    "opdbId": "G5W6O-MjB4n"
+  },
+  {
+    "machineName": "Chuck-A-Luck",
+    "opdbId": "G56jk-MnKlw"
+  },
+  {
+    "machineName": "Hot Wheels",
+    "opdbId": "GrOY9-Mq14V"
+  },
+  {
+    "machineName": "Central Park",
+    "opdbId": "GRpYQ-MRj0O"
+  },
+  {
+    "machineName": "Space Gambler",
+    "opdbId": "G5bVN-M61nY"
+  },
+  {
+    "machineName": "Black Rider",
+    "opdbId": "GrO7w-Mo1Zl"
+  },
+  {
+    "machineName": "Diamond Jack",
+    "opdbId": "GrlPj-MrR46"
+  },
+  {
+    "machineName": "Pleasure Isle",
+    "opdbId": "G4yEO-M4oqr"
+  },
+  {
+    "machineName": "Hardbody",
+    "opdbId": "GRbX3-M7ZK3"
+  },
+  {
+    "machineName": "Austin Powers",
+    "opdbId": "G43BW-M3dKV"
+  },
+  {
+    "machineName": "Batman: The Dark Knight",
+    "opdbId": "G4yVw-M85j8"
+  },
+  {
+    "machineName": "Jungle Life",
+    "opdbId": "G5B0y-MZeOe"
+  },
+  {
+    "machineName": "Rescue 911",
+    "opdbId": "G5pNW-MVK46"
+  },
+  {
+    "machineName": "Card Castle",
+    "opdbId": "GRodq-M5RY1"
+  },
+  {
+    "machineName": "Space Jam",
+    "opdbId": "G482d-Mp4kk"
+  },
+  {
+    "machineName": "Aqualand",
+    "opdbId": "GRQVw-Mx06k"
+  },
+  {
+    "machineName": "Memory Lane",
+    "opdbId": "Gry0Z-MP3zR"
+  },
+  {
+    "machineName": "Tournament",
+    "opdbId": "G5W8D-M9R42"
+  },
+  {
+    "machineName": "Canada Dry",
+    "opdbId": "GrEZ5-ME0Ko"
+  },
+  {
+    "machineName": "Zankor",
+    "opdbId": "G5z71-MBRXz"
+  },
+  {
+    "machineName": "Le Grande 8",
+    "opdbId": "G5bQq-MkPW7"
+  },
+  {
+    "machineName": "Yuma Arizona",
+    "opdbId": "GqZe1-MW9jl"
+  },
+  {
+    "machineName": "Twin-Gain",
+    "opdbId": "GRw9N-Ml9lE"
+  },
+  {
+    "machineName": "Out of Sight",
+    "opdbId": "G5zQO-MdE8R"
+  },
+  {
+    "machineName": "Game Of Thrones (Pro)",
+    "opdbId": "G41d5-MKNwX"
+  },
+  {
+    "machineName": "Hi-Score Pool",
+    "opdbId": "GrPZj-MOEY7"
+  },
+  {
+    "machineName": "Superman",
+    "opdbId": "GR73N-MwN9x"
+  },
+  {
+    "machineName": "Caravan",
+    "opdbId": "G5W2D-MePB0"
+  },
+  {
+    "machineName": "Super Flipp",
+    "opdbId": "G4X1D-M2Yy1"
+  },
+  {
+    "machineName": "Q*Bert's Quest",
+    "opdbId": "Gr1qn-MYerP"
+  },
+  {
+    "machineName": "Earth Wind Fire",
+    "opdbId": "GR96Q-MNEnx"
+  },
+  {
+    "machineName": "Sunshine",
+    "opdbId": "G5o8p-M0oN5"
+  },
+  {
+    "machineName": "Blast Off",
+    "opdbId": "GRBDj-MjBbn"
+  },
+  {
+    "machineName": "Handicap",
+    "opdbId": "G5vdo-MnK8w"
+  },
+  {
+    "machineName": "Star Trek (Premium)",
+    "opdbId": "Gryw4-MRj4O"
+  },
+  {
+    "machineName": "Mystic Star",
+    "opdbId": "G5QOw-M61dY"
+  },
+  {
+    "machineName": "U-Boat 65",
+    "opdbId": "GRD67-Mo1Ol"
+  },
+  {
+    "machineName": "Hearts Gain",
+    "opdbId": "G4OZ1-MrRN6"
+  },
+  {
+    "machineName": "Devil",
+    "opdbId": "GRbJN-Mz2yK"
+  },
+  {
+    "machineName": "Thunder Man",
+    "opdbId": "GRoyw-M4ojr"
+  },
+  {
+    "machineName": "Viking",
+    "opdbId": "G42lb-M7Z63"
+  },
+  {
+    "machineName": "Up Away",
+    "opdbId": "G4jOe-M3d1V"
+  },
+  {
+    "machineName": "Judy",
+    "opdbId": "Grd3b-MXre1"
+  },
+  {
+    "machineName": "Air Aces",
+    "opdbId": "G420v-M1rYR"
+  },
+  {
+    "machineName": "Fun Fair",
+    "opdbId": "GRwqx-M8598"
+  },
+  {
+    "machineName": "Xenon",
+    "opdbId": "G42Pk-MZe2e"
+  },
+  {
+    "machineName": "Tanga",
+    "opdbId": "GryjX-MvBXe"
+  },
+  {
+    "machineName": "Nitro Ground Shaker",
+    "opdbId": "GrP6q-M5Rp1"
+  },
+  {
+    "machineName": "Orbitor 1",
+    "opdbId": "Grx7Q-Mp45k"
+  },
+  {
+    "machineName": "Darling",
+    "opdbId": "Gr3J1-Mx0kk"
+  },
+  {
+    "machineName": "Mary Shelley's Frankenstein",
+    "opdbId": "GRB7E-MP3rR"
+  },
+  {
+    "machineName": "Sittin' Pretty",
+    "opdbId": "GRp3O-M9RE2"
+  },
+  {
+    "machineName": "Star Trip",
+    "opdbId": "GRoW6-ME0Ro"
+  },
+  {
+    "machineName": "NBA",
+    "opdbId": "G5K19-MBRlz"
+  },
+  {
+    "machineName": "Space Invaders",
+    "opdbId": "G42PX-MyNXo"
+  },
+  {
+    "machineName": "\"300\"",
+    "opdbId": "G5W1w-MkPy7"
+  },
+  {
+    "machineName": "Mata Hari (EM)",
+    "opdbId": "G417e-Ml9ZE"
+  },
+  {
+    "machineName": "Sea Scare",
+    "opdbId": "GRD1O-MdE5R"
+  },
+  {
+    "machineName": "Sky Fly",
+    "opdbId": "G5Yqx-MKNjX"
+  },
+  {
+    "machineName": "Wisconsin",
+    "opdbId": "G5pOZ-MOE37"
+  },
+  {
+    "machineName": "WrestleMania",
+    "opdbId": "GR6Or-MwNex"
+  },
+  {
+    "machineName": "Bad Girls",
+    "opdbId": "G5WOo-MePp0"
+  },
+  {
+    "machineName": "Firepower II",
+    "opdbId": "GRWYk-Mb5OV"
+  },
+  {
+    "machineName": "Planets",
+    "opdbId": "GRBBx-MYe4P"
+  },
+  {
+    "machineName": "Embryon",
+    "opdbId": "G4qk7-MNEjx"
+  },
+  {
+    "machineName": "Breakshot",
+    "opdbId": "G43oE-M0ok5"
+  },
+  {
+    "machineName": "Eleven Belles",
+    "opdbId": "GrxEZ-MjB1n"
+  },
+  {
+    "machineName": "Trailer",
+    "opdbId": "G4qx7-MnK4w"
+  },
+  {
+    "machineName": "Scared Stiff",
+    "opdbId": "G4xbP-Mp45Y"
+  },
+  {
+    "machineName": "The Walking Dead (LE)",
+    "opdbId": "G5nz5-MP3r1"
+  },
+  {
+    "machineName": "Game of Thrones (LE)",
+    "opdbId": "G41d5-M9REd"
+  },
+  {
+    "machineName": "Trigger",
+    "opdbId": "G4273-ME0R8"
+  },
+  {
+    "machineName": "Hi-Flyer",
+    "opdbId": "G50Oy-MBRlZ"
+  },
+  {
+    "machineName": "White Water",
+    "opdbId": "GRQKz-MyNXz"
+  },
+  {
+    "machineName": "Abra Ca Dabra",
+    "opdbId": "GRpZ2-MkPyb"
+  },
+  {
+    "machineName": "Solids N Stripes",
+    "opdbId": "G5Dv1-MW9ro"
+  },
+  {
+    "machineName": "Star-Flite",
+    "opdbId": "GrdlQ-Ml9Vk"
+  },
+  {
+    "machineName": "Flash Gordon",
+    "opdbId": "G5728-MKN3R"
+  },
+  {
+    "machineName": "Champ",
+    "opdbId": "GrZNL-MOE2r"
+  },
+  {
+    "machineName": "Subway",
+    "opdbId": "GrEQy-MwN12"
+  },
+  {
+    "machineName": "Godzilla",
+    "opdbId": "G5po2-MeP6B"
+  },
+  {
+    "machineName": "Fireball",
+    "opdbId": "G48ZN-Mb58O"
+  },
+  {
+    "machineName": "Domino",
+    "opdbId": "G4q9J-M2Y55"
+  },
+  {
+    "machineName": "Stage Coach",
+    "opdbId": "G4x98-MYe9n"
+  },
+  {
+    "machineName": "Delta Queen",
+    "opdbId": "G5bez-M0oEW"
+  },
+  {
+    "machineName": "Lucky Ace",
+    "opdbId": "GRwW9-MnK17"
+  },
+  {
+    "machineName": "Jungle",
+    "opdbId": "GRL7N-Mq1dY"
+  },
+  {
+    "machineName": "C.O.D.",
+    "opdbId": "G5w2K-MRjky"
+  },
+  {
+    "machineName": "Impact",
+    "opdbId": "G4xnz-M619P"
+  },
+  {
+    "machineName": "Punky Willy",
+    "opdbId": "Grk62-Mo18j"
+  },
+  {
+    "machineName": "Whirl-Wind",
+    "opdbId": "G56Ed-MrR7W"
+  },
+  {
+    "machineName": "Counterforce",
+    "opdbId": "GRYPN-Mz2RE"
+  },
+  {
+    "machineName": "Star Ship",
+    "opdbId": "GRLXd-M4oxP"
+  },
+  {
+    "machineName": "Bongo",
+    "opdbId": "G41e6-M7ZEk"
+  },
+  {
+    "machineName": "Tramway",
+    "opdbId": "GrjVe-M3dp6"
+  },
+  {
+    "machineName": "AC/DC (Premium)",
+    "opdbId": "G43W4-MXrPx"
+  },
+  {
+    "machineName": "Amazon Hunt",
+    "opdbId": "GrJkp-M1rBN"
+  },
+  {
+    "machineName": "Bally Hoo",
+    "opdbId": "G4NQ7-M85Bk"
+  },
+  {
+    "machineName": "Cannes",
+    "opdbId": "GRVzL-MZeEB"
+  },
+  {
+    "machineName": "Master Stroke",
+    "opdbId": "G50Pk-MvB0n"
+  },
+  {
+    "machineName": "Paradise",
+    "opdbId": "G4yEO-MVKp9"
+  },
+  {
+    "machineName": "2001",
+    "opdbId": "G48nw-M5RPZ"
+  },
+  {
+    "machineName": "Mario Andretti",
+    "opdbId": "GRBqq-Mp4ZY"
+  },
+  {
+    "machineName": "Circus",
+    "opdbId": "G4xXK-Mx01N"
+  },
+  {
+    "machineName": "Chance",
+    "opdbId": "G4Elx-MP3R1"
+  },
+  {
+    "machineName": "Harlem Globetrotters On Tour",
+    "opdbId": "GRnwQ-M9R5d"
+  },
+  {
+    "machineName": "Brite Star",
+    "opdbId": "G5wdV-ME0O8"
+  },
+  {
+    "machineName": "Masquerade",
+    "opdbId": "GrjYo-MBRqZ"
+  },
+  {
+    "machineName": "James Cameron's Avatar (LE)",
+    "opdbId": "GrZBr-MyNZz"
+  },
+  {
+    "machineName": "Boot-A-Ball",
+    "opdbId": "G4JDn-MkPNb"
+  },
+  {
+    "machineName": "Lulu",
+    "opdbId": "G57ww-Ml98k"
+  },
+  {
+    "machineName": "Corsario",
+    "opdbId": "G5LYj-MdE7E"
+  },
+  {
+    "machineName": "Flip-A-Card",
+    "opdbId": "GRWZN-MKNoR"
+  },
+  {
+    "machineName": "Nautilus",
+    "opdbId": "G5np6-MOEor"
+  },
+  {
+    "machineName": "Fun Park",
+    "opdbId": "GRwqx-MwNj2"
+  },
+  {
+    "machineName": "Al's Garage Band goes on a World Tour",
+    "opdbId": "GRLz0-MeP4B"
+  },
+  {
+    "machineName": "Coronation",
+    "opdbId": "G4ZLy-Mb54O"
+  },
+  {
+    "machineName": "Slap Stick",
+    "opdbId": "GRvLv-M2YX5"
+  },
+  {
+    "machineName": "Fun Land",
+    "opdbId": "GRwqx-MNE6X"
+  },
+  {
+    "machineName": "Freedom (EM)",
+    "opdbId": "GR9qY-M0oXW"
+  },
+  {
+    "machineName": "Seven Seas",
+    "opdbId": "G4xLZ-MjBd9"
+  },
+  {
+    "machineName": "Gilligan's Island",
+    "opdbId": "GRBxQ-MnKX7"
+  },
+  {
+    "machineName": "Scuba",
+    "opdbId": "G43dw-Mq1XY"
+  },
+  {
+    "machineName": "Cross Country",
+    "opdbId": "GRzWL-MRjWy"
+  },
+  {
+    "machineName": "Whiz Kids",
+    "opdbId": "G4807-M612P"
+  },
+  {
+    "machineName": "Road Kings",
+    "opdbId": "G4NKJ-Mo1Xj"
+  },
+  {
+    "machineName": "Flying Turns",
+    "opdbId": "G42xB-MrRXW"
+  },
+  {
+    "machineName": "Baby Face",
+    "opdbId": "G4ejB-M4oXP"
+  },
+  {
+    "machineName": "Carnival",
+    "opdbId": "G4ZvL-M7Z2k"
+  },
+  {
+    "machineName": "Future Spa",
+    "opdbId": "G5Dbo-M3dv6"
+  },
+  {
+    "machineName": "Play Pool",
+    "opdbId": "G5n1Q-MXrnx"
+  },
+  {
+    "machineName": "Super Hockey",
+    "opdbId": "G4qOn-M1rXN"
+  },
+  {
+    "machineName": "Guys Dolls",
+    "opdbId": "G4N8B-M852k"
+  },
+  {
+    "machineName": "Torpedo",
+    "opdbId": "G5p9k-MZenB"
+  },
+  {
+    "machineName": "Smart Set",
+    "opdbId": "G5YQK-MvBzn"
+  },
+  {
+    "machineName": "Universe",
+    "opdbId": "G4dxZ-MVKn9"
+  },
+  {
+    "machineName": "Faeton",
+    "opdbId": "GrPp3-Mx08N"
+  },
+  {
+    "machineName": "Suspense",
+    "opdbId": "G5KQV-MP3Y1"
+  },
+  {
+    "machineName": "Cow Poke",
+    "opdbId": "GRzow-M9R2d"
+  },
+  {
+    "machineName": "Just 21",
+    "opdbId": "G8ldZ-ME0y8"
+  },
+  {
+    "machineName": "Merry Widow",
+    "opdbId": "GRLxN-MBR9Z"
+  },
+  {
+    "machineName": "Contest",
+    "opdbId": "GrdEK-MyNjz"
+  },
+  {
+    "machineName": "Cybernaut",
+    "opdbId": "GR69j-MW93o"
+  },
+  {
+    "machineName": "Paratrooper",
+    "opdbId": "GRoj7-Ml91k"
+  },
+  {
+    "machineName": "Big Chief",
+    "opdbId": "Gr2VB-MdEVE"
+  },
+  {
+    "machineName": "Legends of Wrestlemania",
+    "opdbId": "GR6Or-MKNYR"
+  },
+  {
+    "machineName": "Hollywood",
+    "opdbId": "G5WW0-MOEXr"
+  },
+  {
+    "machineName": "Fireball II",
+    "opdbId": "Gry7q-MwNE2"
+  },
+  {
+    "machineName": "Hong Kong",
+    "opdbId": "GrEdP-MePnB"
+  },
+  {
+    "machineName": "Cactus Canyon",
+    "opdbId": "G4835-Mb5eO"
+  },
+  {
+    "machineName": "Dancing Dolls",
+    "opdbId": "G5nDL-M2YZ5"
+  },
+  {
+    "machineName": "Rocket Ship",
+    "opdbId": "G4P3n-MYeon"
+  },
+  {
+    "machineName": "Dancing Lady",
+    "opdbId": "G5DeY-MNEXX"
+  },
+  {
+    "machineName": "Class of 1812",
+    "opdbId": "G5DYX-M0oVW"
+  },
+  {
+    "machineName": "Star Trek",
+    "opdbId": "GryO2-MjB39"
+  },
+  {
+    "machineName": "Universe",
+    "opdbId": "GRLy6-MnKV7"
+  },
+  {
+    "machineName": "Buffalo Bill",
+    "opdbId": "GWyqq-Mq13Y"
+  },
+  {
+    "machineName": "Four Million B.C.",
+    "opdbId": "GRVZ8-M5RO0"
+  },
+  {
+    "machineName": "Earthshaker",
+    "opdbId": "GRw0r-Mp42p"
+  },
+  {
+    "machineName": "Spirit of 76",
+    "opdbId": "GrlPK-Mx0By"
+  },
+  {
+    "machineName": "Flipper Parade",
+    "opdbId": "G5nDZ-M9RoK"
+  },
+  {
+    "machineName": "Wild Schutz",
+    "opdbId": "GrleW-ME0op"
+  },
+  {
+    "machineName": "Magic",
+    "opdbId": "GR06y-MBRBN"
+  },
+  {
+    "machineName": "Banzai Run",
+    "opdbId": "GR9lZ-MkP2j"
+  },
+  {
+    "machineName": "Corral",
+    "opdbId": "GrlB1-MW9Nd"
+  },
+  {
+    "machineName": "Black Knight 2000",
+    "opdbId": "GrxPP-Ml91r"
+  },
+  {
+    "machineName": "Lancers",
+    "opdbId": "G5p6d-MdEVb"
+  },
+  {
+    "machineName": "Honey",
+    "opdbId": "G5vO1-MKNYE"
+  },
+  {
+    "machineName": "Cinema",
+    "opdbId": "Grj7K-MOEXv"
+  },
+  {
+    "machineName": "Joker",
+    "opdbId": "GRpvZ-MwNEn"
+  },
+  {
+    "machineName": "Antar",
+    "opdbId": "G4jpw-Mb5er"
+  },
+  {
+    "machineName": "Skateball",
+    "opdbId": "GrNpx-M2YZq"
+  },
+  {
+    "machineName": "Strikes and Spares",
+    "opdbId": "GrleW-MYeod"
+  },
+  {
+    "machineName": "Comics",
+    "opdbId": "G4dQD-MNEX8"
+  },
+  {
+    "machineName": "Cosmodrome",
+    "opdbId": "G509D-MnKVN"
+  },
+  {
+    "machineName": "Funhouse",
+    "opdbId": "G5Dz7-Mq139"
+  },
+  {
+    "machineName": "Hot Fire Birds",
+    "opdbId": "G4xpN-MRjPo"
+  },
+  {
+    "machineName": "Sky Jump",
+    "opdbId": "G4xlK-Mo163"
+  },
+  {
+    "machineName": "Pinball Circus",
+    "opdbId": "G4qdD-MrR3Z"
+  },
+  {
+    "machineName": "KISS (Pro)",
+    "opdbId": "G4qX5-Mz2Pp"
+  },
+  {
+    "machineName": "Baywatch",
+    "opdbId": "Grxvy-M4oZj"
+  },
+  {
+    "machineName": "Glamor",
+    "opdbId": "G5W7q-M3dbp"
+  },
+  {
+    "machineName": "Gun Club",
+    "opdbId": "G4Pwx-MXrWn"
+  },
+  {
+    "machineName": "Texan",
+    "opdbId": "GR9nJ-M1rb3"
+  },
+  {
+    "machineName": "Hurricane",
+    "opdbId": "GrX09-M85bb"
+  },
+  {
+    "machineName": "The Three Musketeers",
+    "opdbId": "G4q73-MZe1l"
+  },
+  {
+    "machineName": "Hot Diggity",
+    "opdbId": "G4dvK-MvBZb"
+  },
+  {
+    "machineName": "Silver",
+    "opdbId": "G4Xod-M5Rv0"
+  },
+  {
+    "machineName": "Spring Break",
+    "opdbId": "GRLKd-Mp46p"
+  },
+  {
+    "machineName": "Time Tunnel",
+    "opdbId": "GrXZE-Mx0py"
+  },
+  {
+    "machineName": "Golden Cue",
+    "opdbId": "GRYzo-MP3p7"
+  },
+  {
+    "machineName": "White Shark",
+    "opdbId": "G509D-M9RzK"
+  },
+  {
+    "machineName": "301/Bulls Eye",
+    "opdbId": "G4kE2-MBRzN"
+  },
+  {
+    "machineName": "Spot Pool",
+    "opdbId": "GrqL6-MyNxP"
+  },
+  {
+    "machineName": "Kicker",
+    "opdbId": "GRpZ2-MkP3j"
+  },
+  {
+    "machineName": "Fairway",
+    "opdbId": "Gr26x-MW9kd"
+  },
+  {
+    "machineName": "Whoopee",
+    "opdbId": "G4jxo-MOE5v"
+  },
+  {
+    "machineName": "Wild Card",
+    "opdbId": "G4jzL-MwN5n"
+  },
+  {
+    "machineName": "Night Fever",
+    "opdbId": "GR9Po-MePYy"
+  },
+  {
+    "machineName": "Mad Race",
+    "opdbId": "GRo6K-Mb5qr"
+  },
+  {
+    "machineName": "Action",
+    "opdbId": "GrJQv-M2Yjq"
+  },
+  {
+    "machineName": "Pin-Up",
+    "opdbId": "GR6DZ-MYejd"
+  },
+  {
+    "machineName": "Captain Fantastic and the Brown Dirt Cowboy",
+    "opdbId": "GRveZ-MNE38"
+  },
+  {
+    "machineName": "Jet Spin",
+    "opdbId": "G4qzZ-M0oWR"
+  },
+  {
+    "machineName": "Op-Pop-Pop",
+    "opdbId": "G4k30-MnK6N"
+  },
+  {
+    "machineName": "Mr. Black",
+    "opdbId": "G429k-Mq169"
+  },
+  {
+    "machineName": "Red Baron",
+    "opdbId": "G41Nn-MRjxo"
+  },
+  {
+    "machineName": "Cheetah",
+    "opdbId": "GR6kW-Mo1W3"
+  },
+  {
+    "machineName": "Centigrade 37",
+    "opdbId": "GrZ1k-MrRKZ"
+  },
+  {
+    "machineName": "Super Circus",
+    "opdbId": "G4kLJ-Mz2Xp"
+  },
+  {
+    "machineName": "Swing-Along",
+    "opdbId": "G5D9e-M4owj"
+  },
+  {
+    "machineName": "Round Up",
+    "opdbId": "G5vKP-M3d8p"
+  },
+  {
+    "machineName": "Lap By Lap",
+    "opdbId": "G4exx-MXrkn"
+  },
+  {
+    "machineName": "Millionaire",
+    "opdbId": "G5n38-M1rw3"
+  },
+  {
+    "machineName": "Lucky Shot",
+    "opdbId": "Gr2oD-MZell"
+  },
+  {
+    "machineName": "Playtime",
+    "opdbId": "Gryk2-MvBqb"
+  },
+  {
+    "machineName": "Elvira and the Party Monsters",
+    "opdbId": "Grlxp-MVKBW"
+  },
+  {
+    "machineName": "Lightning Ball",
+    "opdbId": "GR66d-M5Rw0"
+  },
+  {
+    "machineName": "Dragon",
+    "opdbId": "G5Wn2-Mp4lp"
+  },
+  {
+    "machineName": "Spark Plugs",
+    "opdbId": "GrEd1-Mx0ny"
+  },
+  {
+    "machineName": "Cinderella",
+    "opdbId": "GRoNB-MP357"
+  },
+  {
+    "machineName": "Cirsa Sport 2000",
+    "opdbId": "G5p8W-M9RwK"
+  },
+  {
+    "machineName": "Supersonic",
+    "opdbId": "GRLXd-ME07p"
+  },
+  {
+    "machineName": "Bad Cats",
+    "opdbId": "GrEBz-MBR3N"
+  },
+  {
+    "machineName": "Guns N' Roses",
+    "opdbId": "GrPKV-MyNoP"
+  },
+  {
+    "machineName": "X Force",
+    "opdbId": "GRzJ1-MkPEj"
+  },
+  {
+    "machineName": "Bull's Eye",
+    "opdbId": "Gr8vX-MW9yd"
+  },
+  {
+    "machineName": "Majorettes",
+    "opdbId": "GRwDD-Ml9Br"
+  },
+  {
+    "machineName": "Airborne Avenger",
+    "opdbId": "G4dZZ-MKNzE"
+  },
+  {
+    "machineName": "Hot Shots",
+    "opdbId": "GrEVz-MOEzv"
+  },
+  {
+    "machineName": "Disco",
+    "opdbId": "G43bY-MwNRn"
+  },
+  {
+    "machineName": "Rotation VIII",
+    "opdbId": "G4lnB-MeP1y"
+  },
+  {
+    "machineName": "Granny and the Gators",
+    "opdbId": "G4OKd-Mb51r"
+  },
+  {
+    "machineName": "400",
+    "opdbId": "G4eZ6-M2Yeq"
+  },
+  {
+    "machineName": "Extra Inning",
+    "opdbId": "GRLZ2-MYeWd"
+  },
+  {
+    "machineName": "Capt. Card",
+    "opdbId": "GRYbJ-MNEz8"
+  },
+  {
+    "machineName": "Odisea Paris Dakar",
+    "opdbId": "G5DKQ-M0o3R"
+  },
+  {
+    "machineName": "Kismet",
+    "opdbId": "G4ZD0-MjB9O"
+  },
+  {
+    "machineName": "A.G. Football",
+    "opdbId": "G5wxv-MnKkN"
+  },
+  {
+    "machineName": "Pot 'O' Gold",
+    "opdbId": "G4Xlx-Mq179"
+  },
+  {
+    "machineName": "Torch",
+    "opdbId": "G4JbV-M5Rqn"
+  },
+  {
+    "machineName": "Monday Night Football",
+    "opdbId": "G5zZ7-Mp474"
+  },
+  {
+    "machineName": "Joker Poker (EM)",
+    "opdbId": "GR9o1-Mx0bX"
+  },
+  {
+    "machineName": "Aces & Kings",
+    "opdbId": "G5oK2-M9R6y"
+  },
+  {
+    "machineName": "Caravan",
+    "opdbId": "G5WkJ-ME0XK"
+  },
+  {
+    "machineName": "Trio",
+    "opdbId": "G5LeP-MBRbl"
+  },
+  {
+    "machineName": "Criterium 80",
+    "opdbId": "GRo0B-MyN2Z"
+  },
+  {
+    "machineName": "Party",
+    "opdbId": "Gr23X-MkP78"
+  },
+  {
+    "machineName": "Antares",
+    "opdbId": "GRVyP-MW9ON"
+  },
+  {
+    "machineName": "Roto Pool",
+    "opdbId": "G59JJ-Ml9XY"
+  },
+  {
+    "machineName": "Teenage Mutant Ninja Turtles",
+    "opdbId": "Gr8xn-MKN66"
+  },
+  {
+    "machineName": "Bank-A-Ball",
+    "opdbId": "GrxdD-MOEnx"
+  },
+  {
+    "machineName": "West Show",
+    "opdbId": "GRbwx-MwNV3"
+  },
+  {
+    "machineName": "Party Animal",
+    "opdbId": "G42Zz-MeP7R"
+  },
+  {
+    "machineName": "Thoro-Bred",
+    "opdbId": "G4Zdx-Mb56j"
+  },
+  {
+    "machineName": "Swashbuckler",
+    "opdbId": "G48yY-M2YzO"
+  },
+  {
+    "machineName": "Nip-It",
+    "opdbId": "Gre0B-MYewk"
+  },
+  {
+    "machineName": "Seven Winner",
+    "opdbId": "G5YxJ-MNEbl"
+  },
+  {
+    "machineName": "Super Star",
+    "opdbId": "GRV2y-M0ozp"
+  },
+  {
+    "machineName": "Mac Attack",
+    "opdbId": "GrJ07-MjB7X"
+  },
+  {
+    "machineName": "Skyway",
+    "opdbId": "G4E1P-MnK7x"
+  },
+  {
+    "machineName": "Victory",
+    "opdbId": "GrdBk-Mq18w"
+  },
+  {
+    "machineName": "World Cup",
+    "opdbId": "GrNqO-MRjzl"
+  },
+  {
+    "machineName": "Tiger Woman",
+    "opdbId": "G4eEJ-M61q0"
+  },
+  {
+    "machineName": "Snafu",
+    "opdbId": "G5nE1-Mo17e"
+  },
+  {
+    "machineName": "Future Queen",
+    "opdbId": "GRpBV-MrRbE"
+  },
+  {
+    "machineName": "Bronco",
+    "opdbId": "GR6bk-Mz2N6"
+  },
+  {
+    "machineName": "Star Pool",
+    "opdbId": "GR6Oy-M4o8b"
+  },
+  {
+    "machineName": "Fair Fight",
+    "opdbId": "GRLnp-M3dZR"
+  },
+  {
+    "machineName": "Explorer",
+    "opdbId": "GRDW6-MXrwl"
+  },
+  {
+    "machineName": "Space City",
+    "opdbId": "G5Kl7-M1rzV"
+  },
+  {
+    "machineName": "Top Racer",
+    "opdbId": "G5Yn9-M85qX"
+  },
+  {
+    "machineName": "Motor Show",
+    "opdbId": "GRb2y-MZezV"
+  },
+  {
+    "machineName": "Lovely Lucy",
+    "opdbId": "G5oP7-MvBbr"
+  },
+  {
+    "machineName": "Police Force",
+    "opdbId": "G4d8d-MVKOR"
+  },
+  {
+    "machineName": "Flower's Child",
+    "opdbId": "GRov2-M5Ren"
+  },
+  {
+    "machineName": "Spin Wheel",
+    "opdbId": "Grlk9-Mp4w4"
+  },
+  {
+    "machineName": "Jive Time",
+    "opdbId": "GrjKk-Mx09X"
+  },
+  {
+    "machineName": "Bram Stoker's Dracula",
+    "opdbId": "G41do-MP3Py"
+  },
+  {
+    "machineName": "Select-A-Card",
+    "opdbId": "GyVBQ-M9Rny"
+  },
+  {
+    "machineName": "Road Runner",
+    "opdbId": "G421X-ME0nK"
+  },
+  {
+    "machineName": "Control Tower",
+    "opdbId": "GrPP9-MBRol"
+  },
+  {
+    "machineName": "Toledo",
+    "opdbId": "G5nj6-MyNEZ"
+  },
+  {
+    "machineName": "Ship Ahoy",
+    "opdbId": "G4lNn-MkPZ8"
+  },
+  {
+    "machineName": "Last Action Hero",
+    "opdbId": "GRwyq-MW9lN"
+  },
+  {
+    "machineName": "Ali Baba",
+    "opdbId": "G5KVw-Ml94Y"
+  },
+  {
+    "machineName": "Harvest",
+    "opdbId": "GR90K-MdEl1"
+  },
+  {
+    "machineName": "Charlie’s Angels",
+    "opdbId": "G5Woz-MKNq6"
+  },
+  {
+    "machineName": "Jumping Jack",
+    "opdbId": "Gr2JJ-MOExx"
+  },
+  {
+    "machineName": "Charlie’s Angels (EM)",
+    "opdbId": "G5Woz-MwNP3"
+  },
+  {
+    "machineName": "Bride of Pinbot",
+    "opdbId": "GRpee-MePdR"
+  },
+  {
+    "machineName": "El Toro",
+    "opdbId": "GR6yy-Mb5kj"
+  },
+  {
+    "machineName": "Arrowhead",
+    "opdbId": "Grj3D-M2YKO"
+  },
+  {
+    "machineName": "Sea Jockeys",
+    "opdbId": "Grl1y-MYeKk"
+  },
+  {
+    "machineName": "Time Fantasy",
+    "opdbId": "G42Nz-MNEpl"
+  },
+  {
+    "machineName": "Expo",
+    "opdbId": "Gr2jZ-M0olp"
+  },
+  {
+    "machineName": "River Boat",
+    "opdbId": "GrP2Z-MjB8X"
+  },
+  {
+    "machineName": "High Hand",
+    "opdbId": "GRYbJ-MnKex"
+  },
+  {
+    "machineName": "Carnival",
+    "opdbId": "G4k1p-Mq1Yw"
+  },
+  {
+    "machineName": "Cavalier",
+    "opdbId": "GrNEx-MRjEl"
+  },
+  {
+    "machineName": "Play Time",
+    "opdbId": "G5Koz-M61e0"
+  },
+  {
+    "machineName": "The Fiery 30's",
+    "opdbId": "GrdnO-Mo1be"
+  },
+  {
+    "machineName": "Vector",
+    "opdbId": "G486B-MrRwE"
+  },
+  {
+    "machineName": "Tic & Toc",
+    "opdbId": "GRWwO-Mz2B6"
+  },
+  {
+    "machineName": "RockMakers",
+    "opdbId": "G43zw-M4o2b"
+  },
+  {
+    "machineName": "Super Jumbo",
+    "opdbId": "GrX36-M7Zew"
+  },
+  {
+    "machineName": "Dolphin",
+    "opdbId": "GRKNz-M3d4R"
+  },
+  {
+    "machineName": "Race Stars",
+    "opdbId": "G59wx-MXrdl"
+  },
+  {
+    "machineName": "Space Orbit",
+    "opdbId": "G43WO-M1rdV"
+  },
+  {
+    "machineName": "Super Duo",
+    "opdbId": "GR6XE-M85zX"
+  },
+  {
+    "machineName": "Jake Mate",
+    "opdbId": "GRBOy-MZe5V"
+  },
+  {
+    "machineName": "Gun Smoke",
+    "opdbId": "G5nlX-MVKWR"
+  },
+  {
+    "machineName": "RollerCoaster Tycoon",
+    "opdbId": "Grybw-M5R0n"
+  },
+  {
+    "machineName": "Diamond Jim",
+    "opdbId": "GR6bZ-Mp4W4"
+  },
+  {
+    "machineName": "Hee Haw",
+    "opdbId": "G56Jy-Mx0VX"
+  },
+  {
+    "machineName": "Spacelab",
+    "opdbId": "G5DOx-MP3Ey"
+  },
+  {
+    "machineName": "Grand Slam",
+    "opdbId": "G43j1-M9R0y"
+  },
+  {
+    "machineName": "Megaaton",
+    "opdbId": "G43DN-ME0kK"
+  },
+  {
+    "machineName": "Ice Mania",
+    "opdbId": "G43DV-MBREl"
+  },
+  {
+    "machineName": "Hercules",
+    "opdbId": "G4NOx-MyNYZ"
+  },
+  {
+    "machineName": "Aerobatics",
+    "opdbId": "G5WJw-MkP98"
+  },
+  {
+    "machineName": "Jump Shot",
+    "opdbId": "G4dyP-Ml9EY"
+  },
+  {
+    "machineName": "High Seas",
+    "opdbId": "G4lNn-MdE31"
+  },
+  {
+    "machineName": "Moon Light",
+    "opdbId": "Gr3ZV-MKN56"
+  },
+  {
+    "machineName": "Dipsy Doodle",
+    "opdbId": "Grx1z-MOE9x"
+  },
+  {
+    "machineName": "Bristol Hills",
+    "opdbId": "GRKZV-MwN33"
+  },
+  {
+    "machineName": "Jalopy",
+    "opdbId": "GRojj-MeP3R"
+  },
+  {
+    "machineName": "Ace High",
+    "opdbId": "GrlJ3-M2YvO"
+  },
+  {
+    "machineName": "Evolution",
+    "opdbId": "G4dLk-MYe1k"
+  },
+  {
+    "machineName": "X's & O's",
+    "opdbId": "GRpWD-MNEPl"
+  },
+  {
+    "machineName": "Royal Flush",
+    "opdbId": "G4ezN-M0orp"
+  },
+  {
+    "machineName": "Twilight Zone",
+    "opdbId": "GrXzD-MjBPX"
+  },
+  {
+    "machineName": "Rollergames",
+    "opdbId": "Gr1Ko-MnKyx"
+  },
+  {
+    "machineName": "Hot & Cold (1P)",
+    "opdbId": "G5LVp-Mq1lw"
+  },
+  {
+    "machineName": "Hang Glider",
+    "opdbId": "GRKpw-M5R0E"
+  },
+  {
+    "machineName": "Flip Flop",
+    "opdbId": "Gr28v-Mp4Wr"
+  },
+  {
+    "machineName": "Shark",
+    "opdbId": "Grjww-Mx0VR"
+  },
+  {
+    "machineName": "The Simpsons Pinball Party",
+    "opdbId": "GRvBL-MP3Ev"
+  },
+  {
+    "machineName": "Black Knight",
+    "opdbId": "GrO7w-M9R03"
+  },
+  {
+    "machineName": "Jeanie",
+    "opdbId": "G5olj-ME0k9"
+  },
+  {
+    "machineName": "Joker's Wild",
+    "opdbId": "G4eJY-MBRE6"
+  },
+  {
+    "machineName": "Smarty",
+    "opdbId": "GRop9-MyNYp"
+  },
+  {
+    "machineName": "Space Race",
+    "opdbId": "G4qz6-MkP9V"
+  },
+  {
+    "machineName": "Harmony",
+    "opdbId": "GrPkZ-MW9K8"
+  },
+  {
+    "machineName": "Black Velvet",
+    "opdbId": "GRw0Z-Ml9Eb"
+  },
+  {
+    "machineName": "Hurdy Gurdy",
+    "opdbId": "GRpYQ-MdE3y"
+  },
+  {
+    "machineName": "Space Shuttle",
+    "opdbId": "G4q3L-MKN50"
+  },
+  {
+    "machineName": "Star Trek (Pro)",
+    "opdbId": "Gryw4-MwNky"
+  },
+  {
+    "machineName": "Fun House",
+    "opdbId": "GrEvQ-MePRP"
+  },
+  {
+    "machineName": "Caribbean Cruise",
+    "opdbId": "GR7bJ-Mb5RN"
+  },
+  {
+    "machineName": "Yale",
+    "opdbId": "G59K6-M2Y4R"
+  },
+  {
+    "machineName": "Surfing",
+    "opdbId": "GrlWn-MYebl"
+  },
+  {
+    "machineName": "Star Trek (LE)",
+    "opdbId": "Gryw4-MNEKn"
+  },
+  {
+    "machineName": "Game of Thrones (Premium)",
+    "opdbId": "G41d5-M0ovk"
+  },
+  {
+    "machineName": "Batman 66 (Premium)",
+    "opdbId": "GRoz4-MjBV6"
+  },
+  {
+    "machineName": "Pabst Can Crusher",
+    "opdbId": "GRYX4-MRjVP"
+  },
+  {
+    "machineName": "Mustang (Premium)",
+    "opdbId": "GrPOR-M61Pw"
+  },
+  {
+    "machineName": "Metallica (Retheme)",
+    "opdbId": "GRw0r-Mo1V7"
+  },
+  {
+    "machineName": "Batman 66 (LE)",
+    "opdbId": "GRoz4-MrRPw"
+  },
+  {
+    "machineName": "Ghostbusters (Pro)",
+    "opdbId": "GR9Nr-Mz2dY"
+  },
+  {
+    "machineName": "The Walking Dead (Premium)",
+    "opdbId": "G5nz5-M7Z94"
+  },
+  {
+    "machineName": "Spider-Man (Vault Edition)",
+    "opdbId": "G5D94-M3d5w"
+  },
+  {
+    "machineName": "Star Wars (LE)",
+    "opdbId": "G5vLR-MZebq"
+  },
+  {
+    "machineName": "Ghostbusters (LE)",
+    "opdbId": "GR9Nr-MVKol"
+  },
+  {
+    "machineName": "Ghostbusters (Premium)",
+    "opdbId": "GR9Nr-M5RxE"
+  },
+  {
+    "machineName": "Medieval Madness (Remake Royal Edition)",
+    "opdbId": "G5pe4-MkPRV"
+  },
+  {
+    "machineName": "AC/DC (Pro)",
+    "opdbId": "G43W4-MKNW0"
+  },
+  {
+    "machineName": "Ballerina",
+    "opdbId": "G4dyO-MwNBy"
+  },
+  {
+    "machineName": "The Rolling Stones (LE)",
+    "opdbId": "GredR-Mb5jN"
+  },
+  {
+    "machineName": "Barnacle Bill",
+    "opdbId": "GrEEB-MNE4n"
+  },
+  {
+    "machineName": "Boston",
+    "opdbId": "G5n6W-MjBj6"
+  },
+  {
+    "machineName": "Harley-Davidson (3rd Edition)",
+    "opdbId": "G56lO-Mq153"
+  },
+  {
+    "machineName": "AC/DC (LE)",
+    "opdbId": "G43W4-MrRpw"
+  },
+  {
+    "machineName": "The Avengers (Premium)",
+    "opdbId": "GRzNR-Mz2WY"
+  },
+  {
+    "machineName": "Iron Man (Vault)",
+    "opdbId": "GRVq4-M4oNp"
+  },
+  {
+    "machineName": "Dew-Wa-Ditty",
+    "opdbId": "GrlvP-MXroy"
+  },
+  {
+    "machineName": "Harley-Davidson (2nd Edition)",
+    "opdbId": "G56lO-MZeRq"
+  },
+  {
+    "machineName": "Card Trix",
+    "opdbId": "GRWZN-Mp41r"
+  },
+  {
+    "machineName": "Subway",
+    "opdbId": "GrEQy-Mx0yR"
+  },
+  {
+    "machineName": "Star Wars (Premium)",
+    "opdbId": "G5vLR-ME049"
+  },
+  {
+    "machineName": "Medieval Madness (Remake)",
+    "opdbId": "G5pe4-MyNkp"
+  },
+  {
+    "machineName": "Attack From Mars (Remake)",
+    "opdbId": "G4do5-MkPnV"
+  },
+  {
+    "machineName": "Attack From Mars (Remake LE)",
+    "opdbId": "G4do5-MW9z8"
+  },
+  {
+    "machineName": "KISS (LE)",
+    "opdbId": "G4qX5-Ml9jb"
+  },
+  {
+    "machineName": "AC/DC (Premium Vault Edition)",
+    "opdbId": "G43W4-MdEjy"
+  },
+  {
+    "machineName": "AC/DC (Pro Vault Edition)",
+    "opdbId": "G43W4-MKNX0"
+  },
+  {
+    "machineName": "Metallica (LE)",
+    "opdbId": "GRBE4-MOE4l"
+  },
+  {
+    "machineName": "Star Wars (Pro)",
+    "opdbId": "G5vLR-MwNwy"
+  },
+  {
+    "machineName": "Pirates of the Caribbean",
+    "opdbId": "GRbPY-MePOP"
+  },
+  {
+    "machineName": "Dialed In!",
+    "opdbId": "G4X2l-MYepl"
+  },
+  {
+    "machineName": "Total Nuclear Annihilation",
+    "opdbId": "GRD79-M0odk"
+  },
+  {
+    "machineName": "Aerosmith",
+    "opdbId": "Gr16e-MnKEX"
+  },
+  {
+    "machineName": "Aerosmith (Premium)",
+    "opdbId": "Gr16e-Mq1k3"
+  },
+  {
+    "machineName": "Aerosmith (LE)",
+    "opdbId": "Gr16e-M5Rbv"
+  },
+  {
+    "machineName": "Guardians of the Galaxy",
+    "opdbId": "GRWvz-Mp4yl"
+  },
+  {
+    "machineName": "Guardians of the Galaxy (Premium)",
+    "opdbId": "GRWvz-Mx0eb"
+  },
+  {
+    "machineName": "Guardians of the Galaxy (LE)",
+    "opdbId": "GRWvz-MP37P"
+  },
+  {
+    "machineName": "Alice Cooper's Nightmare Castle",
+    "opdbId": "GrlXK-M9RV0"
+  },
+  {
+    "machineName": "Rob Zombie's Spookshow International",
+    "opdbId": "G5pp2-ME0eP"
+  },
+  {
+    "machineName": "Rob Zombie's Spookshow International (LE)",
+    "opdbId": "G5pp2-MBRK4"
+  },
+  {
+    "machineName": "Iron Maiden: Legacy of the Beast",
+    "opdbId": "G4dOQ-MyNbb"
+  },
+  {
+    "machineName": "Iron Maiden: Legacy of the Beast (Premium)",
+    "opdbId": "G4dOQ-MkPxr"
+  },
+  {
+    "machineName": "Iron Maiden: Legacy of the Beast (LE)",
+    "opdbId": "G4dOQ-MW970"
+  },
+  {
+    "machineName": "Big Bang Bar",
+    "opdbId": "G56vo-Ml9Pp"
+  },
+  {
+    "machineName": "Star Trek (Vault)",
+    "opdbId": "Gryw4-MOE7P"
+  },
+  {
+    "machineName": "Star Trek (Premium Vault)",
+    "opdbId": "Gryw4-MwNwZ"
+  },
+  {
+    "machineName": "Supreme x Stern",
+    "opdbId": "G3EnZ-MePOV"
+  },
+  {
+    "machineName": "The Jetsons",
+    "opdbId": "GweVl-Mb5lx"
+  },
+  {
+    "machineName": "Magic Girl",
+    "opdbId": "GBLkP-M2YOn"
+  },
+  {
+    "machineName": "Alien (LE)",
+    "opdbId": "G4PBO-MYep0"
+  },
+  {
+    "machineName": "Domino's Spectacular Pinball Adventure",
+    "opdbId": "GxvQ7-MNE7O"
+  },
+  {
+    "machineName": "Houdini: Master of Mystery",
+    "opdbId": "GvBQX-M0ody"
+  },
+  {
+    "machineName": "Attack From Mars (Remake Special)",
+    "opdbId": "G4do5-MjBp2"
+  },
+  {
+    "machineName": "Spider-Man (Home Edition)",
+    "opdbId": "G2Ld3-MnKE5"
+  },
+  {
+    "machineName": "Deadpool (Pro)",
+    "opdbId": "G6lnq-Mq1kv"
+  },
+  {
+    "machineName": "Deadpool (Premium)",
+    "opdbId": "G6lnq-MRj7Z"
+  },
+  {
+    "machineName": "Deadpool (LE)",
+    "opdbId": "G6lnq-M6153"
+  },
+  {
+    "machineName": "Triple X",
+    "opdbId": "Gr87E-Mo1B0"
+  },
+  {
+    "machineName": "Thunderbirds",
+    "opdbId": "GN6Lq-MrRWB"
+  },
+  {
+    "machineName": "Oktoberfest",
+    "opdbId": "GLWBV-Mz2El"
+  },
+  {
+    "machineName": "Captain Fantastic and the Brown Dirt Cowboy (Home Model)",
+    "opdbId": "GRveZ-M4oyo"
+  },
+  {
+    "machineName": "The Mafia",
+    "opdbId": "GJ2YO-M7ZlR"
+  },
+  {
+    "machineName": "Monster Bash (Remake)",
+    "opdbId": "Gr3EW-M3dBn"
+  },
+  {
+    "machineName": "Monster Bash (Remake Special)",
+    "opdbId": "Gr3EW-MXryE"
+  },
+  {
+    "machineName": "Monster Bash (Remake LE)",
+    "opdbId": "Gr3EW-M1r9Y"
+  },
+  {
+    "machineName": "The Beatles (Gold)",
+    "opdbId": "G0l8P-M85d9"
+  },
+  {
+    "machineName": "Primus",
+    "opdbId": "GRYX4-MvBpz"
+  },
+  {
+    "machineName": "Super Mario Bros. Mushroom World",
+    "opdbId": "G7Zp0-MVKEX"
+  },
+  {
+    "machineName": "The Munsters (Pro)",
+    "opdbId": "GbPde-M5Rkv"
+  },
+  {
+    "machineName": "The Munsters (Premium/LE)",
+    "opdbId": "GbPde-Mp43l"
+  },
+  {
+    "machineName": "Hawkman",
+    "opdbId": "GrPO3-Mx0Pb"
+  },
+  {
+    "machineName": "Shark",
+    "opdbId": "GX29B-MP32P"
+  },
+  {
+    "machineName": "Vortex",
+    "opdbId": "GRwYo-M9RK0"
+  },
+  {
+    "machineName": "Black Knight: Sword of Rage (Pro)",
+    "opdbId": "GD7Ld-ME0BP"
+  },
+  {
+    "machineName": "Black Knight: Sword of Rage (Premium)",
+    "opdbId": "GD7Ld-MBRP4"
+  },
+  {
+    "machineName": "Willy Wonka & The Chocolate Factory",
+    "opdbId": "GYWBZ-MkPrr"
+  },
+  {
+    "machineName": "Willy Wonka & The Chocolate Factory (LE)",
+    "opdbId": "GYWBZ-MW9B0"
+  },
+  {
+    "machineName": "Jurassic Park (Pro)",
+    "opdbId": "GK17D-MdEqz"
+  },
+  {
+    "machineName": "Jurassic Park (Premium/LE)",
+    "opdbId": "GK17D-MKNKd"
+  },
+  {
+    "machineName": "Cosmic Carnival",
+    "opdbId": "GkBPY-MOEbP"
+  },
+  {
+    "machineName": "Elvira's House of Horrors (Premium/LE)",
+    "opdbId": "GZVOd-MwNxZ"
+  },
+  {
+    "machineName": "Demolition Man on Steroids",
+    "opdbId": "G5bv3-MePXV"
+  },
+  {
+    "machineName": "Retro Atomic Zombie Adventureland",
+    "opdbId": "Ge1L8-Mb52x"
+  },
+  {
+    "machineName": "Cactus Canyon Continued",
+    "opdbId": "G4835-M2YEn"
+  },
+  {
+    "machineName": "Rick and Morty (SE)",
+    "opdbId": "GQKb2-MYek0"
+  },
+  {
+    "machineName": "Stranger Things (Pro)",
+    "opdbId": "Gzy89-MNEeO"
+  },
+  {
+    "machineName": "Stranger Things (Premium/LE)",
+    "opdbId": "Gzy89-M0oPy"
+  },
+  {
+    "machineName": "Buttons and Bows",
+    "opdbId": "Glljy-MjBq2"
+  },
+  {
+    "machineName": "Star Wars (Home Edition)",
+    "opdbId": "GpePX-MnKq5"
+  },
+  {
+    "machineName": "Teenage Mutant Ninja Turtles (Pro)",
+    "opdbId": "Gd2Xb-Mq1qv"
+  },
+  {
+    "machineName": "Teenage Mutant Ninja Turtles (Premium/LE)",
+    "opdbId": "Gd2Xb-MRjpZ"
+  },
+  {
+    "machineName": "Hot Wheels",
+    "opdbId": "GEL31-M61W3"
+  },
+  {
+    "machineName": "Heavy Metal",
+    "opdbId": "GoEej-Mo1q0"
+  },
+  {
+    "machineName": "Medieval Madness (Remake Special Edition)",
+    "opdbId": "G5pe4-MrR1B"
+  },
+  {
+    "machineName": "Heist",
+    "opdbId": "G18pJ-Mz2bl"
+  },
+  {
+    "machineName": "Legends of Valhalla",
+    "opdbId": "GWyyq-M4oPo"
+  },
+  {
+    "machineName": "Goin' Nuts",
+    "opdbId": "GnPPP-M7ZBR"
+  },
+  {
+    "machineName": "Avengers: Infinity Quest (Pro)",
+    "opdbId": "Gj66P-M3dxn"
+  },
+  {
+    "machineName": "Avengers: Infinity Quest (Premium/LE)",
+    "opdbId": "Gj66P-MXr0E"
+  },
+  {
+    "machineName": "Guns N' Roses",
+    "opdbId": "GqZZ1-M1r5Y"
+  },
+  {
+    "machineName": "Guns N' Roses (LE)",
+    "opdbId": "GqZZ1-M85y9"
+  },
+  {
+    "machineName": "Guns N' Roses (CE)",
+    "opdbId": "GqZZ1-MZeoE"
+  },
+  {
+    "machineName": "Celts",
+    "opdbId": "G9zzB-MvBKz"
+  },
+  {
+    "machineName": "Humpty Dumpty",
+    "opdbId": "GyVVQ-MVKYX"
+  },
+  {
+    "machineName": "Cosmic Cart Racing",
+    "opdbId": "GPBB9-M5R9v"
+  },
+  {
+    "machineName": "Cover Girl",
+    "opdbId": "GV88w-Mp4Bl"
+  },
+  {
+    "machineName": "Predator",
+    "opdbId": "G8llZ-Mx0wb"
+  },
+  {
+    "machineName": "Led Zeppelin (Pro)",
+    "opdbId": "Gweel-M9Rk0"
+  },
+  {
+    "machineName": "Led Zeppelin (Premium/LE)",
+    "opdbId": "Gweel-ME0pP"
+  },
+  {
+    "machineName": "Pirates of the Caribbean (CE)",
+    "opdbId": "GRbPY-MBR24"
+  },
+  {
+    "machineName": "Alien (Remake)",
+    "opdbId": "G4PBO-MyNeb"
+  },
+  {
+    "machineName": "The Mandalorian (Pro)",
+    "opdbId": "GBLLP-MkPpr"
+  },
+  {
+    "machineName": "The Mandalorian (Premium/LE)",
+    "opdbId": "GBLLP-MW900"
+  },
+  {
+    "machineName": "Lucky Seven",
+    "opdbId": "G5D3O-Ml9xp"
+  },
+  {
+    "machineName": "Challenge Round",
+    "opdbId": "Gxvv7-MdE0z"
+  },
+  {
+    "machineName": "Impacto",
+    "opdbId": "GvBBX-MKNyd"
+  },
+  {
+    "machineName": "The World Series",
+    "opdbId": "G2LL3-MOEdP"
+  },
+  {
+    "machineName": "Cannon Lagoon",
+    "opdbId": "G6llq-MwNOZ"
+  },
+  {
+    "machineName": "Shoot 'n Scoot",
+    "opdbId": "GN66q-MeP0V"
+  },
+  {
+    "machineName": "Ranger in the Ruins",
+    "opdbId": "GLWWV-Mb5Xx"
+  },
+  {
+    "machineName": "Barnyard",
+    "opdbId": "Glllz-M2Ypn"
+  },
+  {
+    "machineName": "Lexy Lightspeed – Secret Agent Showdown",
+    "opdbId": "GpeeL-MYez0"
+  },
+  {
+    "machineName": "ROCs",
+    "opdbId": "Gd22x-MNElO"
+  },
+  {
+    "machineName": "Heads Up!",
+    "opdbId": "GELLO-M0o1y"
+  },
+  {
+    "machineName": "Grand Slam Rally",
+    "opdbId": "GoEEx-MjB52"
+  },
+  {
+    "machineName": "Hoopin' It Up",
+    "opdbId": "G188W-MnK95"
+  },
+  {
+    "machineName": "Silver Falls",
+    "opdbId": "GWyyZ-Mq1yv"
+  },
+  {
+    "machineName": "Quest for Glory",
+    "opdbId": "GnPPx-M5R94"
+  },
+  {
+    "machineName": "Halloween (SE)",
+    "opdbId": "Gj66Z-Mp4BN"
+  },
+  {
+    "machineName": "Monterrey",
+    "opdbId": "GqZZY-Mx0w4"
+  },
+  {
+    "machineName": "Clown",
+    "opdbId": "G9zz0-MP3VK"
+  },
+  {
+    "machineName": "Petaco",
+    "opdbId": "GyVV1-M9Rlp"
+  },
+  {
+    "machineName": "Screech",
+    "opdbId": "GPBBv-ME0x0"
+  },
+  {
+    "machineName": "Krull",
+    "opdbId": "GV881-MBRNV"
+  },
+  {
+    "machineName": "Sorcerer's Apprentice",
+    "opdbId": "G8llL-MyNwq"
+  },
+  {
+    "machineName": "Manhattan",
+    "opdbId": "G3EEl-MkP51"
+  },
+  {
+    "machineName": "Godzilla (Pro)",
+    "opdbId": "GweeP-MW95j"
+  },
+  {
+    "machineName": "Godzilla (Premium/LE)",
+    "opdbId": "GweeP-Ml9pZ"
+  },
+  {
+    "machineName": "Ultraman: Kaiju Rumble (SE)",
+    "opdbId": "GBLLd-MdEON"
+  },
+  {
+    "machineName": "Jurassic Park (Home Edition)",
+    "opdbId": "GxvvB-MOEKX"
+  },
+  {
+    "machineName": "Legends of Valhalla (Classic/Deluxe)",
+    "opdbId": "GWyyq-MwNK5"
+  },
+  {
+    "machineName": "Cactus Canyon (Remake)",
+    "opdbId": "G4835-M2YPK"
+  },
+  {
+    "machineName": "The Flip Side",
+    "opdbId": "GvBB8-MYex1"
+  },
+  {
+    "machineName": "Rush (Pro)",
+    "opdbId": "G2Lkd-MNEdK"
+  },
+  {
+    "machineName": "Rush (Premium/LE)",
+    "opdbId": "G2Lkd-M0ope"
+  },
+  {
+    "machineName": "Buccaneer",
+    "opdbId": "G6lwl-MjBNp"
+  },
+  {
+    "machineName": "Weird Al's Museum of Natural Hilarity",
+    "opdbId": "GN6WW-MnKPq"
+  },
+  {
+    "machineName": "Super Canasta",
+    "opdbId": "GLWLl-MRjee"
+  },
+  {
+    "machineName": "Medieval Madness (Remake LE)",
+    "opdbId": "G5pe4-M61y6"
+  },
+  {
+    "machineName": "Toy Story 4",
+    "opdbId": "GJ2o0-MrRye"
+  },
+  {
+    "machineName": "Funhouse 2.0 (Rudy's Nightmare)",
+    "opdbId": "G5Dz7-Mz2e1"
+  },
+  {
+    "machineName": "Escape From The Megaverse",
+    "opdbId": "G0lop-M4oEY"
+  },
+  {
+    "machineName": "Fathom (Mermaid)",
+    "opdbId": "GrPO3-M7Zkd"
+  },
+  {
+    "machineName": "St. Louis",
+    "opdbId": "G7Znb-M3d9q"
+  },
+  {
+    "machineName": "Stormy",
+    "opdbId": "GbPo6-MXrpN"
+  },
+  {
+    "machineName": "Tennessee",
+    "opdbId": "GX2xO-M1rxO"
+  },
+  {
+    "machineName": "Old Faithful",
+    "opdbId": "GD7wl-M85We"
+  },
+  {
+    "machineName": "King Arthur and his Round Table",
+    "opdbId": "GYWOL-MZePp"
+  },
+  {
+    "machineName": "Jack 'N Jill",
+    "opdbId": "GO0EK-MvBdk"
+  },
+  {
+    "machineName": "Olde King Cole",
+    "opdbId": "GK1Lv-MVKN8"
+  },
+  {
+    "machineName": "Alice in Wonderland",
+    "opdbId": "GkBXQ-M5RB4"
+  },
+  {
+    "machineName": "College Daze",
+    "opdbId": "GZV2Y-Mp4EN"
+  },
+  {
+    "machineName": "James Bond 007 (Pro)",
+    "opdbId": "GQKyP-Mx0O4"
+  },
+  {
+    "machineName": "James Bond 007 (Premium/LE)",
+    "opdbId": "GQKyP-MP3OK"
+  },
+  {
+    "machineName": "James Bond 007 (60th Anniversary LE)",
+    "opdbId": "Ge1Dy-M9Rrp"
+  },
+  {
+    "machineName": "One-Two-Three",
+    "opdbId": "Gzybj-ME0V0"
+  },
+  {
+    "machineName": "Scooby-Doo (SE)",
+    "opdbId": "GllPz-MBRrV"
+  },
+  {
+    "machineName": "Foo Fighters (Pro)",
+    "opdbId": "GpeoL-MyNPq"
+  },
+  {
+    "machineName": "Foo Fighters (Premium/LE)",
+    "opdbId": "GpeoL-MkPz1"
+  },
+  {
+    "machineName": "The Godfather",
+    "opdbId": "Gd2ox-MW9qj"
+  },
+  {
+    "machineName": "Queen",
+    "opdbId": "GELkO-Ml9zZ"
+  },
+  {
+    "machineName": "Pulp Fiction",
+    "opdbId": "GoEkx-MdEzN"
+  },
+  {
+    "machineName": "Final Resistance",
+    "opdbId": "G187W-MKNro"
+  },
+  {
+    "machineName": "This is Spinal Tap",
+    "opdbId": "GWyoZ-MOEqX"
+  },
+  {
+    "machineName": "Galactic Tank Force (Classic)",
+    "opdbId": "Gj6PZ-Mb5z6"
+  },
+  {
+    "machineName": "Flipper Foxtrot Rhythm Explosion",
+    "opdbId": "G9z10-M2Y1K"
+  },
+  {
+    "machineName": "Drained",
+    "opdbId": "GyVb1-MYeq1"
+  },
+  {
+    "machineName": "Rainbow",
+    "opdbId": "GPBKv-MNErK"
+  },
+  {
+    "machineName": "Space Hunt",
+    "opdbId": "GV8j1-M0oZe"
+  },
+  {
+    "machineName": "Punny Factory",
+    "opdbId": "G8lwL-MjBXp"
+  },
+  {
+    "machineName": "Whirlwind 2.0",
+    "opdbId": "GrE7e-MnKzq"
+  },
+  {
+    "machineName": "Venom (Pro)",
+    "opdbId": "G3EBl-Mq1zy"
+  },
+  {
+    "machineName": "Venom (Premium/LE)",
+    "opdbId": "G3EBl-MRj6e"
+  },
+  {
+    "machineName": "Three Musketeers",
+    "opdbId": "GwevP-M6166"
+  },
+  {
+    "machineName": "Terrific Lake",
+    "opdbId": "GBL7d-Mo1zP"
+  },
+  {
+    "machineName": "The Shark",
+    "opdbId": "GxvZB-MrRze"
+  },
+  {
+    "machineName": "Jim Henson's Labyrinth",
+    "opdbId": "GvBn8-Mz291"
+  },
+  {
+    "machineName": "Elton John",
+    "opdbId": "G2LWd-M4o3Y"
+  },
+  {
+    "machineName": "The Flintstones",
+    "opdbId": "G6lWl-M7Zrd"
+  },
+  {
+    "machineName": "El Paso",
+    "opdbId": "GN6dW-M3d6q"
+  },
+  {
+    "machineName": "JAWS (Pro)",
+    "opdbId": "GLWll-MXr4N"
+  },
+  {
+    "machineName": "JAWS (Premium/LE)",
+    "opdbId": "GLWll-M1r8O"
+  },
+  {
+    "machineName": "Looney Tunes (SE)",
+    "opdbId": "GJ2K0-M85re"
+  },
+  {
+    "machineName": "The Texas Chainsaw Massacre (SE)",
+    "opdbId": "G0lkp-MZeqp"
+  },
+  {
+    "machineName": "Dungeon Door Defender",
+    "opdbId": "G7Zyb-MvB5k"
+  },
+  {
+    "machineName": "Drained Bite-Sized",
+    "opdbId": "GbPv6-MVKq8"
+  },
+  {
+    "machineName": "Bird Watcher",
+    "opdbId": "GX2zO-M5Rr4"
+  },
+  {
+    "machineName": "Sleic Pin-Ball",
+    "opdbId": "GD7Yl-Mp4zN"
+  },
+  {
+    "machineName": "Basketball",
+    "opdbId": "GYWzL-Mx0x4"
+  },
+  {
+    "machineName": "Royal King",
+    "opdbId": "G4JND-MP3qK"
+  },
+  {
+    "machineName": "Triple Action",
+    "opdbId": "GO0bK-M9Rep"
+  },
+  {
+    "machineName": "Barry O's Barbecue Challenge",
+    "opdbId": "GK1Kv-ME0E0"
+  },
+  {
+    "machineName": "The Princess Bride",
+    "opdbId": "GkBnQ-MBRxV"
+  },
+  {
+    "machineName": "Ninja Eclipse",
+    "opdbId": "GZVXY-MyNOq"
+  },
+  {
+    "machineName": "ABBA",
+    "opdbId": "Ge1py-MkPj1"
+  },
+  {
+    "machineName": "John Wick (Pro)",
+    "opdbId": "GQK1P-MW9pj"
+  },
+  {
+    "machineName": "John Wick (Premium/LE)",
+    "opdbId": "GQK1P-Ml95Z"
+  },
+  {
+    "machineName": "Bowling Champ",
+    "opdbId": "Gzyxj-MOEeX"
+  },
+  {
+    "machineName": "Sharpshooter",
+    "opdbId": "Gll8z-MwNd5"
+  },
+  {
+    "machineName": "Pin-Bowler",
+    "opdbId": "GpeZL-MePe1"
+  },
+  {
+    "machineName": "Ali-Baba",
+    "opdbId": "Gd2lx-Mb5K6"
+  },
+  {
+    "machineName": "Bone Head",
+    "opdbId": "GELZO-M2YkK"
+  },
+  {
+    "machineName": "Build Up",
+    "opdbId": "GoEVx-MYeP1"
+  },
+  {
+    "machineName": "Catalina",
+    "opdbId": "G186W-MNEwK"
+  },
+  {
+    "machineName": "Chico",
+    "opdbId": "GWyvZ-M0oBe"
+  },
+  {
+    "machineName": "Circus",
+    "opdbId": "GnP8x-MjB0p"
+  },
+  {
+    "machineName": "Crazy Ball",
+    "opdbId": "Gj69Z-MnKxq"
+  },
+  {
+    "machineName": "Floating Power",
+    "opdbId": "GqZ1Y-Mq1Ey"
+  },
+  {
+    "machineName": "Gizmo",
+    "opdbId": "G9zw0-M5RdB"
+  },
+  {
+    "machineName": "Harvest Moon",
+    "opdbId": "GyVZ1-Mp49z"
+  },
+  {
+    "machineName": "Holiday",
+    "opdbId": "GPBov-Mx0KK"
+  },
+  {
+    "machineName": "Jamboree",
+    "opdbId": "GV8B1-MP3b9"
+  },
+  {
+    "machineName": "Magic",
+    "opdbId": "G8l2L-M9ReW"
+  },
+  {
+    "machineName": "Mardi Gras",
+    "opdbId": "G3Ewl-ME0El"
+  },
+  {
+    "machineName": "Melody",
+    "opdbId": "GwebP-MBRxn"
+  },
+  {
+    "machineName": "Merry Widow",
+    "opdbId": "GBLqd-MyNOK"
+  },
+  {
+    "machineName": "Moon Glow",
+    "opdbId": "GxvbB-MkPjl"
+  },
+  {
+    "machineName": "Morocco",
+    "opdbId": "GvBY8-MW9pn"
+  },
+  {
+    "machineName": "Puddin' Head",
+    "opdbId": "G2LYd-Ml95y"
+  },
+  {
+    "machineName": "Round Up",
+    "opdbId": "G6lYl-MdEwd"
+  },
+  {
+    "machineName": "Sally",
+    "opdbId": "GN6YW-MKNd4"
+  },
+  {
+    "machineName": "Samba",
+    "opdbId": "GLWYl-MOEe8"
+  },
+  {
+    "machineName": "Saratoga",
+    "opdbId": "GllXX-MwNdr"
+  },
+  {
+    "machineName": "Screwball",
+    "opdbId": "GpepN-MePek"
+  },
+  {
+    "machineName": "Shanghai",
+    "opdbId": "Gd2O6-Mb5Ky"
+  },
+  {
+    "machineName": "Spinball",
+    "opdbId": "GEL7V-M2Yko"
+  },
+  {
+    "machineName": "Temptation",
+    "opdbId": "GoEz3-MYeOB"
+  },
+  {
+    "machineName": "Thrill",
+    "opdbId": "G181j-MNExE"
+  },
+  {
+    "machineName": "Virginia",
+    "opdbId": "GWy0j-M0oY2"
+  },
+  {
+    "machineName": "Yanks",
+    "opdbId": "GnP2o-MjByk"
+  },
+  {
+    "machineName": "Gold Mine",
+    "opdbId": "Gj6Wj-MnKdl"
+  },
+  {
+    "machineName": "Hit Parade",
+    "opdbId": "GqZdQ-Mq1wW"
+  },
+  {
+    "machineName": "Leap-Year",
+    "opdbId": "G9zBb-MRjBv"
+  },
+  {
+    "machineName": "Playtime",
+    "opdbId": "GyV9p-M61p9"
+  },
+  {
+    "machineName": "Blood Bank Billiards",
+    "opdbId": "GPBzy-Mo1KX"
+  },
+  {
+    "machineName": "Genesis",
+    "opdbId": "GV8EW-MrRe5"
+  },
+  {
+    "machineName": "Trinidad",
+    "opdbId": "G8ljD-Mz2oP"
+  },
+  {
+    "machineName": "Utah",
+    "opdbId": "G3Ey3-M4onw"
+  },
+  {
+    "machineName": "10th Inning",
+    "opdbId": "GwexB-M7Zxq"
+  },
+  {
+    "machineName": "Blue Skies",
+    "opdbId": "GBLNO-M3dj4"
+  },
+  {
+    "machineName": "Cleopatra",
+    "opdbId": "GxvP1-MXrKO"
+  },
+  {
+    "machineName": "Major League Baseball",
+    "opdbId": "GvBeO-M1rN4"
+  },
+  {
+    "machineName": "Miss Cue T",
+    "opdbId": "G2LYp-M85PN"
+  },
+  {
+    "machineName": "Paradise",
+    "opdbId": "G6lYP-MZewx"
+  },
+  {
+    "machineName": "Serenade",
+    "opdbId": "GN6YD-MvBNp"
+  },
+  {
+    "machineName": "Star Dust",
+    "opdbId": "GLWYe-MVKlY"
+  },
+  {
+    "machineName": "Summer Time",
+    "opdbId": "GJ208-M5R5B"
+  },
+  {
+    "machineName": "Trade Winds",
+    "opdbId": "G0l2e-Mp4Oz"
+  },
+  {
+    "machineName": "Super Panic Ball",
+    "opdbId": "G7Zjz-Mx0jK"
+  },
+  {
+    "machineName": "Aquacade",
+    "opdbId": "GbPXB-MP399"
+  },
+  {
+    "machineName": "Band Leader",
+    "opdbId": "GX21L-M9R9W"
+  },
+  {
+    "machineName": "Basketball",
+    "opdbId": "GD7kB-ME0bl"
+  },
+  {
+    "machineName": "Big Top",
+    "opdbId": "GYWyw-MBROn"
+  },
+  {
+    "machineName": "Black Gold",
+    "opdbId": "GO073-MyNnK"
+  },
+  {
+    "machineName": "Camel Caravan",
+    "opdbId": "GK1Xj-MkPkl"
+  },
+  {
+    "machineName": "Carolina",
+    "opdbId": "GkBzD-MW9dn"
+  },
+  {
+    "machineName": "Champion",
+    "opdbId": "GZV8O-Ml9Wy"
+  },
+  {
+    "machineName": "Dallas",
+    "opdbId": "Ge161-MdEpd"
+  },
+  {
+    "machineName": "De-Icer",
+    "opdbId": "GQKqy-MKNn4"
+  },
+  {
+    "machineName": "Freshie",
+    "opdbId": "Gzy6x-MOEP8"
+  },
+  {
+    "machineName": "Frisky",
+    "opdbId": "GllZX-MwN0r"
+  },
+  {
+    "machineName": "Gin Rummy",
+    "opdbId": "GpeNN-MePxk"
+  },
+  {
+    "machineName": "Golden Gloves",
+    "opdbId": "Gd2W6-Mb5ny"
+  },
+  {
+    "machineName": "Gondola",
+    "opdbId": "GELBV-M2Y0o"
+  },
+  {
+    "machineName": "Grand Award",
+    "opdbId": "GoEZ3-MYe2B"
+  },
+  {
+    "machineName": "Majors of '49",
+    "opdbId": "G18dj-MNEBE"
+  },
+  {
+    "machineName": "Maryland",
+    "opdbId": "GWyxj-M0o52"
+  },
+  {
+    "machineName": "Oklahoma",
+    "opdbId": "GnPZo-MjBok"
+  },
+  {
+    "machineName": "Phoenix",
+    "opdbId": "GPBKv-MnKol"
+  },
+  {
+    "machineName": "Pinch Hitter",
+    "opdbId": "Gj62j-Mq1oW"
+  },
+  {
+    "machineName": "Ramona",
+    "opdbId": "GqZvQ-MRjlv"
+  },
+  {
+    "machineName": "Rip Snorter",
+    "opdbId": "G9zqb-M61B9"
+  },
+  {
+    "machineName": "Shantytown",
+    "opdbId": "GyVQp-Mo1oX"
+  },
+  {
+    "machineName": "Show Boat",
+    "opdbId": "GPB6y-MrRo5"
+  },
+  {
+    "machineName": "Swanee",
+    "opdbId": "GV8LW-Mz21P"
+  },
+  {
+    "machineName": "Tahiti",
+    "opdbId": "G8loD-M4o9w"
+  },
+  {
+    "machineName": "Tampico",
+    "opdbId": "G3Eo3-M7Zyq"
+  },
+  {
+    "machineName": "Three Feathers",
+    "opdbId": "GweyB-M3dP4"
+  },
+  {
+    "machineName": "Tumbleweed",
+    "opdbId": "GBLxO-MXrbO"
+  },
+  {
+    "machineName": "Richelieu",
+    "opdbId": "Gxv21-M1rp4"
+  },
+  {
+    "machineName": "Sea Breeze",
+    "opdbId": "GvBZO-M85kN"
+  },
+  {
+    "machineName": "Hell",
+    "opdbId": "G2LEp-MZeYx"
+  },
+  {
+    "machineName": "Jackpot",
+    "opdbId": "G6ldP-MvB8p"
+  },
+  {
+    "machineName": "Horror",
+    "opdbId": "G4jyz-M5REB"
+  },
+  {
+    "machineName": "Eight Ball Fury",
+    "opdbId": "GLWze-Mp4oz"
+  },
+  {
+    "machineName": "Sexy Girl (Delux)",
+    "opdbId": "GRD2P-Mx03K"
+  },
+  {
+    "machineName": "U.S.A. Football",
+    "opdbId": "G5wxv-MP3k9"
+  },
+  {
+    "machineName": "Odin",
+    "opdbId": "GJ2d8-M9RWW"
+  },
+  {
+    "machineName": "Atlanticus",
+    "opdbId": "G0lpe-ME0jl"
+  },
+  {
+    "machineName": "The Uncanny X-Men (Pro)",
+    "opdbId": "G7ZEz-MBRYn"
+  },
+  {
+    "machineName": "The Uncanny X-Men (Premium/LE)",
+    "opdbId": "G7ZEz-MyN3K"
+  },
+  {
+    "machineName": "Avatar: The Battle for Pandora",
+    "opdbId": "GbPxB-MkPol"
+  },
+  {
+    "machineName": "Alice's Adventures in Wonderland",
+    "opdbId": "GX2vL-MW9en"
+  },
+  {
+    "machineName": "Space Singularity",
+    "opdbId": "GD7yB-Ml9ry"
+  },
+  {
+    "machineName": "Funhouse (Remake)",
+    "opdbId": "G5Dz7-MdEod"
+  },
+  {
+    "machineName": "Evil Dead (CE)",
+    "opdbId": "GYWvw-MKNP4"
+  },
+  {
+    "machineName": "Metallica Remastered (Premium/LE)",
+    "opdbId": "GO0q3-MOEy8"
+  },
+  {
+    "machineName": "Dungeons & Dragons: The Tyrant's Eye (Pro)",
+    "opdbId": "GK1Ej-MwNZr"
+  },
+  {
+    "machineName": "Dungeons & Dragons: The Tyrant's Eye (Premium/LE)",
+    "opdbId": "GK1Ej-MePok"
+  },
+  {
+    "machineName": "Blues Brothers",
+    "opdbId": "GkBZD-Mb5oy"
+  },
+  {
+    "machineName": "Polar Explorer",
+    "opdbId": "GZVnO-M2Yxo"
+  },
+  {
+    "machineName": "Peter Brock / Holden",
+    "opdbId": "Ge1O1-MYeEB"
+  },
+  {
+    "machineName": "Road Trip",
+    "opdbId": "GQKXy-MNENE"
+  },
+  {
+    "machineName": "Olympus",
+    "opdbId": "GzyBx-M0ow2"
+  },
+  {
+    "machineName": "Merlin's Arcade (Legendary Edition)",
+    "opdbId": "GllVX-MjBnk"
+  },
+  {
+    "machineName": "Merlin's Arcade (Arcade Edition)",
+    "opdbId": "GllVX-MnKrl"
+  },
+  {
+    "machineName": "Portal (Standard)",
+    "opdbId": "GpebN-Mq1rW"
+  },
+  {
+    "machineName": "Portal (Extended)",
+    "opdbId": "GpebN-M5RNp"
+  },
+  {
+    "machineName": "Batman 66 (Super LE)",
+    "opdbId": "GRoz4-MrRPw-A97X1"
+  },
+  {
+    "machineName": "AC/DC (Let There Be Rock LE)",
+    "opdbId": "G43W4-MrRpw-AOPQR"
+  },
+  {
+    "machineName": "AC/DC (Back In Black LE)",
+    "opdbId": "G43W4-MrRpw-A1B7O"
+  },
+  {
+    "machineName": "AC/DC (LUCI)",
+    "opdbId": "G43W4-MXrPx-AO6D9"
+  },
+  {
+    "machineName": "AC/DC (LUCI Vault Edition)",
+    "opdbId": "G43W4-MdEjy-ARXn1"
+  },
+  {
+    "machineName": "AC/DC (Pro LED)",
+    "opdbId": "G43W4-MKNW0-AOENR"
+  },
+  {
+    "machineName": "Metallica Master of Puppets (LE)",
+    "opdbId": "GRBE4-MOE4l-A1KQR"
+  },
+  {
+    "machineName": "Metallica (Pro LED)",
+    "opdbId": "GRBE4-MQK1Z-A9Yn1"
+  },
+  {
+    "machineName": "Metallica Road Case (Premium)",
+    "opdbId": "GRBE4-MJ9rE-AObzO"
+  },
+  {
+    "machineName": "Metallica Monsters (Premium)",
+    "opdbId": "GRBE4-MJ9rE-ARZYO"
+  },
+  {
+    "machineName": "The Hobbit (Black Arrow)",
+    "opdbId": "G5bYr-MLezO-ARePO"
+  },
+  {
+    "machineName": "The Hobbit (Smaug Gold)",
+    "opdbId": "G5bYr-MLezO-AO3J1"
+  },
+  {
+    "machineName": "The Addams Family Special Collectors Edition",
+    "opdbId": "G4ODR-MLzY7-ARJrR"
+  },
+  {
+    "machineName": "The Avengers Hulk (LE)",
+    "opdbId": "GRzNR-MyNq8-A1oeR"
+  },
+  {
+    "machineName": "The Machine: Bride of Pinbot 2.0",
+    "opdbId": "GRpee-MJkyr-A1r0R"
+  },
+  {
+    "machineName": "The Machine: Bride of Pinbot",
+    "opdbId": "GRpee-MePdR-AOVbO"
+  },
+  {
+    "machineName": "Transformers Decepticon Violet (LE)",
+    "opdbId": "GRnPz-Mx0XO-ARzL1"
+  },
+  {
+    "machineName": "Transformers Autobot Crimson (LE)",
+    "opdbId": "GRnPz-Mx0XO-AOxV9"
+  },
+  {
+    "machineName": "X-Men Magneto (LE)",
+    "opdbId": "Grj6X-MJNV1-AOwN1"
+  },
+  {
+    "machineName": "X-Men Wolverine (LE)",
+    "opdbId": "Grj6X-MJNV1-AO209"
+  },
+  {
+    "machineName": "Special Force Girls",
+    "opdbId": "GRDkX-M61RE-A1qKR"
+  },
+  {
+    "machineName": "Alligator",
+    "opdbId": "GRDQ1-MDRZ9-AOdqe"
+  },
+  {
+    "machineName": "Cosmint",
+    "opdbId": "G5p2Y-MDqKz-AO7XX"
+  },
+  {
+    "machineName": "Tivoli",
+    "opdbId": "GRwqx-M8598-A9PkQ"
+  },
+  {
+    "machineName": "Hit-A-Card",
+    "opdbId": "GrlPj-MLqnR-ARB37"
+  },
+  {
+    "machineName": "Troubadour",
+    "opdbId": "GrPkZ-MW9K8-A96YD"
+  },
+  {
+    "machineName": "Hurdy Gurdy (Italy)",
+    "opdbId": "GRpYQ-MdE3y-A1NZ3"
+  },
+  {
+    "machineName": "Hawaiian Isle",
+    "opdbId": "G4yEO-M4oqr-ARWky"
+  },
+  {
+    "machineName": "Aces Top",
+    "opdbId": "G56BE-MQYxZ-A1XBn"
+  },
+  {
+    "machineName": "Champ",
+    "opdbId": "G57eW-MLnel-AOpql"
+  },
+  {
+    "machineName": "Add-A-Ball",
+    "opdbId": "G5zpL-ME02b-A9EYN"
+  },
+  {
+    "machineName": "Queen of Diamonds",
+    "opdbId": "GRBpL-MLeYk-ARKrQ"
+  },
+  {
+    "machineName": "Serenade",
+    "opdbId": "Gr1wP-MDq3y-AOYEn"
+  },
+  {
+    "machineName": "Soccer Kick-Off",
+    "opdbId": "Gr8L0-MLRdY-A9b3z"
+  },
+  {
+    "machineName": "The Beatles (Platinum)",
+    "opdbId": "G0l8P-M85d9-A1ZNY"
+  },
+  {
+    "machineName": "The Beatles (Diamond)",
+    "opdbId": "G0l8P-M85d9-AOv0B"
+  },
+  {
+    "machineName": "The Munsters (Premium)",
+    "opdbId": "GbPde-Mp43l-AOQwL"
+  },
+  {
+    "machineName": "The Munsters (LE)",
+    "opdbId": "GbPde-Mp43l-AO4Do"
+  },
+  {
+    "machineName": "Black Knight: Sword of Rage (LE)",
+    "opdbId": "GD7Ld-MBRP4-A1e4P"
+  },
+  {
+    "machineName": "Elvis Gold",
+    "opdbId": "G4qbX-MJw5r-A93pJ"
+  },
+  {
+    "machineName": "Willy Wonka & The Chocolate Factory (CE)",
+    "opdbId": "GYWBZ-MW9B0-A9jqd"
+  },
+  {
+    "machineName": "Eight Ball Deluxe (1984 edition)",
+    "opdbId": "G5KXk-MLB9V-A1JKr"
+  },
+  {
+    "machineName": "Jurassic Park (Premium)",
+    "opdbId": "GK17D-MKNKd-A15Yn"
+  },
+  {
+    "machineName": "Jurassic Park (LE)",
+    "opdbId": "GK17D-MKNKd-AOyKv"
+  },
+  {
+    "machineName": "Elvira's House of Horrors (Premium)",
+    "opdbId": "GZVOd-MwNxZ-AOLoy"
+  },
+  {
+    "machineName": "Elvira's House of Horrors (LE)",
+    "opdbId": "GZVOd-MwNxZ-AR8vV"
+  },
+  {
+    "machineName": "Elvira's House of Horrors (Signature)",
+    "opdbId": "GZVOd-MwNxZ-ARove"
+  },
+  {
+    "machineName": "Star Wars Comic Art (Premium)",
+    "opdbId": "G5vLR-ME049-ARrK0"
+  },
+  {
+    "machineName": "Star Wars Comic Art (Pro)",
+    "opdbId": "G5vLR-MwNwy-A9Vob"
+  },
+  {
+    "machineName": "Stranger Things (Premium)",
+    "opdbId": "Gzy89-M0oPy-A1zrL"
+  },
+  {
+    "machineName": "Stranger Things (LE)",
+    "opdbId": "Gzy89-M0oPy-A9xXV"
+  },
+  {
+    "machineName": "Teenage Mutant Ninja Turtles (Premium)",
+    "opdbId": "Gd2Xb-MRjpZ-A9wqN"
+  },
+  {
+    "machineName": "Teenage Mutant Ninja Turtles (LE)",
+    "opdbId": "Gd2Xb-MRjpZ-A92v0"
+  },
+  {
+    "machineName": "Avengers: Infinity Quest (Premium)",
+    "opdbId": "Gj66P-MXr0E-A1nx0"
+  },
+  {
+    "machineName": "Avengers: Infinity Quest (LE)",
+    "opdbId": "Gj66P-MXr0E-ARkqN"
+  },
+  {
+    "machineName": "Batman 66 (Catwoman Signature Edition)",
+    "opdbId": "GRoz4-MjBV6-A1Den"
+  },
+  {
+    "machineName": "Led Zeppelin (Premium)",
+    "opdbId": "Gweel-ME0pP-ARqVK"
+  },
+  {
+    "machineName": "Led Zeppelin (LE)",
+    "opdbId": "Gweel-ME0pP-AR0N5"
+  },
+  {
+    "machineName": "The Hobbit (LE)",
+    "opdbId": "G5bYr-MLezO-A9dNe"
+  },
+  {
+    "machineName": "The Hobbit (Motion Picture Trilogy)",
+    "opdbId": "G5bYr-MLezO-A97xX"
+  },
+  {
+    "machineName": "The Wizard of Oz (LE)",
+    "opdbId": "G4xyR-MJ2v0-AOPQQ"
+  },
+  {
+    "machineName": "The Wizard of Oz (75th Anniversary)",
+    "opdbId": "G4xyR-MJ2v0-A1BY7"
+  },
+  {
+    "machineName": "The Wizard of Oz (Emerald City)",
+    "opdbId": "G4xyR-MJ2v0-AO62D"
+  },
+  {
+    "machineName": "The Wizard of Oz (Yellow Brick Road)",
+    "opdbId": "G4xyR-MJ2v0-ARNw3"
+  },
+  {
+    "machineName": "Dialed In! (LE)",
+    "opdbId": "G4X2l-MYepl-A1WXy"
+  },
+  {
+    "machineName": "Dialed In! (CE)",
+    "opdbId": "G4X2l-MYepl-ARXxn"
+  },
+  {
+    "machineName": "Pirates of the Caribbean (LE)",
+    "opdbId": "GRbPY-MePOP-A9pVl"
+  },
+  {
+    "machineName": "The Mandalorian (Premium)",
+    "opdbId": "GBLLP-MW900-AOEEN"
+  },
+  {
+    "machineName": "The Mandalorian (LE)",
+    "opdbId": "GBLLP-MW900-A1KoQ"
+  },
+  {
+    "machineName": "Halloween (CE)",
+    "opdbId": "Gj66Z-Mp4BN-A9Y6n"
+  },
+  {
+    "machineName": "Halloween (Blood Sucker Edition)",
+    "opdbId": "Gj66Z-Mp4BN-AObBz"
+  },
+  {
+    "machineName": "Godzilla (Premium)",
+    "opdbId": "GweeP-Ml9pZ-ARZoY"
+  },
+  {
+    "machineName": "Godzilla (LE)",
+    "opdbId": "GweeP-Ml9pZ-A9vXB"
+  },
+  {
+    "machineName": "Ultraman: Kaiju Rumble (CE)",
+    "opdbId": "GBLLd-MdEON-A9QJL"
+  },
+  {
+    "machineName": "Ultraman: Kaiju Rumble (Blood Sucker Edition)",
+    "opdbId": "GBLLd-MdEON-A94po"
+  },
+  {
+    "machineName": "Elvira's House of Horrors (40th Anniversary)",
+    "opdbId": "GZVOd-MwNxZ-A1lvp"
+  },
+  {
+    "machineName": "Legends of Valhalla (Classic)",
+    "opdbId": "GWyyq-MwNK5-AReoP"
+  },
+  {
+    "machineName": "Legends of Valhalla (Deluxe)",
+    "opdbId": "GWyyq-MwNK5-AO3QJ"
+  },
+  {
+    "machineName": "Cactus Canyon (Remake Special)",
+    "opdbId": "G4835-M2YPK-AR5ln"
+  },
+  {
+    "machineName": "Cactus Canyon (Remake LE)",
+    "opdbId": "G4835-M2YPK-A9ylv"
+  },
+  {
+    "machineName": "Rush (Premium)",
+    "opdbId": "G2Lkd-M0ope-A9dNy"
+  },
+  {
+    "machineName": "Rush (LE)",
+    "opdbId": "G2Lkd-M0ope-A97xV"
+  },
+  {
+    "machineName": "Weird Al's Museum of Natural Hilarity (LE)",
+    "opdbId": "GN6WW-MnKPq-AOPQq"
+  },
+  {
+    "machineName": "Super Hoop",
+    "opdbId": "GLWLl-MRjee-A1BYb"
+  },
+  {
+    "machineName": "Toy Story 4 (CE)",
+    "opdbId": "GJ2o0-MrRye-AO62p"
+  },
+  {
+    "machineName": "Toy Story 4 (LE)",
+    "opdbId": "GJ2o0-MrRye-ARNwE"
+  },
+  {
+    "machineName": "Celts (Highland)",
+    "opdbId": "G9zzB-MvBKz-A1WX8"
+  },
+  {
+    "machineName": "Fathom Revisited",
+    "opdbId": "GrPO3-M9Rpx-ARXxN"
+  },
+  {
+    "machineName": "Alien (Remake LE)",
+    "opdbId": "G4PBO-MyNeb-A9pVL"
+  },
+  {
+    "machineName": "James Bond 007 (Premium)",
+    "opdbId": "GQKyP-MP3OK-AOEEx"
+  },
+  {
+    "machineName": "James Bond 007 (LE)",
+    "opdbId": "GQKyP-MP3OK-A1KoX"
+  },
+  {
+    "machineName": "Wizard",
+    "opdbId": "G5W6N-MLe6V-A9Y63"
+  },
+  {
+    "machineName": "Total Nuclear Annihilation (CE)",
+    "opdbId": "GRD79-M0odk-AObBw"
+  },
+  {
+    "machineName": "Scooby-Doo (Blood Sucker Edition)",
+    "opdbId": "GllPz-MBRrV-ARZo2"
+  },
+  {
+    "machineName": "Scooby-Doo (CE)",
+    "opdbId": "GllPz-MBRrV-A9vWL"
+  },
+  {
+    "machineName": "Foo Fighters (Premium)",
+    "opdbId": "GpeoL-MkPz1-A9Qlw"
+  },
+  {
+    "machineName": "Foo Fighters (LE)",
+    "opdbId": "GpeoL-MkPz1-A944p"
+  },
+  {
+    "machineName": "The Godfather (CE)",
+    "opdbId": "Gd2ox-MW9qj-A1loo"
+  },
+  {
+    "machineName": "The Godfather (LE)",
+    "opdbId": "Gd2ox-MW9qj-AReW2"
+  },
+  {
+    "machineName": "Queen (CE)",
+    "opdbId": "GELkO-Ml9zZ-AO3yd"
+  },
+  {
+    "machineName": "Queen (LE)",
+    "opdbId": "GELkO-Ml9zZ-AOjEb"
+  },
+  {
+    "machineName": "Pulp Fiction (SE)",
+    "opdbId": "GoEkx-MdEzN-ARJQz"
+  },
+  {
+    "machineName": "Pulp Fiction (LE)",
+    "opdbId": "GoEkx-MdEzN-AR50E"
+  },
+  {
+    "machineName": "Galactic Tank Force (Deluxe)",
+    "opdbId": "Gj6PZ-Mb5z6-A9yor"
+  },
+  {
+    "machineName": "Galactic Tank Force (LE)",
+    "opdbId": "Gj6PZ-Mb5z6-A9Lbd"
+  },
+  {
+    "machineName": "Galactic Tank Force (Signature)",
+    "opdbId": "Gj6PZ-Mb5z6-A183b"
+  },
+  {
+    "machineName": "Punny Factory (Engraved)",
+    "opdbId": "G8lwL-MjBXp-A1r7z"
+  },
+  {
+    "machineName": "Venom (Premium)",
+    "opdbId": "G3EBl-MRj6e-AOVkD"
+  },
+  {
+    "machineName": "Venom (LE)",
+    "opdbId": "G3EBl-MRj6e-ARzbx"
+  },
+  {
+    "machineName": "Jurassic Park (30th Anniversary)",
+    "opdbId": "GK17D-MKNKd-AOxoz"
+  },
+  {
+    "machineName": "Elton John (CE)",
+    "opdbId": "G2LWd-M4o3Y-AOwoL"
+  },
+  {
+    "machineName": "Elvira's House of Horrors (Blood Red Kiss)",
+    "opdbId": "GZVOd-MwNxZ-AO25N"
+  },
+  {
+    "machineName": "JAWS (Premium)",
+    "opdbId": "GLWll-M1r8O-ARnV7"
+  },
+  {
+    "machineName": "JAWS (LE)",
+    "opdbId": "GLWll-M1r8O-A1kx7"
+  },
+  {
+    "machineName": "Looney Tunes (Blood Sucker Edition)",
+    "opdbId": "GJ2K0-M85re-ARDJr"
+  },
+  {
+    "machineName": "Looney Tunes (CE)",
+    "opdbId": "GJ2K0-M85re-A1qdn"
+  },
+  {
+    "machineName": "The Texas Chainsaw Massacre (Blood Sucker Edition)",
+    "opdbId": "G0lkp-MZeqp-A102K"
+  },
+  {
+    "machineName": "The Texas Chainsaw Massacre (CE)",
+    "opdbId": "G0lkp-MZeqp-AOdky"
+  },
+  {
+    "machineName": "Barry O's Barbecue Challenge (LE)",
+    "opdbId": "GK1Kv-ME0E0-AO7ZV"
+  },
+  {
+    "machineName": "Barry O's Barbecue Challenge (CE)",
+    "opdbId": "GK1Kv-ME0E0-A9PJq"
+  },
+  {
+    "machineName": "The Princess Bride (LE)",
+    "opdbId": "GkBnQ-MBRxV-ARB7b"
+  },
+  {
+    "machineName": "The Princess Bride (CE)",
+    "opdbId": "GkBnQ-MBRxV-A96qp"
+  },
+  {
+    "machineName": "Ninja Eclipse (Arcade Edition)",
+    "opdbId": "GZVXY-MyNOq-A1NeE"
+  },
+  {
+    "machineName": "Ninja Eclipse (First Edition)",
+    "opdbId": "GZVXY-MyNOq-ARWE8"
+  },
+  {
+    "machineName": "ABBA (LE)",
+    "opdbId": "Ge1py-MkPj1-A1XDN"
+  },
+  {
+    "machineName": "ABBA (CE)",
+    "opdbId": "Ge1py-MkPj1-AOppL"
+  },
+  {
+    "machineName": "Alien (Ellen Ripley)",
+    "opdbId": "G4PBO-MyNeb-A9E6x"
+  },
+  {
+    "machineName": "Rick and Morty (Blood Sucker Edition)",
+    "opdbId": "GQKb2-MYek0-ARKeX"
+  },
+  {
+    "machineName": "John Wick (Premium)",
+    "opdbId": "GQK1P-Ml95Z-AOY43"
+  },
+  {
+    "machineName": "John Wick (LE)",
+    "opdbId": "GQK1P-Ml95Z-A9bjw"
+  },
+  {
+    "machineName": "Coney Island",
+    "opdbId": "GRVL2-MLl9Y-A1Zx2"
+  },
+  {
+    "machineName": "Godzilla (70th Anniversary)",
+    "opdbId": "GweeP-Ml9pZ-AOvNL"
+  },
+  {
+    "machineName": "Odin Deluxe",
+    "opdbId": "GJ2d8-M9RWW-AOQ7w"
+  },
+  {
+    "machineName": "The Uncanny X-Men (Premium)",
+    "opdbId": "G7ZEz-MyN3K-AO4qp"
+  },
+  {
+    "machineName": "The Uncanny X-Men (LE)",
+    "opdbId": "G7ZEz-MyN3K-ARl3o"
+  },
+  {
+    "machineName": "Elton John (PE)",
+    "opdbId": "G2LWd-M4o3Y-A1e22"
+  },
+  {
+    "machineName": "Avatar: The Battle for Pandora (LE)",
+    "opdbId": "GbPxB-MkPol-A93vd"
+  },
+  {
+    "machineName": "Avatar: The Battle for Pandora (CE)",
+    "opdbId": "GbPxB-MkPol-A9j2b"
+  },
+  {
+    "machineName": "Star Wars Comic Art (Home Edition)",
+    "opdbId": "GpePX-MnKq5-A1Jkz"
+  },
+  {
+    "machineName": "Funhouse (Remake CE)",
+    "opdbId": "G5Dz7-MdEod-AOL3d"
+  },
+  {
+    "machineName": "Funhouse (Remake LE)",
+    "opdbId": "G5Dz7-MdEod-AR8Nb"
+  },
+  {
+    "machineName": "Metallica Remastered (Premium)",
+    "opdbId": "GO0q3-MOEy8-ARol7"
+  },
+  {
+    "machineName": "Metallica Remastered (LE)",
+    "opdbId": "GO0q3-MOEy8-ARrPz"
+  },
+  {
+    "machineName": "Dungeons & Dragons: The Tyrant's Eye (Premium)",
+    "opdbId": "GK1Ej-MePok-A9VWD"
+  },
+  {
+    "machineName": "Dungeons & Dragons: The Tyrant's Eye (LE)",
+    "opdbId": "GK1Ej-MePok-A1zKx"
+  },
+  {
+    "machineName": "Peter Brock \"King Of The Mountain\" (Torana)",
+    "opdbId": "Ge1O1-MYeEB-A9xwz"
+  },
+  {
+    "machineName": "Peter Brock \"King Of The Mountain\" (VK Commodore)",
+    "opdbId": "Ge1O1-MYeEB-A9wWL"
+  },
+  {
+    "machineName": "Holden Heritage",
+    "opdbId": "Ge1O1-MYeEB-A92WN"
+  },
+  {
+    "machineName": "Pac-Man Panic",
+    "opdbId": "G7Zjz-Mx0jK-A1nq7"
+  },
+  {
+    "machineName": "Cactus Canyon (Lyman Upgrade)",
+    "opdbId": "G4835-M2YPK-ARkb7"
+  }
+]

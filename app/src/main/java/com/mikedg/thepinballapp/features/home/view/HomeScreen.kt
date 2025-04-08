@@ -1,5 +1,6 @@
 package com.mikedg.thepinballapp.features.home.view
 
+import PhotoScore
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -78,6 +79,11 @@ fun HomeScreen() {
                 composable<Route.About> {
                     Box(modifier = Modifier.padding(innerPadding)) {
                         AboutScreen()
+                    }
+                }
+                composable<Route.TakePhoto> {
+                    Box(modifier = Modifier.padding(innerPadding)) {
+                        PhotoScore()
                     }
                 }
             }
