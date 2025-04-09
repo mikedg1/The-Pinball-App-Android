@@ -19,7 +19,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.mikedg.thepinballapp.R
-import com.mikedg.thepinballapp.data.model.ChangeLog
+import com.mikedg.thepinballapp.data.model.opdb.ChangeLog
 
 
 @Composable

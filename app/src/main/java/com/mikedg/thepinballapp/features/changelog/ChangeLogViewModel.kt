@@ -2,7 +2,7 @@ package com.mikedg.thepinballapp.features.changelog
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mikedg.thepinballapp.data.model.ChangeLog
+import com.mikedg.thepinballapp.data.model.opdb.ChangeLog
 import com.mikedg.thepinballapp.data.remote.OpdbApiService
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -11,7 +11,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class ChangeLogViewModel @Inject constructor(private val opdbApiService: OpdbApiService): ViewModel() {
+class ChangeLogViewModel @Inject constructor(private val opdbApiService: OpdbApiService) : ViewModel() {
     sealed class UiState {
         data object Loading : UiState()
         data class Content(val changeLogs: List<ChangeLog>) : UiState()

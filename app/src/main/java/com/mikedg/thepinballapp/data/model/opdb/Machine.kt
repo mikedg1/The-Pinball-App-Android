@@ -1,4 +1,4 @@
-package com.mikedg.thepinballapp.data.model
+package com.mikedg.thepinballapp.data.model.opdb
 
 import com.squareup.moshi.Json
 

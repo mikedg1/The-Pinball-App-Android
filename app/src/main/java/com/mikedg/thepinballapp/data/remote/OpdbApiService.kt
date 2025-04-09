@@ -1,9 +1,9 @@
 package com.mikedg.thepinballapp.data.remote
 
 import com.mikedg.thepinballapp.BuildConfig
-import com.mikedg.thepinballapp.data.model.ChangeLog
-import com.mikedg.thepinballapp.data.model.Machine
-import com.mikedg.thepinballapp.data.model.TypeAheadSearchResult
+import com.mikedg.thepinballapp.data.model.opdb.ChangeLog
+import com.mikedg.thepinballapp.data.model.opdb.Machine
+import com.mikedg.thepinballapp.data.model.opdb.TypeAheadSearchResult
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit

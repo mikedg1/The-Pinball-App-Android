@@ -11,10 +11,20 @@ import android.util.Log
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
@@ -285,9 +295,9 @@ suspend fun resizeImageFromUri(
 //            return@withContext resizedBitmap
 //        }
         sampledBitmap?.let {
-        val rotatedBitmap = getRotatedBitmap(context, uri, sampledBitmap)
+            val rotatedBitmap = getRotatedBitmap(context, uri, sampledBitmap)
 
-        return@withContext rotatedBitmap
+            return@withContext rotatedBitmap
         }
     } catch (e: Exception) {
         e.printStackTrace()

@@ -30,7 +30,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import coil3.compose.rememberAsyncImagePainter
 import com.mikedg.thepinballapp.R
-import com.mikedg.thepinballapp.data.model.Machine
+import com.mikedg.thepinballapp.data.model.opdb.Machine
 
 @Composable
 fun MachineDetailScreen(machine: Machine, innerPadding: PaddingValues) {
@@ -54,18 +54,28 @@ fun MachineDetailScreen(machine: Machine, innerPadding: PaddingValues) {
                 DetailRow(stringResource(R.string.machine_detail_manufacture_date), machine.manufactureDate.orEmpty())
                 DetailRow(stringResource(R.string.machine_detail_type), machine.type.orEmpty())
                 DetailRow(stringResource(R.string.machine_detail_display), machine.display.orEmpty())
-                DetailRow(stringResource(R.string.machine_detail_player_count),
-                    stringResource(R.string.players, machine.playerCount ?: stringResource(R.string.machine_detail_unknown_player_count)))
+                DetailRow(
+                    stringResource(R.string.machine_detail_player_count),
+                    stringResource(
+                        R.string.players,
+                        machine.playerCount ?: stringResource(R.string.machine_detail_unknown_player_count)
+                    )
+                )
 
                 val context = LocalContext.current
-                DetailRow(stringResource(R.string.machine_detail_ipdb),
-                    stringResource(R.string.machine_detail_ipdb_no, machine.ipdbId ?: ""), isLink = true) {
+                DetailRow(
+                    stringResource(R.string.machine_detail_ipdb),
+                    stringResource(R.string.machine_detail_ipdb_no, machine.ipdbId ?: ""), isLink = true
+                ) {
                     val intent = Intent(Intent.ACTION_VIEW).apply {
                         data = Uri.parse("https://www.ipdb.org/machine.cgi?id=${machine.ipdbId}")
                     }
                     context.startActivity(intent)
                 }
-                DetailRow(stringResource(R.string.machine_detail_keywords), machine.keywords.orEmpty().joinToString(", "))
+                DetailRow(
+                    stringResource(R.string.machine_detail_keywords),
+                    machine.keywords.orEmpty().joinToString(", ")
+                )
 
                 if (machine.images.orEmpty().isNotEmpty()) {
                     Spacer(Modifier.height(16.dp))

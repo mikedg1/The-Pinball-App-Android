@@ -1,4 +1,3 @@
-import org.gradle.kotlin.dsl.implementation
 import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 import java.io.FileInputStream
 import java.util.Properties

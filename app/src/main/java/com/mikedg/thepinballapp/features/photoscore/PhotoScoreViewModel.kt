@@ -1,30 +1,20 @@
 package com.mikedg.thepinballapp.features.photoscore
 
-import android.R
-import android.content.Context
 import android.graphics.Bitmap
-import androidx.camera.core.CameraSelector.DEFAULT_FRONT_CAMERA
-import androidx.camera.core.Preview
-import androidx.camera.core.SurfaceRequest
-import androidx.camera.lifecycle.ProcessCameraProvider
-import androidx.camera.lifecycle.awaitInstance
-import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.awaitCancellation
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asSharedFlow
-import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 
 @HiltViewModel
-class PhotoScoreViewModel @Inject constructor(): ViewModel(){
+class PhotoScoreViewModel @Inject constructor() : ViewModel() {
     private val _image = MutableStateFlow<Bitmap?>(null)
     val image: StateFlow<Bitmap?> = _image
     private val _score = MutableStateFlow<String?>(null)
@@ -41,8 +31,9 @@ class PhotoScoreViewModel @Inject constructor(): ViewModel(){
     sealed class UiEvent {
         data object TakePhoto : UiEvent()
     }
+
     sealed class UiState {
-//        data object Loading : UiState()
+        //        data object Loading : UiState()
         data class Content(val message: String) : UiState()
         data class Error(val message: String) : UiState()
         data object WaitingForPhoto : UiState()

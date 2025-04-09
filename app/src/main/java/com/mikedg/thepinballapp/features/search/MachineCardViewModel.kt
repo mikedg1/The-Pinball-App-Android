@@ -10,7 +10,7 @@ import javax.inject.Inject
 private const val UNSET_ROW_HEIGHT = -1
 
 @HiltViewModel
-class MachineCardViewModel @Inject constructor(): ViewModel() {
+class MachineCardViewModel @Inject constructor() : ViewModel() {
     private val _rowHeight = MutableStateFlow(UNSET_ROW_HEIGHT)
     val rowHeight = _rowHeight.asStateFlow()
 

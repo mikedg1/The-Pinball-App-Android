@@ -2,8 +2,8 @@ package com.mikedg.thepinballapp.features.search
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mikedg.thepinballapp.data.model.Machine
-import com.mikedg.thepinballapp.data.model.TypeAheadSearchResult
+import com.mikedg.thepinballapp.data.model.opdb.Machine
+import com.mikedg.thepinballapp.data.model.opdb.TypeAheadSearchResult
 import com.mikedg.thepinballapp.data.remote.OpdbApiService
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
@@ -47,7 +47,8 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
             if (query.isNotBlank()) {
                 // Start new search with debounce
                 delay(300) // Debounce timeout
-                _typeAheadSearchResults.value = sortSearchSuggestionsByRelevance(opdbApiService.searchTypeAhead(query), query).take(7)
+                _typeAheadSearchResults.value =
+                    sortSearchSuggestionsByRelevance(opdbApiService.searchTypeAhead(query), query).take(7)
                 _scrollToTop.emit(Unit)
             } else {
                 _typeAheadSearchResults.value = emptyList()

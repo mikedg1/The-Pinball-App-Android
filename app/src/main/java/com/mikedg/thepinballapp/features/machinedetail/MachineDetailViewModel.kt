@@ -6,7 +6,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.mikedg.thepinballapp.data.model.Machine
+import com.mikedg.thepinballapp.data.model.opdb.Machine
 import com.mikedg.thepinballapp.data.remote.OpdbApiService
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

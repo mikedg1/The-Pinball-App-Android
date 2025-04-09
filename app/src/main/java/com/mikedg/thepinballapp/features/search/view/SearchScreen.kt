@@ -80,7 +80,10 @@ fun SearchScreen(navController: NavHostController, innerPadding: PaddingValues) 
         ) {
             if (suggestions.isNotEmpty()) {
                 item {
-                    Text(stringResource(R.string.search_screen_suggestions), style = MaterialTheme.typography.titleMedium)
+                    Text(
+                        stringResource(R.string.search_screen_suggestions),
+                        style = MaterialTheme.typography.titleMedium
+                    )
                 }
                 items(suggestions) { suggestion ->
                     Text(
@@ -101,7 +104,10 @@ fun SearchScreen(navController: NavHostController, innerPadding: PaddingValues) 
 
             if (searchResults.isNotEmpty()) {
                 item {
-                    Text(stringResource(R.string.search_screen_search_results), style = MaterialTheme.typography.titleMedium)
+                    Text(
+                        stringResource(R.string.search_screen_search_results),
+                        style = MaterialTheme.typography.titleMedium
+                    )
                 }
                 items(searchResults) { result ->
                     Card(

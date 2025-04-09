@@ -1,7 +1,7 @@
 package com.mikedg.thepinballapp.features.changelog
 
 import app.cash.turbine.test
-import com.mikedg.thepinballapp.data.model.ChangeLog
+import com.mikedg.thepinballapp.data.model.opdb.ChangeLog
 import com.mikedg.thepinballapp.data.remote.OpdbApiService
 import io.mockk.coEvery
 import io.mockk.mockk

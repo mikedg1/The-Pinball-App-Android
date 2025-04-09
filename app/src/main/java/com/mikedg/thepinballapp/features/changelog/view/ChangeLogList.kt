@@ -14,7 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.mikedg.thepinballapp.data.model.ChangeLog
+import com.mikedg.thepinballapp.data.model.opdb.ChangeLog
 import com.mikedg.thepinballapp.features.home.Route
 
 

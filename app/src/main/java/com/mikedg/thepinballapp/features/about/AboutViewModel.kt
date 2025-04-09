@@ -7,6 +7,6 @@ import java.util.Calendar
 import javax.inject.Inject
 
 @HiltViewModel
-class AboutViewModel @Inject constructor(@CalendarNow calendarNow: Calendar): ViewModel() {
+class AboutViewModel @Inject constructor(@CalendarNow calendarNow: Calendar) : ViewModel() {
     val copyrightString = "© ${calendarNow.get(Calendar.YEAR)} Mike DiGiovanni. All rights reserved."
 }

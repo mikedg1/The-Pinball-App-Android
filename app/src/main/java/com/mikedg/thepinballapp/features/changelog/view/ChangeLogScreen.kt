@@ -29,6 +29,7 @@ fun ChangeLogScreen(
                     modifier = Modifier.align(Alignment.Center).padding(innerPadding)
                 )
             }
+
             is ChangeLogViewModel.UiState.Content -> {
                 ChangeLogList(
                     changeLogs = (uiState as ChangeLogViewModel.UiState.Content).changeLogs,
@@ -37,6 +38,7 @@ fun ChangeLogScreen(
                     innerPadding = innerPadding
                 )
             }
+
             is ChangeLogViewModel.UiState.Error -> {
                 ErrorState(
                     message = (uiState as ChangeLogViewModel.UiState.Error).message,
