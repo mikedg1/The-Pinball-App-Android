@@ -1,3 +1,4 @@
+
 import android.content.ContentValues
 import android.content.Context
 import android.content.Intent
@@ -7,17 +8,26 @@ import android.media.ExifInterface
 import android.net.Uri
 import android.os.Build
 import android.provider.MediaStore
-import android.util.Log
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -27,10 +37,15 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
@@ -38,56 +53,10 @@ import com.google.accompanist.permissions.rememberPermissionState
 import com.google.accompanist.permissions.shouldShowRationale
 import com.mikedg.thepinballapp.data.remote.OpenAiService
 import com.mikedg.thepinballapp.features.photoscore.PhotoScoreViewModel
-import com.squareup.moshi.Moshi
-import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-//package com.mikedg.thepinballapp.features.photoscore.view
-//
-//import androidx.camera.compose.CameraXViewfinder
-//import androidx.compose.foundation.layout.Column
-//import androidx.compose.foundation.layout.Spacer
-//import androidx.compose.foundation.layout.fillMaxSize
-//import androidx.compose.foundation.layout.height
-//import androidx.compose.foundation.layout.widthIn
-//import androidx.compose.foundation.layout.wrapContentSize
-//import androidx.compose.material3.Button
-//import androidx.compose.material3.Text
-//import androidx.compose.runtime.Composable
-//import androidx.compose.runtime.LaunchedEffect
-//import androidx.compose.ui.Alignment
-//import androidx.compose.ui.Modifier
-//import androidx.compose.ui.platform.LocalContext
-//import androidx.compose.ui.text.style.TextAlign
-//import androidx.compose.ui.unit.dp
-//import androidx.hilt.navigation.compose.hiltViewModel
-//import androidx.lifecycle.LifecycleOwner
-//import androidx.lifecycle.compose.LocalLifecycleOwner
-//import androidx.lifecycle.compose.collectAsStateWithLifecycle
-//import androidx.lifecycle.viewmodel.compose.viewModel
-//import com.google.accompanist.permissions.ExperimentalPermissionsApi
-//import com.google.accompanist.permissions.isGranted
-//import com.google.accompanist.permissions.rememberPermissionState
-//import com.google.accompanist.permissions.shouldShowRationale
-//import com.mikedg.thepinballapp.features.photoscore.PhotoScoreViewModel
-//
-//import android.content.Context
-//import androidx.camera.core.CameraSelector
-//import androidx.camera.core.Preview
-//import androidx.camera.lifecycle.ProcessCameraProvider
-//import androidx.camera.view.PreviewView
-//import androidx.compose.foundation.layout.fillMaxSize
-//import androidx.compose.runtime.LaunchedEffect
-//import androidx.compose.runtime.remember
-//import androidx.compose.ui.platform.LocalContext
-//import androidx.compose.ui.platform.LocalLifecycleOwner
-//import androidx.compose.ui.viewinterop.AndroidView
-//import androidx.core.content.ContextCompat
-//import kotlin.coroutines.resume
-//import kotlin.coroutines.suspendCoroutine
-//
 @Composable
 fun PhotoScore() {
     val viewModel = hiltViewModel<PhotoScoreViewModel>()
@@ -95,7 +64,6 @@ fun PhotoScore() {
     var photoUri = remember { mutableStateOf<Uri?>(null) }
 
     val createImageUri = {
-        // For MediaStore approach (recommended for shared storage)
         val contentValues = ContentValues().apply {
             put(MediaStore.MediaColumns.DISPLAY_NAME, "photo_${System.currentTimeMillis()}.jpg")
             put(MediaStore.MediaColumns.MIME_TYPE, "image/jpeg")
@@ -122,27 +90,12 @@ fun PhotoScore() {
 
                     // Now you can pass the resized bitmap to your function
                     resizedBitmap?.let { bitmap ->
-                        viewModel.showScore("", bitmap)
+                        viewModel.showScore(null, bitmap)
                         // TODO: remove from here
                         val openAi = OpenAiService()
 
-                        val response = openAi.getScore(resizedBitmap)
-
-                        val moshi = Moshi.Builder()
-                            .addLast(KotlinJsonAdapterFactory())
-                            .build()
-                        val jsonAdapter = moshi.adapter(Any::class.java).indent("  ") // Pretty print with indentation
-                        val prettyJson = jsonAdapter.toJson(response)
-                        Log.d("PhotoScore", "Pretty JSON Response: $prettyJson")
-                        val scoreInfo = response.output.joinToString("\n") {
-                            it.content.joinToString("\n") { it.text }
-                        }
-                        Log.d(
-                            "PhotoScore", "Response: ${
-                                scoreInfo
-                            }"
-                        )
-                        viewModel.showScore(scoreInfo, resizedBitmap)
+                        val scoreResult = openAi.getScore(resizedBitmap)
+                        viewModel.showScore(scoreResult, resizedBitmap)
 //                        yourFunctionThatNeedsSmallImage(bitmap)
                         // Works!
 //                        viewModel.fetchScoresForImage(bitmap)
@@ -180,16 +133,14 @@ fun PhotoScore() {
                         createImageUri()?.let { uri ->
                             photoUri.value = uri
                             cameraLauncher.launch(uri)
-//                            cameraLauncher.launch(cameraIntent)
                         }
                     }
                 }
-                // Handle other events...
             }
         }
     }
 
-    CameraPreviewScreen(viewModel)
+    PhotoCaptureScreen(viewModel)
 }
 
 // Helper function to get file path from URI for older Android versions
@@ -253,9 +204,6 @@ suspend fun resizeImageFromUri(
         val fullBitmap = BitmapFactory.decodeStream(inputStream, null, options) //
         fullBitmap?.let {
             val rotatedBitmap = getRotatedBitmap(context, uri, fullBitmap)
-//
-//// Difference format than node WTF?
-//            return@withContext rotatedBitmap
             return@withContext rotatedBitmap
         }
         inputStream?.close()
@@ -269,31 +217,6 @@ suspend fun resizeImageFromUri(
         val sampledBitmap = BitmapFactory.decodeStream(secondInputStream, null, options)
         secondInputStream?.close()
 
-//        // Further resize if needed for exact dimensions
-//        if (sampledBitmap != null && (sampledBitmap.width > targetWidth || sampledBitmap.height > targetHeight)) {
-//            val scaleFactor = min(
-//                targetWidth.toFloat() / sampledBitmap.width,
-//                targetHeight.toFloat() / sampledBitmap.height
-//            )
-//
-//            val resizedBitmap = Bitmap.createScaledBitmap(
-//                sampledBitmap,
-//                (sampledBitmap.width * scaleFactor).toInt(),
-//                (sampledBitmap.height * scaleFactor).toInt(),
-//                true
-//            )
-//
-//            // If we created a new bitmap, recycle the sampled one
-//            if (resizedBitmap != sampledBitmap) {
-//                sampledBitmap.recycle()
-//            }
-//
-//            val rotatedBitmap = getRotatedBitmap(context, uri, resizedBitmap)
-//
-//// Difference format than node WTF?
-//            return@withContext rotatedBitmap
-//            return@withContext resizedBitmap
-//        }
         sampledBitmap?.let {
             val rotatedBitmap = getRotatedBitmap(context, uri, sampledBitmap)
 
@@ -325,25 +248,32 @@ fun calculateInSampleSize(options: BitmapFactory.Options, reqWidth: Int, reqHeig
 
 @OptIn(ExperimentalPermissionsApi::class) // For accompanist permission
 @Composable
-fun CameraPreviewScreen(viewModel: PhotoScoreViewModel, modifier: Modifier = Modifier) {
+fun PhotoCaptureScreen(viewModel: PhotoScoreViewModel, modifier: Modifier = Modifier) {
     val cameraPermissionState = rememberPermissionState(android.Manifest.permission.CAMERA)
-    val viewModel = hiltViewModel<PhotoScoreViewModel>()
+
+    val score = viewModel.score.collectAsState()
+    val title = viewModel.machineName.collectAsState()
+
     if (cameraPermissionState.status.isGranted) {
         //CameraPreviewContent(viewModel = PhotoScoreViewModel(), modifier = modifier)
 //        Text("Got permissions")
-        val score = viewModel.score.collectAsState()
         val bitmap = viewModel.image.collectAsState()
         Column {
-            bitmap.value?.let { image ->
-                Image(
-                    bitmap = image.asImageBitmap(),
-                    contentDescription = "Bitmap image",
-                    modifier = modifier
-                )
-
-            }
+//            bitmap.value?.let { image ->
+//                Image(
+//                    bitmap = image.asImageBitmap(),
+//                    contentDescription = "Bitmap image",
+//                    modifier = modifier
+//                )
+//
+//            }
             Text(score.value.toString())
-
+            PolaroidBitmapImage(
+                bitmap = bitmap.value?.asImageBitmap() ,
+                caption = "${title.value} — ${score.value}",
+                contentDescription = "Photo of ${title.value} with score ${score.value}" ,
+                modifier = Modifier.height(200.dp)
+            )
         }
     } else {
         Column(
@@ -371,53 +301,75 @@ fun CameraPreviewScreen(viewModel: PhotoScoreViewModel, modifier: Modifier = Mod
         }
     }
 }
-//
-//@Composable
-//fun CameraPreviewContent(
-//    viewModel: PhotoScoreViewModel,
-//    modifier: Modifier = Modifier,
-//    lifecycleOwner: LifecycleOwner = LocalLifecycleOwner.current
-//) {
-//    Text("Camera")
-////    val surfaceRequest = viewModel.surfaceRequest.collectAsStateWithLifecycle()
-////    val context = LocalContext.current
-////    LaunchedEffect(lifecycleOwner) {
-////        viewModel.bindToCamera(context.applicationContext, lifecycleOwner)
-////    }
-////
-////    surfaceRequest.value?.let { request ->
-//        CameraXViewfinder(
-//            surfaceRequest = request,
-//            modifier = modifier
-//        )
-////    }
-//}
-//
-//@Composable
-//fun CameraPreviewScreen() {
-//    val lensFacing = CameraSelector.LENS_FACING_BACK
-//    val lifecycleOwner = LocalLifecycleOwner.current
-//    val context = LocalContext.current
-//    val preview = Preview.Builder().build()
-//    val previewView = remember {
-//        PreviewView(context)
-//    }
-//    val cameraxSelector = CameraSelector.Builder().requireLensFacing(lensFacing).build()
-//    LaunchedEffect(lensFacing) {
-//        val cameraProvider = context.getCameraProvider()
-//        cameraProvider.unbindAll()
-//        cameraProvider.bindToLifecycle(lifecycleOwner, cameraxSelector, preview)
-//        preview.setSurfaceProvider(previewView.surfaceProvider)
-//    }
-//    AndroidView(factory = { previewView }, modifier = Modifier.fillMaxSize())
-//}
-//
-//private suspend fun Context.getCameraProvider(): ProcessCameraProvider =
-//    suspendCoroutine { continuation ->
-//        ProcessCameraProvider.getInstance(this).also { cameraProvider ->
-//            cameraProvider.addListener({
-//                continuation.resume(cameraProvider.get())
-//            }, ContextCompat.getMainExecutor(this))
-//        }
-//    }
 
+
+/**
+* A composable that displays a bitmap image in a Polaroid-style format with text at the bottom.
+*
+* @param bitmap The bitmap image to display
+* @param caption The text to display at the bottom of the Polaroid
+* @param modifier Modifier to be applied to the component
+* @param contentDescription Description of the image for accessibility
+*/
+@Composable
+fun PolaroidBitmapImage(
+    bitmap: ImageBitmap?, // Using coil3.Bitmap as seen in your imports
+    caption: String,
+    modifier: Modifier = Modifier,
+    contentDescription: String? = null
+) {
+    Card(
+        modifier = modifier
+            .shadow(
+                elevation = 4.dp,
+                shape = RoundedCornerShape(2.dp)
+            ),
+        shape = RoundedCornerShape(2.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = Color.White
+        )
+    ) {
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            // Image part of the Polaroid
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(8.dp)
+                    .background(Color.White)
+            ) {
+                // Convert coil3.Bitmap to androidx.compose.ui.graphics.ImageBitmap
+                val imageBitmap = bitmap
+                imageBitmap?.let {
+                    Image(
+                        bitmap = imageBitmap,
+                        contentDescription = contentDescription,
+                        contentScale = ContentScale.Crop,
+                        modifier = Modifier
+                            .defaultMinSize(200.dp, 200.dp)
+                            .fillMaxWidth()
+                            .aspectRatio(1f) // Square aspect ratio for typical Polaroid look
+                    )
+
+                }
+            }
+
+            // Caption part (white space at the bottom)
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 8.dp, vertical = 16.dp),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = caption,
+                    fontSize = 14.sp,
+                    textAlign = TextAlign.Center,
+                    fontFamily = MaterialTheme.typography.bodyMedium.fontFamily,
+                    color = Color.Black
+                )
+            }
+        }
+    }
+}

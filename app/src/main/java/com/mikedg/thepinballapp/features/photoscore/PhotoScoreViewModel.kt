@@ -3,6 +3,7 @@ package com.mikedg.thepinballapp.features.photoscore
 import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.mikedg.thepinballapp.data.local.ScoreResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
@@ -17,11 +18,27 @@ import javax.inject.Inject
 class PhotoScoreViewModel @Inject constructor() : ViewModel() {
     private val _image = MutableStateFlow<Bitmap?>(null)
     val image: StateFlow<Bitmap?> = _image
-    private val _score = MutableStateFlow<String?>(null)
+
+    private val _score = MutableStateFlow<String>("")
     val score: StateFlow<String?> = _score
 
-    fun showScore(string: String, bitmap: Bitmap) {
-        _score.value = string
+    private val _machineName = MutableStateFlow<String>("")
+    val machineName: StateFlow<String?> = _machineName
+
+    private val _opdbId = MutableStateFlow<String>("")
+    val opdbId: StateFlow<String?> = _opdbId
+
+    fun showScore(scoreResult: ScoreResult?, bitmap: Bitmap) {
+        scoreResult?.let {
+            _score.value = scoreResult.player_scores?.get(0).toString()
+            _machineName.value = scoreResult.machine_name ?: ""
+            _opdbId.value = scoreResult.opdb_id ?: ""
+        } ?: run {
+            _score.value = ""
+            _machineName.value = ""
+            _opdbId.value = ""
+        }
+
         _image.value = bitmap
     }
 
