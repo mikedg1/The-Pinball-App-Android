@@ -132,5 +132,10 @@ dependencies {
     implementation("com.aallam.openai:openai-client:4.0.1")
     runtimeOnly("io.ktor:ktor-client-okhttp:2.3.2")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0") // Use the latest version
-
+    
+    // Room dependencies
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    kapt(libs.androidx.room.compiler)
+    testImplementation(libs.androidx.room.testing)
 }
