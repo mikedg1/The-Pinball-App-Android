@@ -1,4 +1,3 @@
-
 import android.content.ContentValues
 import android.content.Context
 import android.graphics.Bitmap
@@ -11,7 +10,6 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
@@ -19,7 +17,7 @@ import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.sizeIn
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -77,11 +75,9 @@ fun PhotoScore() {
 
     // Register for activity result
     val cameraLauncher = rememberLauncherForActivityResult(
-//        contract = ActivityResultContracts.StartActivityForResult()
         ActivityResultContracts.TakePicture()
     ) { success ->
         if (success) {
-//    ) { result ->
             photoUri.value?.let { uri ->
                 // Resize the image
                 coroutineScope.launch {
@@ -95,28 +91,9 @@ fun PhotoScore() {
 
                         val scoreResult = openAi.getScore(resizedBitmap)
                         viewModel.showScore(scoreResult, resizedBitmap)
-//                        yourFunctionThatNeedsSmallImage(bitmap)
-                        // Works!
-//                        viewModel.fetchScoresForImage(bitmap)
-//                        val openai = OpenAi(
-//                            token = "your-api-key",
-//                            timeout = Timeout(socket = 60.seconds),
-//                            // additional configurations...
-//                        )
                     }
                 }
             }
-
-//        if (result.resultCode == Activity.RESULT_OK && result.data?.extras?.get("data") != null) {
-            // Handle the image captured
-//            val imageBitmap = result.data?.extras?.get("data") as? Bitmap // Thumbnail?
-//            imageBitmap?.let {
-//                https://developer.android.com/media/camera/camera-deprecated/photobasics
-            // Do something with the bitmap
-//                viewModel.onImageCaptured(it)
-            // Save the image to the gallery
-
-//            }
         } else {
             // Handle cancellation or failure
 //            viewModel.onCameraCancelled()
@@ -154,33 +131,28 @@ private fun getRealPathFromURI(context: Context, uri: Uri): String? {
 }
 
 private fun getRotatedBitmap(context: Context, uri: Uri, bitmap: Bitmap): Bitmap {
-    val inputStream = context.contentResolver.openInputStream(uri)
-    val exifInterface = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-        ExifInterface(inputStream!!)
-    } else {
-        // For older Android versions, you need the file path
-        val path = getRealPathFromURI(context, uri)
-        ExifInterface(path!!)
+    context.contentResolver.openInputStream(uri).use { inputStream ->
+        val exifInterface = ExifInterface(inputStream!!)
+        inputStream.close()
+
+        val orientation = exifInterface.getAttributeInt(
+            ExifInterface.TAG_ORIENTATION,
+            ExifInterface.ORIENTATION_NORMAL
+        )
+
+        val matrix = android.graphics.Matrix()
+        when (orientation) {
+            ExifInterface.ORIENTATION_ROTATE_90 -> matrix.postRotate(90f)
+            ExifInterface.ORIENTATION_ROTATE_180 -> matrix.postRotate(180f)
+            ExifInterface.ORIENTATION_ROTATE_270 -> matrix.postRotate(270f)
+            ExifInterface.ORIENTATION_FLIP_HORIZONTAL -> matrix.preScale(-1f, 1f)
+            ExifInterface.ORIENTATION_FLIP_VERTICAL -> matrix.preScale(1f, -1f)
+        }
+
+        return Bitmap.createBitmap(
+            bitmap, 0, 0, bitmap.width, bitmap.height, matrix, true
+        )
     }
-    inputStream?.close()
-
-    val orientation = exifInterface.getAttributeInt(
-        ExifInterface.TAG_ORIENTATION,
-        ExifInterface.ORIENTATION_NORMAL
-    )
-
-    val matrix = android.graphics.Matrix()
-    when (orientation) {
-        ExifInterface.ORIENTATION_ROTATE_90 -> matrix.postRotate(90f)
-        ExifInterface.ORIENTATION_ROTATE_180 -> matrix.postRotate(180f)
-        ExifInterface.ORIENTATION_ROTATE_270 -> matrix.postRotate(270f)
-        ExifInterface.ORIENTATION_FLIP_HORIZONTAL -> matrix.preScale(-1f, 1f)
-        ExifInterface.ORIENTATION_FLIP_VERTICAL -> matrix.preScale(1f, -1f)
-    }
-
-    return Bitmap.createBitmap(
-        bitmap, 0, 0, bitmap.width, bitmap.height, matrix, true
-    )
 }
 
 // Function to resize image from Uri
@@ -251,24 +223,13 @@ fun PhotoCaptureScreen(viewModel: PhotoScoreViewModel, modifier: Modifier = Modi
     val title = viewModel.machineName.collectAsState()
 
     if (cameraPermissionState.status.isGranted) {
-        //CameraPreviewContent(viewModel = PhotoScoreViewModel(), modifier = modifier)
-//        Text("Got permissions")
         val bitmap = viewModel.image.collectAsState()
         Column {
-//            bitmap.value?.let { image ->
-//                Image(
-//                    bitmap = image.asImageBitmap(),
-//                    contentDescription = "Bitmap image",
-//                    modifier = modifier
-//                )
-//
-//            }
-            Text(score.value.toString())
             PolaroidBitmapImage(
-                bitmap = bitmap.value?.asImageBitmap() ,
+                bitmap = bitmap.value?.asImageBitmap(),
                 caption = "${title.value} — ${score.value}",
-                contentDescription = "Photo of ${title.value} with score ${score.value}" ,
-                modifier = Modifier.height(200.dp)
+                contentDescription = "Photo of ${title.value} with score ${score.value}",
+                modifier = Modifier.sizeIn(minHeight = 200.dp)
             )
         }
     } else {
@@ -300,13 +261,13 @@ fun PhotoCaptureScreen(viewModel: PhotoScoreViewModel, modifier: Modifier = Modi
 
 
 /**
-* A composable that displays a bitmap image in a Polaroid-style format with text at the bottom.
-*
-* @param bitmap The bitmap image to display
-* @param caption The text to display at the bottom of the Polaroid
-* @param modifier Modifier to be applied to the component
-* @param contentDescription Description of the image for accessibility
-*/
+ * A composable that displays a bitmap image in a Polaroid-style format with text at the bottom.
+ *
+ * @param bitmap The bitmap image to display
+ * @param caption The text to display at the bottom of the Polaroid
+ * @param modifier Modifier to be applied to the component
+ * @param contentDescription Description of the image for accessibility
+ */
 @Composable
 fun PolaroidBitmapImage(
     bitmap: ImageBitmap?, // Using coil3.Bitmap as seen in your imports
@@ -316,6 +277,7 @@ fun PolaroidBitmapImage(
 ) {
     Card(
         modifier = modifier
+            .fillMaxWidth()
             .shadow(
                 elevation = 4.dp,
                 shape = RoundedCornerShape(2.dp)
@@ -329,43 +291,29 @@ fun PolaroidBitmapImage(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // Image part of the Polaroid
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(8.dp)
-                    .background(Color.White)
-            ) {
-                // Convert coil3.Bitmap to androidx.compose.ui.graphics.ImageBitmap
-                val imageBitmap = bitmap
-                imageBitmap?.let {
-                    Image(
-                        bitmap = imageBitmap,
-                        contentDescription = contentDescription,
-                        contentScale = ContentScale.Crop,
-                        modifier = Modifier
-                            .defaultMinSize(200.dp, 200.dp)
-                            .fillMaxWidth()
-                            .aspectRatio(1f) // Square aspect ratio for typical Polaroid look
-                    )
-
-                }
+            // Convert coil3.Bitmap to androidx.compose.ui.graphics.ImageBitmap
+            val imageBitmap = bitmap
+            imageBitmap?.let {
+                Image(
+                    bitmap = imageBitmap,
+                    contentDescription = contentDescription,
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .defaultMinSize(200.dp, 200.dp)
+                        .fillMaxWidth()
+                        .background(Color.Red)
+                        .aspectRatio(1f) // Square aspect ratio for typical Polaroid look
+                )
             }
 
             // Caption part (white space at the bottom)
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 8.dp, vertical = 16.dp),
-                contentAlignment = Alignment.Center
-            ) {
-                Text(
-                    text = caption,
-                    fontSize = 14.sp,
-                    textAlign = TextAlign.Center,
-                    fontFamily = MaterialTheme.typography.bodyMedium.fontFamily,
-                    color = Color.Black
-                )
-            }
+            Text(
+                text = caption,
+                fontSize = 14.sp,
+                textAlign = TextAlign.Center,
+                fontFamily = MaterialTheme.typography.bodyMedium.fontFamily,
+                color = Color.Green
+            )
         }
     }
 }

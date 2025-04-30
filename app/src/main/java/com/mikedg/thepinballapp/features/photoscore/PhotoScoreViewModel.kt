@@ -63,27 +63,4 @@ class PhotoScoreViewModel @Inject constructor() : ViewModel() {
             _events.emit(UiEvent.TakePhoto)
         }
     }
-
-    // TODO: this breaks stuff? wtf in building...
-//
-//    // Used to set up a link between the Camera and your UI.
-//    private val _surfaceRequest = MutableStateFlow<SurfaceRequest?>(null)
-//    val surfaceRequest: StateFlow<SurfaceRequest?> = _surfaceRequest
-//
-//    private val cameraPreviewUseCase = Preview.Builder().build().apply {
-//        setSurfaceProvider { newSurfaceRequest ->
-//            _surfaceRequest.update { newSurfaceRequest }
-//        }
-//    }
-//
-//    suspend fun bindToCamera(appContext: Context, lifecycleOwner: LifecycleOwner) {
-//        val processCameraProvider = ProcessCameraProvider.awaitInstance(appContext)
-//        processCameraProvider.bindToLifecycle(
-//            lifecycleOwner, DEFAULT_FRONT_CAMERA, cameraPreviewUseCase
-//        )
-//
-//        // Cancellation signals we're done with the camera
-//        try { awaitCancellation() } finally { processCameraProvider.unbindAll() }
-//    }
-
 }
