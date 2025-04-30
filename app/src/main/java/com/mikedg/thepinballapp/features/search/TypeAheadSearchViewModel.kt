@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.mikedg.thepinballapp.data.model.opdb.Machine
 import com.mikedg.thepinballapp.data.model.opdb.TypeAheadSearchResult
 import com.mikedg.thepinballapp.data.remote.OpdbApiService
+import com.mikedg.thepinballapp.util.ApiResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
@@ -29,6 +30,12 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
     private val _searchResults = MutableStateFlow<List<Machine>>(emptyList())
     val searchResults = _searchResults.asStateFlow()
 
+    private val _searchError = MutableStateFlow<String?>(null)
+    val searchError = _searchError.asStateFlow()
+
+    private val _isLoading = MutableStateFlow(false)
+    val isLoading = _isLoading.asStateFlow()
+
     private var typeAheadSearchJob: Job? = null
     private var searchJob: Job? = null
 
@@ -40,6 +47,7 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
 
     fun onSearchQueryChange(query: String) {
         _searchQuery.value = query
+        _searchError.value = null
 
         // Cancel previous search job if it exists
         typeAheadSearchJob?.cancel()
@@ -47,9 +55,20 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
             if (query.isNotBlank()) {
                 // Start new search with debounce
                 delay(300) // Debounce timeout
-                _typeAheadSearchResults.value =
-                    sortSearchSuggestionsByRelevance(opdbApiService.searchTypeAhead(query), query).take(7)
-                _scrollToTop.emit(Unit)
+                _isLoading.value = true
+                
+                when (val result = opdbApiService.searchTypeAhead(query)) {
+                    is ApiResult.Success -> {
+                        _typeAheadSearchResults.value =
+                            sortSearchSuggestionsByRelevance(result.data, query).take(7)
+                        _scrollToTop.emit(Unit)
+                    }
+                    is ApiResult.Error -> {
+                        _typeAheadSearchResults.value = emptyList()
+                        _searchError.value = result.displayMessage
+                    }
+                }
+                _isLoading.value = false
             } else {
                 _typeAheadSearchResults.value = emptyList()
             }
@@ -59,10 +78,25 @@ class TypeAheadSearchViewModel @Inject constructor(private val opdbApiService: O
 
     fun performSearch(query: String = this.searchQuery.value) {
         searchJob?.cancel()
+        _searchError.value = null
+        _isLoading.value = true
 
         searchJob = viewModelScope.launch {
-            _searchResults.value = opdbApiService.search(query)
+            when (val result = opdbApiService.search(query)) {
+                is ApiResult.Success -> {
+                    _searchResults.value = result.data
+                }
+                is ApiResult.Error -> {
+                    _searchResults.value = emptyList()
+                    _searchError.value = result.displayMessage
+                }
+            }
+            _isLoading.value = false
         }
+    }
+
+    fun clearError() {
+        _searchError.value = null
     }
 
     private fun sortSearchSuggestionsByRelevance(

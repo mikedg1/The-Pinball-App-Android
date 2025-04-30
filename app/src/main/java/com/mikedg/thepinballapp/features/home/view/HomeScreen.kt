@@ -70,11 +70,15 @@ fun HomeScreen() {
                         factory = MachineDetailViewModel.Factory,
                         extras = extras,
                     )
-                    // TODO: implement progress LCE status
-                    val machineInfo by machineDetailsViewModel.machine.collectAsState()
-                    machineInfo?.let { machineInfo ->
-                        MachineDetailScreen(machineInfo, innerPadding)
-                    } ?: Text("Machine Details ${machineDetails.id}", modifier = Modifier.padding(innerPadding))
+                    val uiState by machineDetailsViewModel.uiState.collectAsState()
+
+                    when(uiState) {
+                        is MachineDetailViewModel.UiState.Loading -> Text("Loading")
+                        is MachineDetailViewModel.UiState.Error -> Text("Error: ${(uiState as MachineDetailViewModel.UiState.Error).message}")
+                        is MachineDetailViewModel.UiState.Content -> {
+                            MachineDetailScreen((uiState as MachineDetailViewModel.UiState.Content).machine, innerPadding)
+                        }
+                    }
                 }
                 composable<Route.About> {
                     Box(modifier = Modifier.padding(innerPadding)) {

@@ -1,7 +1,6 @@
 
 import android.content.ContentValues
 import android.content.Context
-import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.media.ExifInterface
@@ -128,12 +127,9 @@ fun PhotoScore() {
         viewModel.events.collect { event ->
             when (event) {
                 is PhotoScoreViewModel.UiEvent.TakePhoto -> {
-                    val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-                    if (cameraIntent.resolveActivity(context.packageManager) != null) {
-                        createImageUri()?.let { uri ->
-                            photoUri.value = uri
-                            cameraLauncher.launch(uri)
-                        }
+                    createImageUri()?.let { uri ->
+                        photoUri.value = uri
+                        cameraLauncher.launch(uri)
                     }
                 }
             }

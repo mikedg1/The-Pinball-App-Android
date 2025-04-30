@@ -3,6 +3,7 @@ package com.mikedg.thepinballapp.features.changelog
 import app.cash.turbine.test
 import com.mikedg.thepinballapp.data.model.opdb.ChangeLog
 import com.mikedg.thepinballapp.data.remote.OpdbApiService
+import com.mikedg.thepinballapp.util.ApiResult
 import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.Dispatchers
@@ -14,6 +15,7 @@ import kotlinx.coroutines.test.setMain
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
+import java.io.IOException
 import kotlin.test.assertEquals
 
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -35,6 +37,7 @@ class ChangeLogViewModelTest {
 
     @Test
     fun `initial state is Loading`() = runTest {
+        coEvery { apiService.fetchChangeLogs() } returns ApiResult.Success(MOCK_CHANGELOGS)
         viewModel = ChangeLogViewModel(apiService)
 
         viewModel.uiState.test {
@@ -45,7 +48,7 @@ class ChangeLogViewModelTest {
     @Test
     fun `successful data fetch updates state to Content`() {
         runTest {
-            coEvery { apiService.fetchChangeLogs() } returns MOCK_CHANGELOGS
+            coEvery { apiService.fetchChangeLogs() } returns ApiResult.Success(MOCK_CHANGELOGS)
 
             viewModel = ChangeLogViewModel(apiService)
 
@@ -58,15 +61,27 @@ class ChangeLogViewModelTest {
     }
 
     @Test
-    fun `error during fetch updates state to Error`() = runTest {
-        val errorMessage = "Network error"
-        coEvery { apiService.fetchChangeLogs() } throws RuntimeException(errorMessage)
+    fun `network error during fetch updates state to Error`() = runTest {
+        val networkException = IOException("Network error")
+        coEvery { apiService.fetchChangeLogs() } returns ApiResult.Error.NetworkError(networkException)
 
         viewModel = ChangeLogViewModel(apiService)
 
         viewModel.uiState.test {
             assertEquals(ChangeLogViewModel.UiState.Loading, awaitItem())
-            assertEquals(ChangeLogViewModel.UiState.Error(errorMessage), awaitItem())
+            assertEquals(ChangeLogViewModel.UiState.Error("Network error: Network error"), awaitItem())
+        }
+    }
+
+    @Test
+    fun `http error during fetch updates state to Error`() = runTest {
+        coEvery { apiService.fetchChangeLogs() } returns ApiResult.Error.HttpError(404, "Not Found")
+
+        viewModel = ChangeLogViewModel(apiService)
+
+        viewModel.uiState.test {
+            assertEquals(ChangeLogViewModel.UiState.Loading, awaitItem())
+            assertEquals(ChangeLogViewModel.UiState.Error("Resource not found"), awaitItem())
         }
     }
 
@@ -74,17 +89,13 @@ class ChangeLogViewModelTest {
     fun `retry function reloads data and updates state accordingly`() = runTest {
         coEvery {
             apiService.fetchChangeLogs()
-        } answers {
-            throw RuntimeException(FIRST_ERROR)
-        } andThenAnswer {
-            MOCK_CHANGELOGS
-        }
+        } returns ApiResult.Error.HttpError(500, "Server Error") andThen ApiResult.Success(MOCK_CHANGELOGS)
 
         viewModel = ChangeLogViewModel(apiService)
 
         viewModel.uiState.test {
             assertEquals(ChangeLogViewModel.UiState.Loading, awaitItem())
-            assertEquals(ChangeLogViewModel.UiState.Error(FIRST_ERROR), awaitItem())
+            assertEquals(ChangeLogViewModel.UiState.Error("Server error. Please try again later."), awaitItem())
             cancelAndIgnoreRemainingEvents()
         }
 
@@ -100,7 +111,6 @@ class ChangeLogViewModelTest {
     }
 
     private companion object {
-        const val FIRST_ERROR = "First error"
         val TEST_CHANGELOG = ChangeLog(
             changelogId = 1,
             opdbIdDeleted = "GrdNZ-MQo1e",

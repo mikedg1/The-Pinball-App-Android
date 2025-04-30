@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.mikedg.thepinballapp.data.model.opdb.ChangeLog
 import com.mikedg.thepinballapp.data.remote.OpdbApiService
+import com.mikedg.thepinballapp.util.ApiResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -28,11 +29,13 @@ class ChangeLogViewModel @Inject constructor(private val opdbApiService: OpdbApi
     private fun loadChangeLogs() {
         _uiState.value = UiState.Loading
         viewModelScope.launch {
-            try {
-                val result = opdbApiService.fetchChangeLogs()
-                _uiState.value = UiState.Content(result)
-            } catch (e: Exception) {
-                _uiState.value = UiState.Error(e.message ?: "Unknown error occurred")
+            when (val result = opdbApiService.fetchChangeLogs()) {
+                is ApiResult.Success -> {
+                    _uiState.value = UiState.Content(result.data)
+                }
+                is ApiResult.Error -> {
+                    _uiState.value = UiState.Error(result.displayMessage)
+                }
             }
         }
     }
@@ -41,4 +44,3 @@ class ChangeLogViewModel @Inject constructor(private val opdbApiService: OpdbApi
         loadChangeLogs()
     }
 }
-// Test fail states

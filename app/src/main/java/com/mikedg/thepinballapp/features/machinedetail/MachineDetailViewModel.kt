@@ -8,6 +8,7 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.mikedg.thepinballapp.data.model.opdb.Machine
 import com.mikedg.thepinballapp.data.remote.OpdbApiService
+import com.mikedg.thepinballapp.util.ApiResult
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
@@ -15,16 +16,37 @@ import kotlinx.coroutines.launch
 class MachineDetailViewModel(
     opdbId: String
 ) : ViewModel() {
-    private val _machine = MutableStateFlow<Machine?>(null)
-    val machine = _machine.asStateFlow()
-    private val opdbService =
-        OpdbApiService() // TODO: pass dependency in, just don't want to deal with the Factories now
+    sealed class UiState {
+        data object Loading : UiState()
+        data class Content(val machine: Machine) : UiState()
+        data class Error(val message: String) : UiState()
+    }
+
+    private val _uiState = MutableStateFlow<UiState>(UiState.Loading)
+    val uiState = _uiState.asStateFlow()
+    
+    private val opdbService = OpdbApiService() // TODO: pass dependency in, just don't want to deal with the Factories now
 
     init {
+        loadMachineDetails(opdbId)
+    }
+    
+    private fun loadMachineDetails(opdbId: String) {
+        _uiState.value = UiState.Loading
         viewModelScope.launch {
-            // TODO: this crashes if 404 or 429
-            _machine.value = opdbService.fetchMachine(opdbId)
+            when (val result = opdbService.fetchMachine(opdbId)) {
+                is ApiResult.Success -> {
+                    _uiState.value = UiState.Content(result.data)
+                }
+                is ApiResult.Error -> {
+                    _uiState.value = UiState.Error(result.displayMessage)
+                }
+            }
         }
+    }
+    
+    fun retry(opdbId: String) {
+        loadMachineDetails(opdbId)
     }
 
     companion object {
