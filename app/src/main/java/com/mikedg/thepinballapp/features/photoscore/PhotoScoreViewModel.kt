@@ -30,7 +30,7 @@ class PhotoScoreViewModel @Inject constructor() : ViewModel() {
 
     fun showScore(scoreResult: ScoreResult?, bitmap: Bitmap) {
         scoreResult?.let {
-            _score.value = scoreResult.player_scores?.get(0).toString()
+            _score.value = scoreResult.player_scores?.getOrNull(0)?.toString() ?: "No score"
             _machineName.value = scoreResult.machine_name ?: ""
             _opdbId.value = scoreResult.opdb_id ?: ""
         } ?: run {
