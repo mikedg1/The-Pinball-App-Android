@@ -1,3 +1,4 @@
+
 import android.content.ContentValues
 import android.content.Context
 import android.graphics.Bitmap
@@ -17,6 +18,7 @@ import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.sizeIn
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
@@ -277,6 +279,7 @@ fun PolaroidBitmapImage(
 ) {
     Card(
         modifier = modifier
+            .padding(start = 16.dp, end = 16.dp, top = 16.dp) // Add space on left, right, and tops
             .fillMaxWidth()
             .shadow(
                 elevation = 4.dp,
@@ -301,8 +304,9 @@ fun PolaroidBitmapImage(
                     modifier = Modifier
                         .defaultMinSize(200.dp, 200.dp)
                         .fillMaxWidth()
-                        .background(Color.Red)
+                        .background(Color.White)
                         .aspectRatio(1f) // Square aspect ratio for typical Polaroid look
+                        .padding(8.dp)
                 )
             }
 
@@ -312,7 +316,10 @@ fun PolaroidBitmapImage(
                 fontSize = 14.sp,
                 textAlign = TextAlign.Center,
                 fontFamily = MaterialTheme.typography.bodyMedium.fontFamily,
-                color = Color.Green
+                color = Color.Black,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .sizeIn(minHeight = 50.dp)
             )
         }
     }
